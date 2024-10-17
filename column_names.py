@@ -1,7 +1,7 @@
 # column_names.py
 
 column_names = [
-    "Dex Number",             # Pokémon's Dex number
+    "Dex Number",              # Pokémon's Dex number
     "Pokemon Name",            # Pokémon's name
     "Primary Type",            # Primary type (e.g., Fire)
     "Secondary Type",          # Secondary type (optional)
@@ -11,6 +11,8 @@ column_names = [
     "Anti-Biomes",             # Biomes where it won't spawn
     "Structures",              # Structures required for spawn
     "Anti-Structures",         # Structures that block spawn
+    "Base Blocks",             # Blocks needed to spawn on
+    "Nearby Blocks",           # Nearby blocks required for spawn
     "Time",                    # Time of day for spawn
     "Weather",                 # Weather conditions needed
     "Moon Phase",              # Moon phase needed for spawn

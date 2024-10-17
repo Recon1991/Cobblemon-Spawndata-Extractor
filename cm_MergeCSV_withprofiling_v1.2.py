@@ -190,6 +190,8 @@ def process_entry(dex_number, matched_dex_dict):
                 "Moon Phase": entry.get("condition", {}).get("moonPhase", ""),
                 "Anti-Moon Phase": entry.get("anticondition", {}).get("moonPhase", ""),
                 "Presets": ', '.join(entry.get("presets", [])) or "",
+                "Base Blocks": ', '.join(format_location_names(entry.get("condition", {}).get("neededBaseBlocks", []))),
+                "Nearby Blocks": ', '.join(format_location_names(entry.get("condition", {}).get("neededNearbyBlocks", []))),
                 "Weight": entry.get("weight", ""),
                 "Source File": source_files
             })
