@@ -13,8 +13,16 @@ from logging.handlers import QueueHandler, QueueListener
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from column_names import column_names  # Import column names
 
+# Load configuration from config.json
+try:
+    with open('config.json') as f:
+        config = json.load(f)
+except (FileNotFoundError, json.JSONDecodeError) as e:
+    print(f"Error loading config: {e}")
+    exit(1) # Exit program if the config can't be loaded
+
 # Constants
-ZIP_ARCHIVES_DIR = 'zip_archives'
+ZIP_ARCHIVES_DIR = config["ZIP_ARCHIVES_DIR"]
 CSV_FILENAME = 'cobblemon_dexkey_merged_data_v1.csv'
 MAX_WORKERS = 8  # Number of parallel workers
 
@@ -146,9 +154,14 @@ def process_entry(dex_number, matched_dex_dict):
                 "Biomes": ', '.join(format_location_names(entry.get("condition", {}).get("biomes", []))).strip(),
                 "Anti-Biomes": ', '.join(format_location_names(entry.get("anticondition", {}).get("biomes", []))).strip(),
                 "Structures": ', '.join(format_location_names(entry.get("condition", {}).get("structures", []))).strip(),
+                "Anti-Structures": ', '.join(format_location_names(entry.get("anticondition", {}).get("structures", []))).strip(),
                 "Time": entry.get("time", "Any"),
                 "Weather": get_weather_condition(entry.get("condition", {})),
                 "Sky": get_sky_condition(entry.get("condition", {})),
+                "Moon Phase": entry.get("condition", {}).get("moonPhase", ""),
+                "Anti-Moon Phase": entry.get("anticondition", {}).get("moonPhase", ""),
+                "Presets": ', '.join(entry.get("presets", [])) or "",
+                "Weight": entry.get("weight", ""),
                 "Source File": source_files
             })
 
