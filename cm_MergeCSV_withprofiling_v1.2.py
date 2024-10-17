@@ -120,6 +120,35 @@ def get_species_data(pokemon_name, species_data):
 
     return species_data  # Default to base data
 
+def match_dex_numbers(spawn_dex, species_dex):
+    """
+    Match Dex numbers from spawn and species dictionaries and prepare them for processing.
+    Returns a dictionary with Dex numbers as keys and tuples containing (spawn archive, 
+    spawn file, species archive, species file).
+    """
+    matched_dex = {}
+
+    # Combine spawn and species data using Dex numbers
+    all_dex_numbers = set(spawn_dex.keys()).union(set(species_dex.keys()))
+
+    for dex_number in all_dex_numbers:
+        spawn_info = spawn_dex.get(dex_number, (None, None))
+        species_info = species_dex.get(dex_number, (None, None))
+
+        # Store matched entries with relevant information
+        matched_dex[dex_number] = (
+            spawn_info[0],  # Spawn archive name
+            spawn_info[1],  # Spawn file name
+            species_info[0],  # Species archive name
+            species_info[1]  # Species file name
+        )
+
+    return matched_dex
+    
+def sort_row(entry):
+    """Sort the row based on the defined column names."""
+    return {column: entry.get(column, "") for column in column_names}
+
 def process_entry(dex_number, matched_dex_dict):
     """Process and merge data for a single Dex entry."""
     spawn_archive, spawn_file, species_archive, species_file = matched_dex_dict[dex_number]
