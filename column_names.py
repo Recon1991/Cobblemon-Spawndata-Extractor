@@ -5,6 +5,7 @@ column_names = [
     "Pokemon Name",            # Pokémon's name
     "Primary Type",            # Primary type (e.g., Fire)
     "Secondary Type",          # Secondary type (optional)
+    "Rarity",                  # Rarity bucket
     "Egg Groups",              # Egg groups (comma-separated)
     "Spawn ID",                # ID of the spawn entry
     "Biomes",                  # Biomes where the Pokémon spawns
@@ -19,8 +20,8 @@ column_names = [
     "Anti-Moon Phase",         # Moon phases that block spawn
     "Presets",                 # Preset configurations (comma-separated)
     "Weight",                  # Weight factor for spawn chance
-    "Bucket",                  # Spawn bucket name
     "Sky",                     # Sky visibility conditions (like 'Must See Sky')
-    "Context",                 # Spawn context (e.g., Underground)
-    "Source File"              # Which archive(s) the data was from
+    "Context",                 # Spawn context (e.g., Surface, Underground)
+    "Spawn Archive",           # Which archive the spawn data was from
+    "Species Archive"          # Which archive the species data was from
 ]
