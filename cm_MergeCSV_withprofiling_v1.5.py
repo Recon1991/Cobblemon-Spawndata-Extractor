@@ -24,23 +24,26 @@ except (FileNotFoundError, json.JSONDecodeError) as e:
 
 # Get the output filename from the config
 output_filename = config.get("output_filename", "default_output")
-# Check if it already has a .csv suffix
 if not output_filename.endswith('.csv'):
     output_filename += '.csv'
+
+# Get the skipped entries filename from the config
+skipped_entries_filename = config.get("skipped_entries_filename", "skipped_entries")
+if not skipped_entries_filename.endswith('.csv'):
+    skipped_entries_filename += '.csv'  
 
 # Constants
 ARCHIVES_DIR = config["ARCHIVES_DIR"]
 CSV_FILENAME = output_filename
+SKIPPED_ENTRIES_FILENAME = skipped_entries_filename
 MAX_WORKERS = config["MAX_WORKERS"]
 
 # Configure async logging
 log_queue = Queue()
 queue_handler = QueueHandler(log_queue)
+
 root_logger = logging.getLogger()
 root_logger.setLevel(logging.INFO)
-root_logger.addHandler(queue_handler)
-file_handler = logging.FileHandler("process_log.txt")
-console_handler = logging.StreamHandler()
 
 # Load log filename and level from config
 log_filename = config.get("LOG_FILENAME", "process_log.txt")
@@ -49,13 +52,29 @@ log_level = getattr(logging, config.get("LOG_LEVEL", "INFO").upper(), logging.IN
 # Add a timestamp to log messages
 log_format = config.get("LOG_FORMAT", "%(asctime)s - %(levelname)s - %(message)s")
 formatter = logging.Formatter(log_format)
+
+# Initialize file and console handlers
+file_handler = logging.FileHandler(log_filename)
 file_handler.setFormatter(formatter)
+
+console_handler = logging.StreamHandler()
 console_handler.setFormatter(formatter)
 
-# Add handlers to the root logger
-root_logger.addHandler(file_handler)
-root_logger.addHandler(console_handler)
+# Avoid adding duplicate handlers
+if not any(isinstance(h, QueueHandler) for h in root_logger.handlers):
+    root_logger.addHandler(queue_handler)
 
+if not any(isinstance(h, logging.FileHandler) for h in root_logger.handlers):
+    file_handler = logging.FileHandler(log_filename)
+    file_handler.setFormatter(formatter)
+    root_logger.addHandler(file_handler)
+
+if not any(isinstance(h, logging.StreamHandler) for h in root_logger.handlers):
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
+    root_logger.addHandler(console_handler)
+
+# Start the logging listener
 listener = QueueListener(log_queue, file_handler, console_handler)
 listener.start()
 
@@ -193,18 +212,46 @@ def sort_rows(rows, primary_key, secondary_key=None):
             )
         )
 
+# Collect Pokemon entries that skipped processing
+skipped_entries = []
 
 def process_entry(dex_number, matched_dex_dict):
     """Process and merge data for a single Dex entry."""
     spawn_archive, spawn_file, species_archive, species_file = matched_dex_dict[dex_number]
+    pokemon_name = ""
+    primaryType = ""
+    secondaryType = ""
+    egg_groups = ""
+    generation = ""
+    labels = ""
+    
+    # Check for matched pokemon names and log missing entries
+    if species_archive and species_file:
+        species_data = extract_json_data_cached(species_archive, species_file)
+        if species_data:
+            pokemon_name = species_data.get("name", "Unknown")
+            primaryType = species_data.get("primaryType", "")
+            secondaryType = species_data.get("secondaryType", "")
+            egg_groups = ', '.join(species_data.get("eggGroups", []))
+            
+            all_labels = species_data.get("labels", [])
+            generation_label = next((label for label in all_labels if label.startswith("gen")), None)
+            generation = generation_label.capitalize() if generation_label else ""
+            
+            other_labels = [label for label in all_labels if not label.startswith("gen")]
+            labels = ', '.join(other_labels)
 
-    # Check if any archive or file path is missing
     if not spawn_archive or not spawn_file:
-        logging.warning(f"Missing spawn data for Dex {dex_number}. Skipping entry.")
-        return None
-
-    if not species_archive or not species_file:
-        logging.warning(f"Missing species data for Dex {dex_number}. Skipping entry.")
+        skipped_entries.append({
+            "Dex Number": dex_number,
+            "Pokemon Name": pokemon_name,
+            "Primary Type": primaryType,
+            "Secondary Type": secondaryType,
+            "Egg Groups": egg_groups,
+            "Generation": generation,
+            "Labels": labels
+        })
+        logging.info(f"Skipping Dex {dex_number} ({pokemon_name}) - No spawn data.")
         return None
 
     try:
@@ -231,6 +278,9 @@ def process_entry(dex_number, matched_dex_dict):
             primary_type = pokemon_species_data.get("primaryType", "")
             secondary_type = pokemon_species_data.get("secondaryType", "")
             egg_groups = ', '.join(pokemon_species_data.get("eggGroups", []))
+            labels = ', '.join(pokemon_species_data.get("labels", []))
+            
+            combined
 
             # Append the merged entry
             merged_entries.append({
@@ -240,6 +290,8 @@ def process_entry(dex_number, matched_dex_dict):
                 "Secondary Type": secondary_type,
                 "Rarity": entry.get("bucket", ""),
                 "Egg Groups": egg_groups,
+                "Labels": labels,
+                "Generation": generation,
                 "Time": entry.get("time", "Any"),
                 "Weather": get_weather_condition(entry.get("condition", {})),
                 "Sky": get_sky_condition(entry.get("condition", {})),
@@ -257,7 +309,7 @@ def process_entry(dex_number, matched_dex_dict):
                 "Spawn ID": entry.get("id", "Unknown"),
                 "Spawn Archive": spawn_archive,
                 "Species Archive": species_archive
-            })  # Closing brace for the dictionary
+            })
 
         return merged_entries  # Closing the function properly
 
@@ -269,7 +321,7 @@ def main():
     """Main function to extract and merge Pokémon data."""
     sort_key = config.get('primary_sorting_key', "Pokemon Name")  # Fallback to default
     secondary_sort_key = config.get('secondary_sorting_key', None)  # Optional
-
+    
     max_workers = config.get("MAX_WORKERS", 8)  # Ensure default to 8 if not in config
 
     # Build Dex dictionaries
@@ -303,10 +355,17 @@ def main():
         # Write sorted rows to CSV
         for row in sorted_rows:
             writer.writerow(row)
+            
+    # Write skipped entries to a CSV at the end
+    with open(SKIPPED_ENTRIES_FILENAME, mode='w', newline='', encoding='utf-8') as skipped_file:
+        skipped_writer = csv.DictWriter(
+            skipped_file,
+            fieldnames=["Dex Number", "Pokemon Name", "Primary Type", "Secondary Type", "Egg Groups"]
+        )
+        skipped_writer.writeheader()
+        skipped_writer.writerows(skipped_entries)
 
     stop_listener()
-
-
 
 if __name__ == "__main__":
     main()

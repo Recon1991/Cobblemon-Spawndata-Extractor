@@ -24,13 +24,18 @@ except (FileNotFoundError, json.JSONDecodeError) as e:
 
 # Get the output filename from the config
 output_filename = config.get("output_filename", "default_output")
-# Check if it already has a .csv suffix
 if not output_filename.endswith('.csv'):
     output_filename += '.csv'
+
+# Get the skipped entries filename from the config
+skipped_entries_filename = config.get("skipped_entries_filename", "skipped_entries")
+if not skipped_entries_filename.endswith('.csv'):
+    skipped_entries_filename += '.csv'  
 
 # Constants
 ARCHIVES_DIR = config["ARCHIVES_DIR"]
 CSV_FILENAME = output_filename
+SKIPPED_ENTRIES_FILENAME = skipped_entries_filename
 MAX_WORKERS = config["MAX_WORKERS"]
 
 # Configure async logging
@@ -193,18 +198,35 @@ def sort_rows(rows, primary_key, secondary_key=None):
             )
         )
 
+# Collect Pokemon entries that skipped processing
+skipped_entries = []
 
 def process_entry(dex_number, matched_dex_dict):
     """Process and merge data for a single Dex entry."""
     spawn_archive, spawn_file, species_archive, species_file = matched_dex_dict[dex_number]
+    pokemon_name = ""
+    primaryType = ""
+    secondaryType = ""
+    egg_groups = ""
+    
+    # Check for matched pokemon names and log missing entries
+    if species_archive and species_file:
+        species_data = extract_json_data_cached(species_archive, species_file)
+        if species_data:
+            pokemon_name = species_data.get("name", "Unknown")
+            primaryType = species_data.get("primaryType", "")
+            secondaryType = species_data.get("secondaryType", "")
+            egg_groups = ', '.join(species_data.get("eggGroups", []))
 
-    # Check if any archive or file path is missing
     if not spawn_archive or not spawn_file:
-        logging.warning(f"Missing spawn data for Dex {dex_number}. Skipping entry.")
-        return None
-
-    if not species_archive or not species_file:
-        logging.warning(f"Missing species data for Dex {dex_number}. Skipping entry.")
+        skipped_entries.append({
+            "Dex Number": dex_number,
+            "Pokemon Name": pokemon_name,
+            "Primary Type": primaryType,
+            "Secondary Type": secondaryType,
+            "Egg Groups": egg_groups
+        })
+        logging.info(f"Skipping Dex {dex_number} ({pokemon_name}) - No spawn data.")
         return None
 
     try:
@@ -269,7 +291,7 @@ def main():
     """Main function to extract and merge Pokémon data."""
     sort_key = config.get('primary_sorting_key', "Pokemon Name")  # Fallback to default
     secondary_sort_key = config.get('secondary_sorting_key', None)  # Optional
-
+    
     max_workers = config.get("MAX_WORKERS", 8)  # Ensure default to 8 if not in config
 
     # Build Dex dictionaries
@@ -303,10 +325,17 @@ def main():
         # Write sorted rows to CSV
         for row in sorted_rows:
             writer.writerow(row)
+            
+    # Write skipped entries to a CSV at the end
+    with open(SKIPPED_ENTRIES_FILENAME, mode='w', newline='', encoding='utf-8') as skipped_file:
+        skipped_writer = csv.DictWriter(
+            skipped_file,
+            fieldnames=["Dex Number", "Pokemon Name", "Primary Type", "Secondary Type", "Egg Groups"]
+        )
+        skipped_writer.writeheader()
+        skipped_writer.writerows(skipped_entries)
 
     stop_listener()
-
-
 
 if __name__ == "__main__":
     main()
