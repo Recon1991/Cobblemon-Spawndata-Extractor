@@ -318,46 +318,57 @@ def main():
     """Main function to extract and merge Pokémon data."""
     sort_key = config.get('primary_sorting_key', "Pokemon Name")  # Fallback to default
     secondary_sort_key = config.get('secondary_sorting_key', None)  # Optional
-    
-    max_workers = config.get("MAX_WORKERS", 8)  # Ensure default to 8 if not in config
+    max_workers = config.get("MAX_WORKERS", 8)  # Default to 8 workers if not in config
 
     # Build Dex dictionaries
     spawn_dex = build_spawn_dex_dict()
     species_dex = build_species_dex_dict()
     matched_dex_dict = match_dex_numbers(spawn_dex, species_dex)
 
-    # Open CSV for writing
+    all_rows = []  # Store valid entries
+    skipped_entries = []  # Store skipped entries
+
+    # Process entries in parallel and collect rows
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(process_entry, dex, matched_dex_dict): dex for dex in matched_dex_dict}
+        for future in as_completed(futures):
+            result = future.result()
+            if result:
+                all_rows.extend(result)  # Collect valid rows
+            else:
+                skipped_entries.append(result)  # Collect skipped rows
+
+    # Sort the valid rows using primary and secondary keys
+    sorted_rows = sorted(
+        all_rows,
+        key=lambda entry: (
+            entry.get(sort_key, "").lower(),
+            entry.get(secondary_sort_key, "").lower() if secondary_sort_key else ""
+        )
+    )
+
+    # Write sorted valid rows to the main CSV
     with open(CSV_FILENAME, mode='w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=column_names)
         writer.writeheader()
+        writer.writerows(sorted_rows)
 
-        all_rows = []
-        # Process entries in parallel
-        with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            futures = {executor.submit(process_entry, dex, matched_dex_dict): dex for dex in matched_dex_dict}
-            for future in as_completed(futures):
-                result = future.result()
-                if result:
-                    all_rows.extend(result)  # Collect all rows
+    filtered_skipped_entries = [entry for entry in skipped_entries if entry is not None]
 
-        # Sort the rows using primary and secondary keys
-        sorted_rows = sorted(
-            all_rows,
-            key=lambda entry: (
-                entry.get(sort_key, "").lower(),  # Primary sort
-                entry.get(secondary_sort_key, "").lower() if secondary_sort_key else ""  # Secondary sort
-            )
+    # Sort the skipped entries the same way
+    sorted_skipped_entries = sorted(
+        filtered_skipped_entries,
+        key=lambda entry: (
+            entry.get(sort_key, "").lower(),
+            entry.get(secondary_sort_key, "").lower() if secondary_sort_key else ""
         )
+    )
 
-        # Write sorted rows to CSV
-        for row in sorted_rows:
-            writer.writerow(row)
-            
-    # Write skipped entries to a CSV at the end
+    # Write sorted skipped entries to the skipped entries CSV
     with open(SKIPPED_ENTRIES_FILENAME, mode='w', newline='', encoding='utf-8') as skipped_file:
         skipped_writer = csv.DictWriter(skipped_file, fieldnames=skipped_entries_column_names)
         skipped_writer.writeheader()
-        skipped_writer.writerows(skipped_entries)
+        skipped_writer.writerows(sorted_skipped_entries)
 
     stop_listener()
 
