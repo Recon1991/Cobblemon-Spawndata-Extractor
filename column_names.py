@@ -23,10 +23,8 @@ column_names = [
     "Egg Groups",              # Egg groups (comma-separated)
     "Weight",                  # Weight factor for spawn chance
     "Context",                 # Spawn context (e.g., Surface, Underground)
-    "Spawn ID",                # ID of the spawn entry
-	"Spawn Generation",        
-    "Spawn Archive",           # Which archive the spawn data was from
-	"Species Generation",      
+    "Spawn ID",                # ID of the spawn entry      
+    "Spawn Archive",           # Which archive the spawn data was from   
     "Species Archive"          # Which archive the species data was from
 ]
 
