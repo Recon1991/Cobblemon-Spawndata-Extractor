@@ -1,6 +1,5 @@
 # column_names.py
 
-# Sets column names
 column_names = [
     "Dex Number",              # Pokémon's Dex number
     "Pokemon Name",            # Pokémon's name
@@ -19,8 +18,8 @@ column_names = [
     "Moon Phase",              # Moon phase needed for spawn
     "Anti-Moon Phase",         # Moon phases that block spawn
     "Presets",                 # Preset configurations (comma-separated)
-    "Generation"               # Pokemon generation group
-    "Labels",                  # Labels like GenX, Mythical, Legendary, etc
+    "Generation",              # Generation (like Gen 1, Gen 9)
+    "Labels",                  # Additional labels (like Legendary, Mythical)
     "Egg Groups",              # Egg groups (comma-separated)
     "Weight",                  # Weight factor for spawn chance
     "Context",                 # Spawn context (e.g., Surface, Underground)
@@ -29,7 +28,6 @@ column_names = [
     "Species Archive"          # Which archive the species data was from
 ]
 
-# Column names for skipped entries CSV
 skipped_entries_column_names = [
     "Dex Number",              # Pokémon's Dex number
     "Pokemon Name",            # Pokémon's name
