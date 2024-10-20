@@ -82,6 +82,15 @@ def stop_listener():
     """Stop the logging listener."""
     listener.stop()
 
+def get_generation_name(internal_path):
+    """Extracts the generation part from the internal path."""
+    parts = Path(internal_path).parts  # Split path into components
+    # Look for 'generation' in the path and return it (e.g., 'generation1')
+    for part in parts:
+        if part.startswith("generation"):
+            return part
+    return "unknown"  # Fallback if no generation is found
+
 def extract_dex_number_from_filename(filename):
     """Extract and format the Dex number from the filename."""
     base_name = os.path.basename(filename)
@@ -106,16 +115,30 @@ def get_sky_condition(condition):
     return "MUST SEE" if see_sky else "CANNOT SEE" if see_sky is False else "Any"
 
 @lru_cache(maxsize=None)
-def extract_json_data_cached(archive_name, target_path):
-    """Extract JSON data with caching."""
-    archive_path = os.path.join(ARCHIVES_DIR, archive_name)
-    with zipfile.ZipFile(archive_path, 'r') as zip_file:
-        with zip_file.open(target_path) as f:
-            try:
-                return json.load(f)
-            except json.JSONDecodeError as e:
-                logging.error(f"Error reading {target_path} in {archive_name}: {e}")
-                return None
+def extract_from_archive(archive_path, archive_type="species"):
+    """Extract JSON files from a zip/jar archive and return paths with metadata."""
+    extracted_data = []  # Store (data, generation, archive_name)
+
+    with zipfile.ZipFile(archive_path, 'r') as archive:
+        for file_info in archive.infolist():
+            if file_info.filename.endswith('.json'):
+                # Get the internal path and extract the generation name
+                internal_path = Path(file_info.filename).parent
+                generation = get_generation_name(internal_path)
+
+                # Read and decode the JSON file
+                with archive.open(file_info.filename) as file:
+                    data = json.load(file)
+
+                    # Store the archive name, generation, and data
+                    extracted_data.append({
+                        "data": data,
+                        "archive_name": Path(archive_path).name,
+                        "generation": generation,  # Store only the generation
+                    })
+
+    return extracted_data
+
 
 def build_spawn_dex_dict():
     """Build spawn Dex dictionary."""
@@ -163,24 +186,24 @@ def match_dex_numbers(spawn_dex, species_dex):
     Returns a dictionary with Dex numbers as keys and tuples containing (spawn archive, 
     spawn file, species archive, species file).
     """
-    matched_dex = {}
+    matched_dict = {}
 
     # Combine spawn and species data using Dex numbers
     all_dex_numbers = set(spawn_dex.keys()).union(set(species_dex.keys()))
 
-    for dex_number in all_dex_numbers:
-        spawn_info = spawn_dex.get(dex_number, (None, None))
-        species_info = species_dex.get(dex_number, (None, None))
+    for dex_number, species_entry in species_dex.items():
+        spawn_entry = spawn_dex.get(dex_number, {})
 
-        # Store matched entries with relevant information
-        matched_dex[dex_number] = (
-            spawn_info[0],  # Spawn archive name
-            spawn_info[1],  # Spawn file name
-            species_info[0],  # Species archive name
-            species_info[1]  # Species file name
-        )
+        matched_dict[dex_number] = {
+            "name": species_entry["name"],
+            "dex_number": dex_number,
+            "species_archive": species_entry["archive_name"],
+            "species_generation": species_entry["generation"],  # Use generation
+            "spawn_archive": spawn_entry.get("archive_name", ""),
+            "spawn_generation": spawn_entry.get("generation", "unknown"),  # Use generation
+        }
 
-    return matched_dex
+    return matched_dict
     
 def sort_rows(rows, primary_key, secondary_key=None):
     """Sorts rows by the given primary key and an optional secondary key."""
@@ -205,9 +228,9 @@ def sort_rows(rows, primary_key, secondary_key=None):
 # Collect Pokemon entries that skipped processing
 skipped_entries = []
 
-def process_entry(dex_number, matched_dex_dict):
+def process_entry(dex_number, matched_dict_dex):
     """Process and merge data for a single Dex entry."""
-    spawn_archive, spawn_file, species_archive, species_file = matched_dex_dict[dex_number]
+    spawn_archive, spawn_file, species_archive, species_file = matched_dict_dex[dex_number]
     pokemon_name = ""
     primaryType = ""
     secondaryType = ""
@@ -286,8 +309,8 @@ def process_entry(dex_number, matched_dex_dict):
                 "Secondary Type": secondary_type,
                 "Rarity": entry.get("bucket", ""),
                 "Egg Groups": egg_groups,
-                "Generation": generation,  # Use the pre-extracted generation
-                "Labels": labels,  # Use the pre-extracted labels
+                "Generation": generation,
+                "Labels": labels,
                 "Time": entry.get("time", "Any"),
                 "Weather": get_weather_condition(entry.get("condition", {})),
                 "Sky": get_sky_condition(entry.get("condition", {})),
@@ -323,14 +346,14 @@ def main():
     # Build Dex dictionaries
     spawn_dex = build_spawn_dex_dict()
     species_dex = build_species_dex_dict()
-    matched_dex_dict = match_dex_numbers(spawn_dex, species_dex)
+    matched_dict_dict = match_dex_numbers(spawn_dex, species_dex)
 
     all_rows = []  # Store valid entries
     skipped_entries = []  # Store skipped entries
 
     # Process entries in parallel and collect rows
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(process_entry, dex, matched_dex_dict): dex for dex in matched_dex_dict}
+        futures = {executor.submit(process_entry, dex, matched_dict_dict): dex for dex in matched_dict_dict}
         for future in as_completed(futures):
             result = future.result()
             if result:
