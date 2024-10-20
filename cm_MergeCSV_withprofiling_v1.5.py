@@ -11,7 +11,7 @@ from functools import lru_cache
 from queue import Queue
 from logging.handlers import QueueHandler, QueueListener
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from column_names import column_names  # Import column names
+from column_names import column_names, skipped_entries_column_names
 
 # Load configuration from config.json
 try:
@@ -150,16 +150,6 @@ def build_species_dex_dict():
 
     logging.info(f"Built species Dex dict with {len(species_dex_dict)} entries.")
     return species_dex_dict
-"""
-def get_species_data(pokemon_name, species_data):
-    # Extract form-specific or base species data.
-    if "forms" in species_data:
-        for form in species_data["forms"]:
-            if form["name"].lower() in pokemon_name.lower():
-                return form  # Match form-specific data
-
-    return species_data  # Default to base data
-"""
 
 def get_species_data(pokemon_name, species_data):
     return next(
@@ -236,7 +226,12 @@ def process_entry(dex_number, matched_dex_dict):
             
             all_labels = species_data.get("labels", [])
             generation_label = next((label for label in all_labels if label.startswith("gen")), None)
-            generation = generation_label.capitalize() if generation_label else ""
+            
+            # Format 'genx' as 'Gen X'
+            if generation_label:
+                generation = generation_label[:3].capitalize() + " " + generation_label[3:]
+            else:
+                generation = ""
             
             other_labels = [label for label in all_labels if not label.startswith("gen")]
             labels = ', '.join(other_labels)
@@ -279,8 +274,6 @@ def process_entry(dex_number, matched_dex_dict):
             secondary_type = pokemon_species_data.get("secondaryType", "")
             egg_groups = ', '.join(pokemon_species_data.get("eggGroups", []))
             labels = ', '.join(pokemon_species_data.get("labels", []))
-            
-            combined
 
             # Append the merged entry
             merged_entries.append({
@@ -360,7 +353,7 @@ def main():
     with open(SKIPPED_ENTRIES_FILENAME, mode='w', newline='', encoding='utf-8') as skipped_file:
         skipped_writer = csv.DictWriter(
             skipped_file,
-            fieldnames=["Dex Number", "Pokemon Name", "Primary Type", "Secondary Type", "Egg Groups"]
+            fieldnames=skipped_entries_column_names
         )
         skipped_writer.writeheader()
         skipped_writer.writerows(skipped_entries)

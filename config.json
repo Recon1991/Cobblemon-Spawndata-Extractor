@@ -1,5 +1,5 @@
 {
-    "ARCHIVES_DIR": "C:/Users/Recon/Desktop/Projects/BCG_Cobblemon/zip_archives",
+    "ARCHIVES_DIR": "../BCG_Cobblemon/zip_archives",
 	"primary_sorting_key": "Pokemon Name",
 	"secondary_sorting_key": "Spawn ID",
 	"output_filename": "SpawnData_BCGPlus_Modpack_ver2.9.3",

@@ -28,3 +28,14 @@ column_names = [
     "Spawn Archive",           # Which archive the spawn data was from
     "Species Archive"          # Which archive the species data was from
 ]
+
+# Column names for skipped entries CSV
+skipped_entries_column_names = [
+    "Dex Number",              # Pokémon's Dex number
+    "Pokemon Name",            # Pokémon's name
+    "Primary Type",            # Primary type (e.g., Fire)
+    "Secondary Type",          # Secondary type (optional)
+    "Egg Groups",              # Egg groups (comma-separated)
+    "Generation",              # Generation (like Gen 1, Gen 9)
+    "Labels"                   # Additional labels (like Legendary, Mythical)
+]
