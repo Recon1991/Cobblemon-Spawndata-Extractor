@@ -277,6 +277,7 @@ def process_entry(dex_number, matched_dex_dict):
                 if not label.lower().startswith("gen")
             ]
             labels = ', '.join(meaningful_labels) if meaningful_labels else ""
+            time_range = entry.get("condition", {}).get("timeRange", "Any").title()
 
             # Append the merged entry
             merged_entries.append({
@@ -284,11 +285,11 @@ def process_entry(dex_number, matched_dex_dict):
                 "Pokemon Name": pokemon_name.title(),
                 "Primary Type": primary_type,
                 "Secondary Type": secondary_type,
-                "Rarity": entry.get("bucket", ""),
+                "Rarity": entry.get("bucket", "").title(),
                 "Egg Groups": egg_groups,
                 "Generation": generation,  # Use the pre-extracted generation
                 "Labels": labels,  # Use the pre-extracted labels
-                "Time": entry.get("time", "Any"),
+                "Time": time_range,
                 "Weather": get_weather_condition(entry.get("condition", {})),
                 "Sky": get_sky_condition(entry.get("condition", {})),
                 "Presets": ', '.join(entry.get("presets", [])) or "",
