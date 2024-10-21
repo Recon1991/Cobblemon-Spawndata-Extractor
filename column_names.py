@@ -35,5 +35,6 @@ skipped_entries_column_names = [
     "Secondary Type",          # Secondary type (optional)
     "Egg Groups",              # Egg groups (comma-separated)
     "Generation",              # Generation (like Gen 1, Gen 9)
-    "Labels"                   # Additional labels (like Legendary, Mythical)
+    "Labels",                  # Additional labels (like Legendary, Mythical)
+    "Species Archive"          # Which archive the species data was from
 ]

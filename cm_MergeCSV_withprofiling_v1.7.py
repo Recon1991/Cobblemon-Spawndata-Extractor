@@ -262,17 +262,18 @@ def process_entry(dex_number, matched_dex_dict):
 
     # Handle skipped entries (no spawn data)
     if not spawn_archive or not spawn_file:
-        skipped_entries.append({
+        skipped_entry = {
             "Dex Number": dex_number,
             "Pokemon Name": pokemon_name,
             "Primary Type": primaryType,
             "Secondary Type": secondaryType,
             "Egg Groups": egg_groups,
             "Generation": generation,
-            "Labels": labels
-        })
+            "Labels": labels,
+            "Species Archive": species_archive 
+        }
         logging.info(f"Skipping Dex {dex_number} ({pokemon_name}) - No spawn data.")
-        return None
+        return None, skipped_entry
 
     try:
         # Extract spawn data or use an empty structure if not found
@@ -289,9 +290,9 @@ def process_entry(dex_number, matched_dex_dict):
             pokemon_species_data = get_species_data(pokemon_name, species_data)
 
             # Extract relevant data for the merged entry
-            primary_type = pokemon_species_data.get("primaryType", "")
-            secondary_type = pokemon_species_data.get("secondaryType", "")
-            egg_groups = ', '.join(pokemon_species_data.get("eggGroups", []))
+            primary_type = pokemon_species_data.get("primaryType", "").title()
+            secondary_type = pokemon_species_data.get("secondaryType", "-----").title()
+            egg_groups = ', '.join(pokemon_species_data.get("eggGroups", [])).title()
             meaningful_labels = [
                 label.strip().replace('_', ' ').title() 
                 for label in all_labels
@@ -314,7 +315,7 @@ def process_entry(dex_number, matched_dex_dict):
                 "Time": time_range,
                 "Weather": get_weather_condition(entry.get("condition", {})),
                 "Sky": sky_condition,
-                "Presets": ', '.join(entry.get("presets", [])) or "",
+                "Presets": ', '.join(entry.get("presets", [])).title() or "",
                 "Biomes": ', '.join(format_location_names(entry.get("condition", {}).get("biomes", []))).strip(),
                 "Anti-Biomes": ', '.join(format_location_names(entry.get("anticondition", {}).get("biomes", []))).strip(),
                 "Structures": ', '.join(format_location_names(entry.get("condition", {}).get("structures", []))).strip(),
@@ -324,17 +325,17 @@ def process_entry(dex_number, matched_dex_dict):
                 "Base Blocks": ', '.join(format_location_names(entry.get("condition", {}).get("neededBaseBlocks", []))),
                 "Nearby Blocks": ', '.join(format_location_names(entry.get("condition", {}).get("neededNearbyBlocks", []))),
                 "Weight": entry.get("weight", ""),
-                "Context": entry.get("context", ""),
+                "Context": entry.get("context", "").title(),
                 "Spawn ID": entry.get("id", "Unknown"),
                 "Spawn Archive": spawn_archive,
                 "Species Archive": species_archive
             })
 
-        return merged_entries  # Closing the function properly
+        return merged_entries, None  # Closing the function properly
 
     except Exception as e:
         logging.error(f"Error processing Dex {dex_number}: {e}")
-        return None
+        return None, None
 
 
 def main():
@@ -355,11 +356,11 @@ def main():
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {executor.submit(process_entry, dex, matched_dex_dict): dex for dex in matched_dex_dict}
         for future in as_completed(futures):
-            result = future.result()
+            result, skipped = future.result()
             if result:
                 all_rows.extend(result)  # Collect valid rows
             else:
-                skipped_entries.append(result)  # Collect skipped rows
+                skipped_entries.append(skipped)  # Collect skipped rows
 
     # Sort the valid rows using primary and secondary keys
     sorted_rows = sorted(
@@ -376,11 +377,11 @@ def main():
         writer.writeheader()
         writer.writerows(sorted_rows)
 
-    filtered_skipped_entries = [entry for entry in skipped_entries if entry is not None]
+    # filtered_skipped_entries = [entry for entry in skipped_entries if entry is not None]
 
     # Sort the skipped entries the same way
     sorted_skipped_entries = sorted(
-        filtered_skipped_entries,
+        skipped_entries,
         key=lambda entry: (
             entry.get(sort_key, "").lower(),
             entry.get(secondary_sort_key, "").lower() if secondary_sort_key else ""
