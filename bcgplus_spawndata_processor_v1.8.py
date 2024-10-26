@@ -1,8 +1,9 @@
 import os
+import shutil
+import zipfile
 import json
 import csv
 import logging
-import zipfile
 import time
 import cProfile
 import pstats
@@ -34,6 +35,7 @@ if not skipped_entries_filename.endswith('.csv'):
 
 # Constants
 ARCHIVES_DIR = config["ARCHIVES_DIR"]
+EXTRACTED_DIR = "./data/extracted"  # Directory for extracted files
 CSV_FILENAME = output_filename
 SKIPPED_ENTRIES_FILENAME = skipped_entries_filename
 MAX_WORKERS = config["MAX_WORKERS"]
@@ -82,6 +84,27 @@ def stop_listener():
     """Stop the logging listener."""
     listener.stop()
 
+def extract_archives(archives_dir, extracted_dir, overwrite=True):
+    """
+    Extracts specific directories from zip/jar files in the archives directory to the extracted directory.
+    Only extracts 'data/cobblemon/spawn_pool_world' and 'data/cobblemon/species'.
+    """
+    # Remove existing extracted directory if needed
+    if overwrite and os.path.exists(extracted_dir):
+        shutil.rmtree(extracted_dir)
+    
+    os.makedirs(extracted_dir, exist_ok=True)
+    
+    # Iterate over the archives in the directory and extract specific directories
+    for archive_name in os.listdir(archives_dir):
+        if archive_name.endswith(('.zip', '.jar')):
+            archive_path = os.path.join(archives_dir, archive_name)
+            with zipfile.ZipFile(archive_path, 'r') as zip_file:
+                for file_info in zip_file.infolist():
+                    if file_info.filename.startswith(('data/cobblemon/spawn_pool_world', 'data/cobblemon/species')):
+                        zip_file.extract(file_info, extracted_dir)
+                print(f"Extracted relevant directories from '{archive_name}' to '{extracted_dir}'")
+
 def extract_dex_number_from_filename(filename):
     """Extract and format the Dex number from the filename."""
     base_name = os.path.basename(filename)
@@ -90,7 +113,16 @@ def extract_dex_number_from_filename(filename):
 
 def format_location_names(locations):
     """Format biome/structure names."""
-    return [location.split(':')[-1].replace("is", "").replace('_', ' ').strip().title() for location in locations]
+    formatted_locations = []
+    for location in locations:
+        name = location.split(':')[-1]
+        # Only remove the prefix 'is_' if it is at the beginning of the name
+        if name.startswith("is_"):
+            name = name[3:]  # Remove the 'is_' prefix
+        formatted_name = name.replace('_', ' ').strip().title()
+        formatted_locations.append(formatted_name)
+    return formatted_locations
+
 
 def get_weather_condition(condition):
     """Determine the weather condition."""
@@ -100,14 +132,8 @@ def get_weather_condition(condition):
         return "Rain"
     return "Clear" if condition.get("isRaining") is False else "Any"
 
-def get_sky_condition(condition):
-    """Determine sky visibility."""
-    see_sky = condition.get("canSeeSky")
-    return "MUST SEE" if see_sky else "CANNOT SEE" if see_sky is False else "Any"
-
 def get_sky_condition(spawn):
     """Determine the sky visibility condition."""
-    # Check if the 'canSeeSky' condition exists
     can_see_sky = spawn.get('canSeeSky', spawn.get('condition', {}).get('canSeeSky', None))
 
     if can_see_sky is True:
@@ -115,68 +141,47 @@ def get_sky_condition(spawn):
     elif can_see_sky is False:
         return "CANNOT SEE"
     
-    # Check for skylight range if 'canSeeSky' isn't available
     min_sky_light = spawn.get('condition', {}).get('minSkyLight', 'N/A')
     max_sky_light = spawn.get('condition', {}).get('maxSkyLight', 'N/A')
 
     if 'minSkyLight' in spawn.get('condition', {}) or 'maxSkyLight' in spawn.get('condition', {}):
         return f"{min_sky_light} - {max_sky_light}"
 
-    # Default to "Any" if no specific condition applies
     return "Any"
 
-
-@lru_cache(maxsize=None)
-def extract_json_data_cached(archive_name, target_path):
-    """Extract JSON data with caching."""
-    archive_path = os.path.join(ARCHIVES_DIR, archive_name)
-    with zipfile.ZipFile(archive_path, 'r') as zip_file:
-        with zip_file.open(target_path) as f:
-            try:
-                return json.load(f)
-            except json.JSONDecodeError as e:
-                logging.error(f"Error reading {target_path} in {archive_name}: {e}")
-                return None
-
-def build_spawn_dex_dict():
-    """Build spawn Dex dictionary."""
+def build_spawn_dex_dict(extracted_dir):
+    """Build spawn Dex dictionary from extracted files."""
     spawn_dex_dict = {}
     logging.info("Building spawn Dex dictionary...")
 
-    for archive_name in os.listdir(ARCHIVES_DIR):
-        if archive_name.endswith(('.zip', '.jar')):
-            with zipfile.ZipFile(os.path.join(ARCHIVES_DIR, archive_name), 'r') as zip_file:
-                for file_info in zip_file.namelist():
-                    if 'data/cobblemon/spawn_pool_world/' in file_info and file_info.endswith('.json'):
-                        dex_number = extract_dex_number_from_filename(file_info)
-                        spawn_dex_dict[dex_number] = (archive_name, file_info)
+    for root, _, files in os.walk(os.path.join(extracted_dir, 'data/cobblemon/spawn_pool_world')):
+        for file_name in files:
+            if file_name.endswith('.json'):
+                dex_number = extract_dex_number_from_filename(file_name)
+                spawn_dex_dict[dex_number] = (root, file_name)
 
     logging.info(f"Built spawn Dex dict with {len(spawn_dex_dict)} entries.")
     return spawn_dex_dict
 
-def build_species_dex_dict():
-    """Build species Dex dictionary."""
+def build_species_dex_dict(extracted_dir):
+    """Build species Dex dictionary from extracted files."""
     species_dex_dict = {}
     logging.info("Building species Dex dictionary...")
 
-    for archive_name in os.listdir(ARCHIVES_DIR):
-        if archive_name.endswith(('.zip', '.jar')):
-            with zipfile.ZipFile(os.path.join(ARCHIVES_DIR, archive_name), 'r') as zip_file:
-                for file_info in zip_file.infolist():
-                    if 'data/cobblemon/species/' in file_info.filename and file_info.filename.endswith('.json'):
-                        data = extract_json_data_cached(archive_name, file_info.filename)
-                        if data:
-                            dex_number = str(data.get("nationalPokedexNumber"))
-                            species_dex_dict[dex_number] = (archive_name, file_info.filename)
+    for root, _, files in os.walk(os.path.join(extracted_dir, 'data/cobblemon/species')):
+        for file_name in files:
+            if file_name.endswith('.json'):
+                file_path = os.path.join(root, file_name)
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                        dex_number = str(data.get("nationalPokedexNumber"))
+                        species_dex_dict[dex_number] = (root, file_name)
+                except json.JSONDecodeError as e:
+                    logging.error(f"Error reading {file_name} in {root}: {e}")
 
     logging.info(f"Built species Dex dict with {len(species_dex_dict)} entries.")
     return species_dex_dict
-
-def get_species_data(pokemon_name, species_data):
-    return next(
-        (form for form in species_data.get("forms", []) if form["name"].lower() in pokemon_name.lower()),
-        species_data  # Default to base data
-    )
 
 def match_dex_numbers(spawn_dex, species_dex):
     """
@@ -186,14 +191,12 @@ def match_dex_numbers(spawn_dex, species_dex):
     """
     matched_dex = {}
 
-    # Combine spawn and species data using Dex numbers
     all_dex_numbers = set(spawn_dex.keys()).union(set(species_dex.keys()))
 
     for dex_number in all_dex_numbers:
         spawn_info = spawn_dex.get(dex_number, (None, None))
         species_info = species_dex.get(dex_number, (None, None))
 
-        # Store matched entries with relevant information
         matched_dex[dex_number] = (
             spawn_info[0],  # Spawn archive name
             spawn_info[1],  # Spawn file name
@@ -202,29 +205,12 @@ def match_dex_numbers(spawn_dex, species_dex):
         )
 
     return matched_dex
-    
-def sort_rows(rows, primary_key, secondary_key=None):
-    """Sorts rows by the given primary key and an optional secondary key."""
-    try:
-        return sorted(
-            rows,
-            key=lambda x: (
-                x.get(primary_key, "").lower(),  # Primary sort key
-                x.get(secondary_key, "").lower() if secondary_key else ""  # Secondary sort key (optional)
-            )
-        )
-    except KeyError:
-        logging.warning(f"Invalid primary key '{primary_key}', defaulting to 'Pokemon Name'.")
-        return sorted(
-            rows,
-            key=lambda x: (
-                x.get("Pokemon Name", "").lower(),
-                x.get(secondary_key, "").lower() if secondary_key else ""
-            )
-        )
 
-# Collect Pokemon entries that skipped processing
-skipped_entries = []
+def get_species_data(pokemon_name, species_data):
+    return next(
+        (form for form in species_data.get("forms", []) if form["name"].lower() in pokemon_name.lower()),
+        species_data  # Default to base data
+    )
 
 def process_entry(dex_number, matched_dex_dict):
     """Process and merge data for a single Dex entry."""
@@ -239,7 +225,7 @@ def process_entry(dex_number, matched_dex_dict):
 
     # Extract species data if available
     if species_archive and species_file:
-        species_data = extract_json_data_cached(species_archive, species_file)
+        species_data = extract_json_data_cached(os.path.join(species_archive, species_file))
         if species_data:
             # Basic species information
             pokemon_name = species_data.get("name", "Unknown")
@@ -252,7 +238,6 @@ def process_entry(dex_number, matched_dex_dict):
             generation_label = next((label for label in all_labels if label.startswith("gen")), None)
             generation = generation_label[:3].capitalize() + " " + generation_label[3:] if generation_label else ""
 
-            # Filter out non-generation labels
             meaningful_labels = [
                 label.strip().replace('_', ' ').title() 
                 for label in all_labels
@@ -260,7 +245,6 @@ def process_entry(dex_number, matched_dex_dict):
             ]
             labels = ', '.join(meaningful_labels) if meaningful_labels else ""
 
-    # Handle skipped entries (no spawn data)
     if not spawn_archive or not spawn_file:
         skipped_entry = {
             "Dex Number": dex_number,
@@ -276,20 +260,16 @@ def process_entry(dex_number, matched_dex_dict):
         return None, skipped_entry
 
     try:
-        # Extract spawn data or use an empty structure if not found
-        spawn_data = extract_json_data_cached(spawn_archive, spawn_file) or {"spawns": []}
+        spawn_data = extract_json_data_cached(os.path.join(spawn_archive, spawn_file)) or {"spawns": []}
         merged_entries = []
 
-        # Loop through each spawn entry
         for entry in spawn_data["spawns"]:
             pokemon_name = entry.get("pokemon", "").strip()
             if not pokemon_name:
-                continue  # Skip invalid entries
+                continue
 
-            # Get the appropriate species data (handle forms if necessary)
             pokemon_species_data = get_species_data(pokemon_name, species_data)
 
-            # Extract relevant data for the merged entry
             primary_type = pokemon_species_data.get("primaryType", "").title()
             secondary_type = pokemon_species_data.get("secondaryType", "-----").title()
             egg_groups = ', '.join(pokemon_species_data.get("eggGroups", [])).title()
@@ -302,7 +282,6 @@ def process_entry(dex_number, matched_dex_dict):
             time_range = entry.get("condition", {}).get("timeRange", "Any").title()
             sky_condition = get_sky_condition(entry)
 
-            # Append the merged entry
             merged_entries.append({
                 "Dex Number": dex_number,
                 "Pokemon Name": pokemon_name.title(),
@@ -331,29 +310,37 @@ def process_entry(dex_number, matched_dex_dict):
                 "Species Archive": species_archive
             })
 
-        return merged_entries, None  # Closing the function properly
+        return merged_entries, None
 
     except Exception as e:
         logging.error(f"Error processing Dex {dex_number}: {e}")
         return None, None
 
+@lru_cache(maxsize=None)
+def extract_json_data_cached(file_path):
+    """Extract JSON data with caching."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        logging.error(f"Error reading {file_path}: {e}")
+        return None
 
 def main():
     """Main function to extract and merge Pokémon data."""
-    sort_key = config.get('primary_sorting_key', "Pokemon Name")  # Fallback to default
-    secondary_sort_key = config.get('secondary_sorting_key', None)  # Optional
-    max_workers = config.get("MAX_WORKERS", 8)  # Default to 8 workers if not in config
+    # Step 1: Extract archives if needed
+    extract_archives(ARCHIVES_DIR, EXTRACTED_DIR)
 
-    # Build Dex dictionaries
-    spawn_dex = build_spawn_dex_dict()
-    species_dex = build_species_dex_dict()
+    # Step 2: Build Dex dictionaries
+    spawn_dex = build_spawn_dex_dict(EXTRACTED_DIR)
+    species_dex = build_species_dex_dict(EXTRACTED_DIR)
     matched_dex_dict = match_dex_numbers(spawn_dex, species_dex)
 
     all_rows = []  # Store valid entries
     skipped_entries = []  # Store skipped entries
 
     # Process entries in parallel and collect rows
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = {executor.submit(process_entry, dex, matched_dex_dict): dex for dex in matched_dex_dict}
         for future in as_completed(futures):
             result, skipped = future.result()
@@ -363,6 +350,9 @@ def main():
                 skipped_entries.append(skipped)  # Collect skipped rows
 
     # Sort the valid rows using primary and secondary keys
+    sort_key = config.get('primary_sorting_key', "Pokemon Name")  # Fallback to default
+    secondary_sort_key = config.get('secondary_sorting_key', None)  # Optional
+
     sorted_rows = sorted(
         all_rows,
         key=lambda entry: (
@@ -376,8 +366,6 @@ def main():
         writer = csv.DictWriter(csvfile, fieldnames=column_names)
         writer.writeheader()
         writer.writerows(sorted_rows)
-
-    # filtered_skipped_entries = [entry for entry in skipped_entries if entry is not None]
 
     # Sort the skipped entries the same way
     sorted_skipped_entries = sorted(
