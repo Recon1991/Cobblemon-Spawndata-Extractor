@@ -33,7 +33,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 752,Araquanid,Water,Bug,Common,MUST SEE,Any,Any,"River, Freshwater",,,,,,,,"Freshwater, Underwater",Gen 7,,"Water_1, Bug",0.4,Submerged,araquanid-2,generation7,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 24,Arbok Snake_Pattern=Attack,Poison,-----,Common,8 - 15,Any,Any,Arid,,,,,,,,Natural,Gen 1,,"Field, Dragon",0.03,Grounded,arbok-attack-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 24,Arbok Snake_Pattern=Classic,Poison,-----,Common,8 - 15,Any,Any,Arid,,,,,,,,Natural,Gen 1,,"Field, Dragon",0.45,Grounded,arbok-classic-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-24,Arbok Snake_Pattern=Dark,Poison,-----,Common,Any,Any,Any,Nether: Is Desert,,,,,,,,Natural,Gen 1,,"Field, Dragon",0.6,Grounded,arbok-dark-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+24,Arbok Snake_Pattern=Dark,Poison,-----,Common,Any,Any,Any,Nether: Desert,,,,,,,,Natural,Gen 1,,"Field, Dragon",0.6,Grounded,arbok-dark-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 24,Arbok Snake_Pattern=Elusive,Poison,-----,Common,8 - 15,Any,Any,Arid,,,,,,,,Natural,Gen 1,,"Field, Dragon",0.03,Grounded,arbok-elusive-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 24,Arbok Snake_Pattern=Legacy,Poison,-----,Common,8 - 15,Any,Any,Arid,,,,,,,,Natural,Gen 1,,"Field, Dragon",0.03,Grounded,arbok-legacy-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 24,Arbok Snake_Pattern=Sound,Poison,-----,Common,8 - 15,Any,Any,Arid,,,,,,,,Natural,Gen 1,,"Field, Dragon",0.03,Grounded,arbok-sound-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -60,7 +60,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 699,Aurorus,Rock,Ice,Ultra-Rare,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 6,,Monster,1.0,Grounded,aurorus-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 713,Avalugg,Ice,-----,Common,8 - 15,Any,Any,Frozen Ocean,,,,,,,,Natural,Gen 6,Kalos Regional,"Monster, Mineral",1.0,Grounded,avalugg-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 713,Avalugg,Ice,-----,Common,8 - 15,Any,Any,Frozen Ocean,,,,,,,,Water_Surface,Gen 6,Kalos Regional,"Monster, Mineral",1.0,Surface,avalugg-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-713,Avalugg,Ice,-----,Common,Any,Any,Any,Nether: Is Frozen,,,,,,,,Natural,Gen 6,Kalos Regional,"Monster, Mineral",1.0,Grounded,avalugg-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+713,Avalugg,Ice,-----,Common,Any,Any,Any,Nether: Frozen,,,,,,,,Natural,Gen 6,Kalos Regional,"Monster, Mineral",1.0,Grounded,avalugg-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 610,Axew,Dragon,-----,Rare,MUST SEE,Any,Any,"Mountain, Highlands",,,,,,,,,Gen 5,,"Monster, Dragon",3,Grounded,axew-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 482,Azelf,Psychic,-----,Ultra-Rare,MUST SEE,Any,Any,River,,,,,,,,Natural,Gen 4,Legendary,Undiscovered,1.0,Grounded,azelf-1,generation4,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 184,Azumarill,Water,Fairy,Uncommon,MUST SEE,Any,Any,River,,,,,,,,,Gen 2,,"Water_1, Fairy",2.5,Grounded,azumarill-1,generation2,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -100,7 +100,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 69,Bellsprout,Grass,Poison,Common,8 - 15,Any,Any,Jungle,,,,,,,,Natural,Gen 1,,Grass,9.0,Grounded,bellsprout-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 712,Bergmite,Ice,-----,Common,8 - 15,Any,Any,Frozen Ocean,,,,,,,,Natural,Gen 6,,"Monster, Mineral",9.0,Grounded,bergmite-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 712,Bergmite,Ice,-----,Common,8 - 15,Any,Any,Frozen Ocean,,,,,,,,Water_Surface,Gen 6,,"Monster, Mineral",9.0,Surface,bergmite-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-712,Bergmite,Ice,-----,Common,Any,Any,Any,Nether: Is Frozen,,,,,,,,Natural,Gen 6,,"Monster, Mineral",9.0,Grounded,bergmite-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+712,Bergmite,Ice,-----,Common,Any,Any,Any,Nether: Frozen,,,,,,,,Natural,Gen 6,,"Monster, Mineral",9.0,Grounded,bergmite-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 760,Bewear,Normal,Fighting,Common,8 - 15,Any,Any,Bamboo,,,,,,,,Natural,Gen 7,,Field,1.0,Grounded,bewear-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 400,Bibarel,Normal,Water,Common,8 - 15,Any,Any,Freshwater,,,,,,,,"Natural, Freshwater",Gen 4,,"Water_1, Field",1.0,Grounded,bibarel-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 400,Bibarel,Normal,Water,Uncommon,8 - 15,Any,Any,Freshwater,,,,,,,,"Freshwater, Water_Surface",Gen 4,,"Water_1, Field",1.0,Surface,bibarel-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -152,11 +152,11 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 898,Calyrex,Psychic,Grass,Ultra-Rare,Any,Any,Any,Plains,,,,,,,,Natural,Gen 8,Legendary,Undiscovered,1.0,Grounded,calyrex-1,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 323,Camerupt,Fire,Ground,Common,8 - 15,Any,Any,Badlands,,,,,,,,Natural,Gen 3,,Field,0.6,Grounded,camerupt-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 323,Camerupt,Fire,Ground,Common,8 - 15,Any,Any,Volcanic,,,,,,,,Natural,Gen 3,,Field,1.0,Grounded,camerupt-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-323,Camerupt,Fire,Ground,Common,Any,Any,Any,"Nether: Is Overgrowth, Nether: Is Wasteland",,,,,,,,Natural,Gen 3,,Field,0.6,Grounded,camerupt-3,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+323,Camerupt,Fire,Ground,Common,Any,Any,Any,"Nether: Overgrowth, Nether: Wasteland",,,,,,,,Natural,Gen 3,,Field,0.6,Grounded,camerupt-3,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 951,Capsakid,Grass,-----,Common,MUST SEE,Any,Any,Arid,,,,,,,,,Gen 9,,Grass,6,Grounded,capsakid-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 951,Capsakid,Grass,-----,Common,Any,Any,Any,Nether,,,,,,,,,Gen 9,,Grass,6,Grounded,capsakid-2,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 703,Carbink,Rock,Fairy,Common,0 - 7,Any,Any,Overworld,Deep Dark,,,,Diamond Ore,,,Natural,Gen 6,,"Fairy, Mineral",100.0,Grounded,carbink-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-703,Carbink,Rock,Fairy,Uncommon,Any,Any,Any,Nether: Is Quartz,,,,Quartz Block,,,,Natural,Gen 6,,"Fairy, Mineral",10.0,Grounded,carbink-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+703,Carbink,Rock,Fairy,Uncommon,Any,Any,Any,Nether: Quartz,,,,Quartz Block,,,,Natural,Gen 6,,"Fairy, Mineral",10.0,Grounded,carbink-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 703,Carbink,Rock,Fairy,Common,Any,Any,Any,Crystal Canyon,,,Sempiternal Sanctums,,,,,,Gen 6,,"Fairy, Mineral",10.0,Grounded,carbink-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 455,Carnivine,Grass,-----,Uncommon,8 - 15,Any,Any,Swamp,,,,,,,,"Natural, Treetop, Foliage",Gen 4,,Grass,10.0,Grounded,carnivine-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 455,Carnivine,Grass,-----,Uncommon,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 4,,Grass,2.0,Grounded,carnivine-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -169,28 +169,28 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 10,Caterpie Valencian,Bug,-----,Common,Any,Any,Any,Floral Meadow,,,Sempiternal Sanctums,,,,,,Gen 1,,Bug,3.0,Grounded,caterpie-valencian-4,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 251,Celebi,Psychic,Grass,Ultra-Rare,MUST SEE,Any,Any,Forest,,,,,,,,,Gen 2,"Mythical, Legendary",Undiscovered,3.0,Grounded,celebi-1,generation2,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 851,Centiskorch,Fire,Bug,Common,8 - 15,Any,Any,"Badlands, Volcanic",,,,,,,,"Natural, Wild",Gen 8,,Bug,0.6,Grounded,centiskorch-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-851,Centiskorch,Fire,Bug,Common,Any,Any,Any,Nether: Is Basalt,,,,,,,,"Natural, Wild",Gen 8,,Bug,0.6,Grounded,centiskorch-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-851,Centiskorch,Fire,Bug,Common,Any,Any,Any,Nether: Is Wasteland,,,,,,,,"Natural, Wild",Gen 8,,Bug,1.0,Grounded,centiskorch-3,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+851,Centiskorch,Fire,Bug,Common,Any,Any,Any,Nether: Basalt,,,,,,,,"Natural, Wild",Gen 8,,Bug,0.6,Grounded,centiskorch-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+851,Centiskorch,Fire,Bug,Common,Any,Any,Any,Nether: Wasteland,,,,,,,,"Natural, Wild",Gen 8,,Bug,1.0,Grounded,centiskorch-3,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 937,Ceruledge,Fire,Ghost,Common,Any,Any,Any,Nether,,,,,,,,"Natural, Nether_Structures",Gen 9,,Human_Like,5.0,Grounded,ceruledge-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 937,Ceruledge,Fire,Ghost,Uncommon,Any,Any,Any,Overworld,,,,,,,,Ruined_Portal,Gen 9,,Human_Like,1.0,Grounded,ceruledge-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 975,Cetitan,Ice,-----,Uncommon,8 - 15,Any,Any,Frozen Ocean,,,,,,,,"Natural, Wild",Gen 9,,Field,0.6,Grounded,cetitan-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 975,Cetitan,Ice,-----,Uncommon,8 - 15,Any,Any,"Glacial, Tundra",,,,,,,,"Natural, Wild",Gen 9,,Field,1.0,Grounded,cetitan-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 974,Cetoddle,Ice,-----,Uncommon,8 - 15,Any,Any,Frozen Ocean,,,,,,,,"Natural, Wild",Gen 9,,Field,5.4,Grounded,cetoddle-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 974,Cetoddle,Ice,-----,Uncommon,8 - 15,Any,Any,"Glacial, Tundra",,,,,,,,"Natural, Wild",Gen 9,,Field,9.0,Grounded,cetoddle-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-609,Chandelure,Ghost,Fire,Common,Any,Any,Any,Nether: Is Soul Fire,,,,,,,,Natural,Gen 5,,Amorphous,0.02,Grounded,chandelure-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+609,Chandelure,Ghost,Fire,Common,Any,Any,Any,Nether: Soul Fire,,,,,,,,Natural,Gen 5,,Amorphous,0.02,Grounded,chandelure-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 609,Chandelure,Ghost,Fire,Common,CANNOT SEE,Night,Any,Overworld,,,,,,,,Mansion,Gen 5,,Amorphous,0.1,Grounded,chandelure-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 113,Chansey,Normal,-----,Rare,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Urban",Gen 1,,Fairy,0.9,Grounded,chansey-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 113,Chansey,Normal,-----,Rare,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Village",Gen 1,,Fairy,0.9,Grounded,chansey-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 935,Charcadet,Fire,-----,Common,Any,Any,Any,Nether,,,,,,,,"Natural, Nether_Structures",Gen 9,,Human_Like,90.0,Grounded,charcadet-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 935,Charcadet,Fire,-----,Uncommon,Any,Any,Any,Overworld,,,,,,,,Ruined_Portal,Gen 9,,Human_Like,18.0,Grounded,charcadet-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 6,Charizard,Fire,Flying,Ultra-Rare,8 - 15,Any,Clear,"Hills, Volcanic",,,,,,,,Natural,Gen 1,,"Monster, Dragon",0.1,Grounded,charizard-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-6,Charizard,Fire,Flying,Ultra-Rare,Any,Any,Any,Nether: Is Basalt,,,,,,,,Natural,Gen 1,,"Monster, Dragon",0.1,Grounded,charizard-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+6,Charizard,Fire,Flying,Ultra-Rare,Any,Any,Any,Nether: Basalt,,,,,,,,Natural,Gen 1,,"Monster, Dragon",0.1,Grounded,charizard-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 737,Charjabug,Bug,Electric,Uncommon,MUST SEE,Any,Any,"Badlands, Jungle, Taiga",,,,,,,,,Gen 7,,Bug,4,Grounded,charjabug-1,generation7,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 738,Charjabug,Bug,Electric,Uncommon,MUST SEE,Any,Any,"Badlands, Jungle, Taiga",,,,,,,,,Gen 7,,Bug,4,Grounded,charjabug-1,generation7,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 4,Charmander,Fire,-----,Ultra-Rare,8 - 15,Any,Clear,"Hills, Volcanic",,,,,,,,Natural,Gen 1,,"Monster, Dragon",9.0,Grounded,charmander-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-4,Charmander,Fire,-----,Ultra-Rare,Any,Any,Any,Nether: Is Basalt,,,,,,,,Natural,Gen 1,,"Monster, Dragon",9.0,Grounded,charmander-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+4,Charmander,Fire,-----,Ultra-Rare,Any,Any,Any,Nether: Basalt,,,,,,,,Natural,Gen 1,,"Monster, Dragon",9.0,Grounded,charmander-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 5,Charmeleon,Fire,-----,Ultra-Rare,8 - 15,Any,Clear,"Hills, Volcanic",,,,,,,,Natural,Gen 1,,"Monster, Dragon",0.9,Grounded,charmeleon-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-5,Charmeleon,Fire,-----,Ultra-Rare,Any,Any,Any,Nether: Is Basalt,,,,,,,,Natural,Gen 1,,"Monster, Dragon",0.9,Grounded,charmeleon-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+5,Charmeleon,Fire,-----,Ultra-Rare,Any,Any,Any,Nether: Basalt,,,,,,,,Natural,Gen 1,,"Monster, Dragon",0.9,Grounded,charmeleon-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 441,Chatot,Normal,Flying,Uncommon,8 - 15,Day,Any,Jungle,,,,,,,,"Natural, Treetop",Gen 4,,Flying,10.0,Grounded,chatot-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 441,Chatot,Normal,Flying,Common,8 - 15,Day,Any,Tropical Island,,,,,,,,"Natural, Treetop",Gen 4,,Flying,6.0,Grounded,chatot-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 441,Chatot,Normal,Flying,Common,8 - 15,Day,Any,Sky,,,,,,,,"Natural, Treetop",Gen 4,,Flying,10.0,Grounded,chatot-3,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -200,7 +200,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 152,Chikorita,Grass,-----,Ultra-Rare,8 - 15,Any,Any,Floral,,,,,,,,Natural,Gen 2,,"Monster, Grass",9.0,Grounded,chikorita-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 152,Chikorita,Grass,-----,Ultra-Rare,8 - 15,Any,Any,Floral Meadow,,,Sempiternal Sanctums,,,,,,Gen 2,,"Monster, Grass",9.0,Grounded,chikorita-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 390,Chimchar,Fire,-----,Ultra-Rare,8 - 15,Any,Clear,Mountain,,,,,,,,"Natural, Treetop",Gen 4,,"Field, Human_Like",9.0,Grounded,chimchar-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-390,Chimchar,Fire,-----,Ultra-Rare,Any,Any,Any,Nether: Is Forest,,,,,,,,"Natural, Treetop",Gen 4,,"Field, Human_Like",9.0,Grounded,chimchar-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+390,Chimchar,Fire,-----,Ultra-Rare,Any,Any,Any,Nether: Forest,,,,,,,,"Natural, Treetop",Gen 4,,"Field, Human_Like",9.0,Grounded,chimchar-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 358,Chimecho,Psychic,-----,Uncommon,8 - 15,Night,Any,"Forest, Mountain, Spooky, Taiga",,,,,,,,Natural,Gen 3,,Amorphous,0.2,Grounded,chimecho-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 358,Chimecho,Psychic,-----,Uncommon,8 - 15,Night,Any,Magical,,,,,,,,Natural,Gen 3,,Amorphous,0.6,Grounded,chimecho-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 358,Chimecho,Psychic,-----,Uncommon,Any,Night,Any,Overworld,,,,,Bell,,,,Gen 3,,Amorphous,10,Grounded,chimecho-3,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -269,16 +269,16 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 169,Crobat,Poison,Flying,Common,8 - 15,Any,Clear,Spooky,,,,,,,,Natural,Gen 2,,Flying,0.1,Grounded,crobat-6,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 169,Crobat,Poison,Flying,Uncommon,0 - 7,Any,Any,Deep Dark,,,,,,,,Natural,Gen 2,,Flying,0.1,Grounded,crobat-8,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 910,Crocalor,Fire,-----,Ultra-Rare,8 - 15,Any,Any,Badlands,,,,,,,,Natural,Gen 9,,Field,0.9,Grounded,crocalor-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-910,Crocalor,Fire,-----,Ultra-Rare,Any,Any,Any,Nether: Is Wasteland,,,,,,,,Natural,Gen 9,,Field,0.9,Grounded,crocalor-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+910,Crocalor,Fire,-----,Ultra-Rare,Any,Any,Any,Nether: Wasteland,,,,,,,,Natural,Gen 9,,Field,0.9,Grounded,crocalor-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 159,Croconaw,Water,-----,Ultra-Rare,8 - 15,Any,Any,Swamp,,,,,,,,Natural,Gen 2,,"Monster, Water_1",0.9,Grounded,croconaw-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 159,Croconaw,Water,-----,Ultra-Rare,MUST SEE,Any,Any,Swamp,,,,,,,,Underwater,Gen 2,,"Monster, Water_1",0.9,Submerged,croconaw-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 558,Crustle,Bug,Rock,Common,Any,Any,Any,Badlands,,,,,,,,Natural,Gen 5,,"Bug, Mineral",1.0,Grounded,crustle-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 615,Cryogonal,Ice,-----,Uncommon,8 - 15,Any,Any,Freezing,,,,,,,,Natural,Gen 5,,Mineral,2.0,Grounded,cryogonal-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-615,Cryogonal,Ice,-----,Common,Any,Any,Any,Nether: Is Frozen,,,,,,,,Natural,Gen 5,,Mineral,2.0,Grounded,cryogonal-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+615,Cryogonal,Ice,-----,Common,Any,Any,Any,Nether: Frozen,,,,,,,,Natural,Gen 5,,Mineral,2.0,Grounded,cryogonal-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 613,Cubchoo,Ice,-----,Common,8 - 15,Any,Any,Frozen Ocean,,,,,,,,"Natural, Wild",Gen 5,,Field,1.8,Grounded,cubchoo-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 104,Cubone,Ground,-----,Common,8 - 15,Any,Any,Sandy,,,,,,,,"Natural, Wild",Gen 1,,Monster,1.8,Grounded,cubone-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 104,Cubone,Ground,-----,Common,8 - 15,Any,Any,Volcanic,,,,,,,,"Natural, Wild",Gen 1,,Monster,1.8,Grounded,cubone-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-104,Cubone,Ground,-----,Common,Any,Any,Any,"Nether: Is Desert, Nether: Is Soul Fire",,,,,,,,"Natural, Wild",Gen 1,,Monster,5.4,Grounded,cubone-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+104,Cubone,Ground,-----,Common,Any,Any,Any,"Nether: Desert, Nether: Soul Fire",,,,,,,,"Natural, Wild",Gen 1,,Monster,5.4,Grounded,cubone-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 878,Cufant,Steel,-----,Uncommon,8 - 15,Any,Any,"Badlands, Hills, Savanna",,,,,,,,"Natural, Wild",Gen 8,,"Field, Mineral",5.4,Grounded,cufant-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 864,Cursola,Ghost,-----,Rare,Any,Any,Any,Ocean,,,,,,,,Underwater,Gen 8,,"Water_1, Water_3",6.0,Submerged,cursola-1,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 864,Cursola,Ghost,-----,Uncommon,Any,Any,Any,Warm Ocean,,,,,,,,Underwater,Gen 8,,"Water_1, Water_3",7.2,Submerged,cursola-2,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -288,23 +288,23 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 967,Cyclizar,Dragon,Normal,Rare,Any,Any,Any,Overworld,,,,,,,,Natural,Gen 9,,Field,2.0,Grounded,cyclizar-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 155,Cyndaquil,Fire,-----,Ultra-Rare,8 - 15,Any,Any,Temperate,Spooky,,,,,,,Natural,Gen 2,,Field,9.0,Grounded,cyndaquil-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 155,Cyndaquil Region_Bias=Hisui,Fire,-----,Ultra-Rare,8 - 15,Any,Clear,Taiga,,,,,,,,Natural,Gen 2,,Field,9.0,Grounded,cyndaquil-hisui-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-155,Cyndaquil Region_Bias=Hisui,Fire,-----,Ultra-Rare,Any,Any,Any,"Nether: Is Crimson, Nether: Is Forest, Nether: Is Overgrowth",,,,,,,,Natural,Gen 2,,Field,9.0,Grounded,cyndaquil-hisui-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+155,Cyndaquil Region_Bias=Hisui,Fire,-----,Ultra-Rare,Any,Any,Any,"Nether: Crimson, Nether: Forest, Nether: Overgrowth",,,,,,,,Natural,Gen 2,,Field,9.0,Grounded,cyndaquil-hisui-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 927,Dachsbun,Fairy,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Urban",Gen 9,,"Field, Mineral",1.0,Grounded,dachsbun-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 927,Dachsbun,Fairy,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Village",Gen 9,,"Field, Mineral",1.0,Grounded,dachsbun-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+491,Darkrai,Dark,-----,Ultra-Rare,Any,Any,Any,Magical,,,,,,5,,"Natural, Wild",Gen 4,"Mythical, Legendary",Undiscovered,1.0,Grounded,darkrai,generation4,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 488,Darkrai,Psychic,-----,Ultra-Rare,Any,Any,Any,Plains,,,,,,4,,"Natural, Wild",Gen 4,Legendary,Undiscovered,1.0,Grounded,darkrai,generation4,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 488,Darkrai,Psychic,-----,Ultra-Rare,Any,Any,Any,Plains,,,,,,6,,"Natural, Wild",Gen 4,Legendary,Undiscovered,1.0,Grounded,darkrai,generation4,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
-491,Darkrai,Dark,-----,Ultra-Rare,Any,Any,Any,Magical,,,,,,5,,"Natural, Wild",Gen 4,"Mythical, Legendary",Undiscovered,1.0,Grounded,darkrai,generation4,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 491,Darkrai,Dark,-----,Ultra-Rare,Any,Any,Any,Deep Dark,,,,,,,,"Natural, Wild",Gen 4,"Mythical, Legendary",Undiscovered,1.0,Grounded,darkrai-1,generation4,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 555,Darmanitan,Ice,Fire,Common,8 - 15,Any,Any,"Desert, Jungle",,,,,,,,"Natural, Ruins",Gen 5,"Unova Regional, Unova Regional",Field,5.4,Grounded,darmanitan-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,BCG x AllTheMons 1.2.0.zip
 555,Darmanitan,Ice,Fire,Common,8 - 15,Any,Any,Desert,,,,,,,,"Natural, Desert_Pyramid",Gen 5,"Unova Regional, Unova Regional",Field,5.4,Grounded,darmanitan-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,BCG x AllTheMons 1.2.0.zip
 555,Darmanitan,Ice,Fire,Common,8 - 15,Any,Any,Jungle,,,,,,,,"Natural, Jungle_Pyramid",Gen 5,"Unova Regional, Unova Regional",Field,5.4,Grounded,darmanitan-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,BCG x AllTheMons 1.2.0.zip
-555,Darmanitan,Ice,Fire,Common,Any,Any,Any,Nether,"Nether: Is Frozen, Nether: Is Quartz, Nether: Is Toxic",,,,,,,Natural,Gen 5,"Unova Regional, Unova Regional",Field,0.6,Grounded,darmanitan-4,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,BCG x AllTheMons 1.2.0.zip
+555,Darmanitan,Ice,Fire,Common,Any,Any,Any,Nether,"Nether: Frozen, Nether: Quartz, Nether: Toxic",,,,,,,Natural,Gen 5,"Unova Regional, Unova Regional",Field,0.6,Grounded,darmanitan-4,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,BCG x AllTheMons 1.2.0.zip
 723,Dartrix,Grass,Flying,Ultra-Rare,8 - 15,Any,Any,"Forest, Taiga",Freezing,,,,,,,"Natural, Treetop",Gen 7,,Flying,0.9,Grounded,dartrix-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 723,Dartrix Region_Bias=Hisui,Grass,Flying,Ultra-Rare,8 - 15,Any,Any,"Snowy Forest, Snowy Taiga",,,,,,,,"Natural, Treetop",Gen 7,,Flying,0.9,Grounded,dartrix-hisui-3,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 554,Darumaka,Fire,-----,Common,8 - 15,Any,Any,"Desert, Jungle",,,,,,,,"Natural, Ruins",Gen 5,Unova Regional,Field,54.0,Grounded,darumaka-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 554,Darumaka,Fire,-----,Common,8 - 15,Any,Any,Desert,,,,,,,,"Natural, Desert_Pyramid",Gen 5,Unova Regional,Field,54.0,Grounded,darumaka-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 554,Darumaka,Fire,-----,Common,8 - 15,Any,Any,Jungle,,,,,,,,"Natural, Jungle_Pyramid",Gen 5,Unova Regional,Field,54.0,Grounded,darumaka-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-554,Darumaka,Fire,-----,Common,Any,Any,Any,Nether,"Nether: Is Frozen, Nether: Is Quartz, Nether: Is Toxic",,,,,,,Natural,Gen 5,Unova Regional,Field,5.4,Grounded,darumaka-4,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+554,Darumaka,Fire,-----,Common,Any,Any,Any,Nether,"Nether: Frozen, Nether: Quartz, Nether: Toxic",,,,,,,Natural,Gen 5,Unova Regional,Field,5.4,Grounded,darumaka-4,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 724,Decidueye,Grass,Ghost,Ultra-Rare,8 - 15,Any,Any,"Forest, Taiga",Freezing,,,,,,,"Natural, Treetop",Gen 7,Alola Regional,Flying,0.1,Grounded,decidueye-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 724,Decidueye Hisuian,Grass,Fighting,Ultra-Rare,8 - 15,Any,Any,"Snowy Forest, Snowy Taiga",,,,,,,,"Natural, Treetop",Gen 7,Alola Regional,Flying,0.1,Grounded,decidueye-hisuian-3,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 585,Deerling,Normal,Grass,Common,8 - 15,Any,Any,"Floral, Forest, Hills, Plains, Snowy Forest, Taiga",Savanna,,,,,,,"Natural, Wild",Gen 5,,Field,1.8,Grounded,deerling-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -381,13 +381,13 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 884,Duraludon,Steel,Dragon,Rare,Any,Any,Any,Snowy Forest,,,,,,,,,Gen 8,,"Mineral, Dragon",7.5,Grounded,duraludon-2,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 632,Durant,Bug,Steel,Common,8 - 15,Any,Any,"Badlands, Hills",,,,,,,,Natural,Gen 5,,Bug,2.0,Grounded,durant-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 632,Durant,Bug,Steel,Common,0 - 7,Any,Any,"Badlands, Hills",,,,,,,,Natural,Gen 5,,Bug,10.0,Grounded,durant-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-632,Durant,Bug,Steel,Common,Any,Any,Any,Nether: Is Mountain,,,,,,,,Natural,Gen 5,,Bug,10.0,Grounded,durant-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+632,Durant,Bug,Steel,Common,Any,Any,Any,Nether: Mountain,,,,,,,,Natural,Gen 5,,Bug,10.0,Grounded,durant-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 356,Dusclops,Ghost,-----,Common,8 - 15,Night,Any,Spooky,,,,,,,,Natural,Gen 3,,Amorphous,0.54,Grounded,dusclops-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-356,Dusclops,Ghost,-----,Common,8 - 15,Any,Any,Nether: Is Soul Sand,,,,,,,,Natural,Gen 3,,Amorphous,0.9,Grounded,dusclops-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+356,Dusclops,Ghost,-----,Common,8 - 15,Any,Any,Nether: Soul Sand,,,,,,,,Natural,Gen 3,,Amorphous,0.9,Grounded,dusclops-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 477,Dusknoir,Ghost,-----,Common,8 - 15,Night,Any,Spooky,,,,,,,,Natural,Gen 4,,Amorphous,0.06,Grounded,dusknoir-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-477,Dusknoir,Ghost,-----,Common,Any,Any,Any,Nether: Is Soul Sand,,,,,,,,Natural,Gen 4,,Amorphous,0.1,Grounded,dusknoir-3,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+477,Dusknoir,Ghost,-----,Common,Any,Any,Any,Nether: Soul Sand,,,,,,,,Natural,Gen 4,,Amorphous,0.1,Grounded,dusknoir-3,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 355,Duskull,Ghost,-----,Common,8 - 15,Night,Any,Spooky,,,,,,,,Natural,Gen 3,,Amorphous,5.4,Grounded,duskull-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-355,Duskull,Ghost,-----,Common,8 - 15,Any,Any,Nether: Is Soul Sand,,,,,,,,Natural,Gen 3,,Amorphous,9.0,Grounded,duskull-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+355,Duskull,Ghost,-----,Common,8 - 15,Any,Any,Nether: Soul Sand,,,,,,,,Natural,Gen 3,,Amorphous,9.0,Grounded,duskull-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 557,Dwebble,Bug,Rock,Common,Any,Any,Any,Badlands,,,,,,,,Natural,Gen 5,,"Bug, Mineral",9.0,Grounded,dwebble-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 603,Eelektrik,Electric,-----,Rare,CANNOT SEE,Any,Any,Cave,,,,,,,,Underwater,Gen 5,,Amorphous,1.0,Submerged,eelektrik-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 603,Eelektrik,Electric,-----,Uncommon,CANNOT SEE,Any,Any,Lush,,,,,,,,Underwater,Gen 5,,Amorphous,1.0,Submerged,eelektrik-2,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -402,7 +402,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 875,Eiscue,Ice,-----,Common,8 - 15,Any,Any,Frozen Ocean,,,,,,,,Water_Surface,Gen 8,,"Water_1, Field",6.0,Surface,eiscue-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 23,Ekans Snake_Pattern=Attack,Poison,-----,Common,8 - 15,Any,Any,Arid,,,,,,,,Natural,Gen 1,,"Field, Dragon",0.27,Grounded,ekans-attack-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 23,Ekans Snake_Pattern=Classic,Poison,-----,Common,8 - 15,Any,Any,Arid,,,,,,,,Natural,Gen 1,,"Field, Dragon",4.05,Grounded,ekans-classic-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-23,Ekans Snake_Pattern=Dark,Poison,-----,Common,Any,Any,Any,Nether: Is Desert,,,,,,,,Natural,Gen 1,,"Field, Dragon",5.4,Grounded,ekans-dark-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+23,Ekans Snake_Pattern=Dark,Poison,-----,Common,Any,Any,Any,Nether: Desert,,,,,,,,Natural,Gen 1,,"Field, Dragon",5.4,Grounded,ekans-dark-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 23,Ekans Snake_Pattern=Elusive,Poison,-----,Common,8 - 15,Any,Any,Arid,,,,,,,,Natural,Gen 1,,"Field, Dragon",0.27,Grounded,ekans-elusive-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 23,Ekans Snake_Pattern=Legacy,Poison,-----,Common,8 - 15,Any,Any,Arid,,,,,,,,Natural,Gen 1,,"Field, Dragon",0.27,Grounded,ekans-legacy-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 23,Ekans Snake_Pattern=Sound,Poison,-----,Common,8 - 15,Any,Any,Arid,,,,,,,,Natural,Gen 1,,"Field, Dragon",0.27,Grounded,ekans-sound-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -422,7 +422,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 605,Elgyem,Psychic,-----,Common,8 - 15,Night,Any,Overworld,,,,,Wheat,,,Natural,Gen 5,,Human_Like,9.0,Grounded,elgyem-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 605,Elgyem,Psychic,-----,Common,Any,Any,Any,Howling Constructs,,,Sempiternal Sanctums,,,,,,Gen 5,,Human_Like,5.4,Grounded,elgyem-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 500,Emboar,Fire,Fighting,Ultra-Rare,8 - 15,Any,Clear,Plains,,,,,,,,Natural,Gen 5,,Field,0.1,Grounded,emboar-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-500,Emboar,Fire,Fighting,Ultra-Rare,Any,Any,Any,"Nether: Is Crimson, Nether: Is Overgrowth",,,,,,,,Natural,Gen 5,,Field,0.1,Grounded,emboar-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+500,Emboar,Fire,Fighting,Ultra-Rare,Any,Any,Any,"Nether: Crimson, Nether: Overgrowth",,,,,,,,Natural,Gen 5,,Field,0.1,Grounded,emboar-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 587,Emolga,Electric,Flying,Uncommon,8 - 15,Any,Any,Taiga,,,,,,,,"Natural, Treetop",Gen 5,,Field,10.0,Grounded,emolga-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 395,Empoleon,Water,Steel,Ultra-Rare,8 - 15,Any,Any,Frozen Ocean,,,,,,,,Natural,Gen 4,,"Water_1, Field",0.1,Grounded,empoleon-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 395,Empoleon,Water,Steel,Ultra-Rare,MUST SEE,Any,Any,Frozen Ocean,,,,,,,,Underwater,Gen 4,,"Water_1, Field",0.1,Submerged,empoleon-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -473,9 +473,9 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 136,Flareon,Fire,-----,Uncommon,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Village",Gen 1,,Field,0.025,Grounded,flareon-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 136,Flareon,Fire,-----,Uncommon,CANNOT SEE,Any,Any,Overworld,,,,,,,,Mansion,Gen 1,,Field,0.125,Grounded,flareon-4,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 662,Fletchinder,Fire,Flying,Common,8 - 15,Day,Any,"Forest, Sky, Taiga",,,,,,,,"Natural, Treetop",Gen 6,,Flying,0.54,Grounded,fletchinder-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-662,Fletchinder,Fire,Flying,Common,Any,Any,Any,"Nether: Is Forest, Nether: Is Fungus",Nether: Is Warped,,,,,,,"Natural, Treetop",Gen 6,,Flying,0.54,Grounded,fletchinder-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+662,Fletchinder,Fire,Flying,Common,Any,Any,Any,"Nether: Forest, Nether: Fungus",Nether: Warped,,,,,,,"Natural, Treetop",Gen 6,,Flying,0.54,Grounded,fletchinder-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 661,Fletchling,Normal,Flying,Common,8 - 15,Day,Any,"Forest, Sky, Taiga",,,,,,,,"Natural, Treetop",Gen 6,,Flying,5.4,Grounded,fletchling-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-661,Fletchling,Normal,Flying,Common,Any,Any,Any,"Nether: Is Forest, Nether: Is Fungus",Nether: Is Warped,,,,,,,"Natural, Treetop",Gen 6,,Flying,5.4,Grounded,fletchling-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+661,Fletchling,Normal,Flying,Common,Any,Any,Any,"Nether: Forest, Nether: Fungus",Nether: Warped,,,,,,,"Natural, Treetop",Gen 6,,Flying,5.4,Grounded,fletchling-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 955,Flittle,Psychic,-----,Uncommon,8 - 15,Any,Any,Arid,,,,,,,,"Natural, Wild",Gen 9,,Flying,5.4,Grounded,flittle-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 419,Floatzel,Water,-----,Common,8 - 15,Any,Any,Freshwater,,,,,,,,"Natural, Freshwater",Gen 4,,"Water_1, Field",0.2,Grounded,floatzel-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 419,Floatzel,Water,-----,Common,MUST SEE,Any,Any,Freshwater,,,,,,,,"Underwater, Freshwater",Gen 4,,"Water_1, Field",0.2,Submerged,floatzel-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -493,7 +493,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 670,Floette Flower=Yellow,Fairy,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Yellow_Flowers",Gen 6,,Fairy,0.9,Grounded,floette-yellow-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 670,Floette Flower=Yellow,Fairy,-----,Common,Any,Any,Any,Floral Meadow,,,Sempiternal Sanctums,,,,,,Gen 6,,Fairy,0.9,Grounded,floette-yellow-7,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 907,Floragato,Grass,-----,Ultra-Rare,8 - 15,Any,Any,"Floral, Magical",,,,,,,,Natural,Gen 9,,"Field, Grass",0.9,Grounded,floragato-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-907,Floragato,Grass,-----,Ultra-Rare,Any,Any,Any,Nether: Is Warped,Nether: Is Desert,,,,,,,Natural,Gen 9,,"Field, Grass",0.9,Grounded,floragato-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+907,Floragato,Grass,-----,Ultra-Rare,Any,Any,Any,Nether: Warped,Nether: Desert,,,,,,,Natural,Gen 9,,"Field, Grass",0.9,Grounded,floragato-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 671,Florges Flower=Blue,Fairy,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Blue_Flowers",Gen 6,,Fairy,0.1,Grounded,florges-blue-4,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 671,Florges Flower=Blue,Fairy,-----,Common,Any,Any,Any,Floral Meadow,,,Sempiternal Sanctums,,,,,,Gen 6,,Fairy,0.1,Grounded,florges-blue-7,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 671,Florges Flower=Orange,Fairy,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Orange_Flowers",Gen 6,,Fairy,0.1,Grounded,florges-orange-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -529,7 +529,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 478,Froslass,Ice,Ghost,Rare,Any,Twilight,Any,Freezing,,,,,,,,Natural,Gen 4,,"Fairy, Mineral",5.0,Grounded,froslass-1,generation4,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 873,Frosmoth,Ice,Bug,Common,Any,Night,Any,Freezing,,,,,,,,Natural,Gen 8,,Bug,1.0,Grounded,frosmoth-1,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 909,Fuecoco,Fire,-----,Ultra-Rare,8 - 15,Any,Any,Badlands,,,,,,,,Natural,Gen 9,,Field,9.0,Grounded,fuecoco-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-909,Fuecoco,Fire,-----,Ultra-Rare,Any,Any,Any,Nether: Is Wasteland,,,,,,,,Natural,Gen 9,,Field,9.0,Grounded,fuecoco-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+909,Fuecoco,Fire,-----,Ultra-Rare,Any,Any,Any,Nether: Wasteland,,,,,,,,Natural,Gen 9,,Field,9.0,Grounded,fuecoco-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 162,Furret,Normal,-----,Common,8 - 15,Any,Any,"Taiga, Temperate, Tundra",,,,,,,,Natural,Gen 2,,Field,1.0,Grounded,furret-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 444,Gabite,Dragon,Ground,Rare,Any,Any,Any,Mountain,,,,,,,,"Natural, Wild",Gen 4,,"Monster, Dragon",0.54,Grounded,gabite-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 444,Gabite,Dragon,Ground,Ultra-Rare,0 - 7,Any,Any,Overworld,"Deep Dark, Mountain",,,,,,,Natural,Gen 4,,"Monster, Dragon",0.9,Grounded,gabite-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -548,7 +548,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 282,Gardevoir,Psychic,Fairy,Common,CANNOT SEE,Any,Any,Overworld,,,,,,,,Mansion,Gen 3,,"Human_Like, Amorphous",0.01,Grounded,gardevoir-4,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 934,Garganacl,Rock,-----,Common,8 - 15,Any,Any,Badlands,,,,,,,,"Natural, Wild",Gen 9,,Mineral,0.06,Grounded,garganacl-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 934,Garganacl,Rock,-----,Common,Any,Any,Any,,,,,,,,,"Salt, Natural, Wild",Gen 9,,Mineral,0.1,Grounded,garganacl-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-934,Garganacl,Rock,-----,Common,Any,Any,Any,Nether: Is Quartz,,,,,,,,,Gen 9,,Mineral,0.1,Grounded,garganacl-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+934,Garganacl,Rock,-----,Common,Any,Any,Any,Nether: Quartz,,,,,,,,,Gen 9,,Mineral,0.1,Grounded,garganacl-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 92,Gastly,Ghost,Poison,Common,0 - 0,Any,Any,Overworld,Deep Dark,,,,,,,Natural,Gen 1,,Amorphous,9.0,Grounded,gastly-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 92,Gastly,Ghost,Poison,Uncommon,CANNOT SEE,Any,Any,Overworld,Deep Dark,,,,,,,Derelict,Gen 1,,Amorphous,5.4,Grounded,gastly-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 92,Gastly,Ghost,Poison,Common,8 - 15,Any,Any,Spooky,,,,,,,,Natural,Gen 1,,Amorphous,9.0,Grounded,gastly-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -577,15 +577,15 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 431,Glameow,Normal,-----,Common,MUST SEE,Any,Clear,Overworld,,,,,,,,"Natural, Village",Gen 4,,Field,9.0,Grounded,glameow-1,generation4,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 896,Glastrier,Ice,-----,Ultra-Rare,Any,Any,Any,Freezing,,,,,,,,Natural,Gen 8,Legendary,Undiscovered,1.0,Grounded,glastrier-1,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 207,Gligar,Ground,Flying,Uncommon,8 - 15,Night,Any,Badlands,,,,,,,,"Natural, Treetop",Gen 2,,Bug,5.4,Grounded,gligar-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-207,Gligar,Ground,Flying,Common,Any,Any,Any,Nether: Is Mountain,,,,,,,,Natural,Gen 2,,Bug,1.8,Grounded,gligar-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+207,Gligar,Ground,Flying,Common,Any,Any,Any,Nether: Mountain,,,,,,,,Natural,Gen 2,,Bug,1.8,Grounded,gligar-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 969,Glimmet,Rock,Poison,Common,0 - 7,Any,Any,Overworld,,,,,,,,"Natural, Gemstones",Gen 9,,Mineral,9.0,Grounded,glimmet-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-969,Glimmet,Rock,Poison,Common,Any,Any,Any,Nether: Is Quartz,,,,,,,,,Gen 9,,Mineral,1.8,Grounded,glimmet-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+969,Glimmet,Rock,Poison,Common,Any,Any,Any,Nether: Quartz,,,,,,,,,Gen 9,,Mineral,1.8,Grounded,glimmet-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 969,Glimmet,Rock,Poison,Common,Any,Any,Any,"Crystal Canyon, Crystalline Chasm",,,,,,,,,Gen 9,,Mineral,9.0,Grounded,glimmet-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 970,Glimmora,Rock,Poison,Common,0 - 7,Any,Any,Overworld,,,,,,,,"Natural, Gemstones",Gen 9,,Mineral,1.0,Grounded,glimmora-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-970,Glimmora,Rock,Poison,Common,Any,Any,Any,Nether: Is Quartz,,,,,,,,,Gen 9,,Mineral,0.2,Grounded,glimmora-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+970,Glimmora,Rock,Poison,Common,Any,Any,Any,Nether: Quartz,,,,,,,,,Gen 9,,Mineral,0.2,Grounded,glimmora-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 970,Glimmora,Rock,Poison,Common,Any,Any,Any,"Crystal Canyon, Crystalline Chasm",,,,,,,,,Gen 9,,Mineral,1.0,Grounded,glimmora-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 472,Gliscor,Ground,Flying,Uncommon,8 - 15,Night,Any,Badlands,,,,,,,,"Natural, Treetop",Gen 4,,Bug,0.6,Grounded,gliscor-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-472,Gliscor,Ground,Flying,Common,Any,Any,Any,Nether: Is Mountain,,,,,,,,Natural,Gen 4,,Bug,0.2,Grounded,gliscor-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+472,Gliscor,Ground,Flying,Common,Any,Any,Any,Nether: Mountain,,,,,,,,Natural,Gen 4,,Bug,0.2,Grounded,gliscor-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 44,Gloom,Grass,Poison,Common,8 - 15,Any,Any,Jungle,,,,,,,,Natural,Gen 1,,Grass,0.9,Grounded,gloom-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 44,Gloom,Grass,Poison,Common,8 - 15,Any,Any,Temperate,,,,,,,,Natural,Gen 1,,Grass,0.18,Grounded,gloom-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 44,Gloom Valencian,Grass,Poison,Common,8 - 15,Any,Any,"Savanna, Tropical Island",,,,,,,,Natural,Gen 1,,Grass,0.18,Grounded,gloom-valencian-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -635,7 +635,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 575,Gothorita,Psychic,-----,Rare,MUST SEE,Any,Any,Spooky,,,,,,,,Natural,Gen 5,,Human_Like,5.0,Grounded,gothorita-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 575,Gothorita,Psychic,-----,Uncommon,MUST SEE,Any,Any,End,,,,,,,,,Gen 5,,Human_Like,3.0,Grounded,gothorita-2,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 711,Gourgeist,Ghost,Grass,Common,Any,Night,Any,Overworld,,,,,"Pumpkin, Carved Pumpkin",,,Natural,Gen 6,,Amorphous,0.6,Grounded,gourgeist-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-711,Gourgeist,Ghost,Grass,Uncommon,Any,Any,Any,Nether: Is Overgrowth,,,,,,,,Natural,Gen 6,,Amorphous,1.0,Grounded,gourgeist-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+711,Gourgeist,Ghost,Grass,Uncommon,Any,Any,Any,Nether: Overgrowth,,,,,,,,Natural,Gen 6,,Amorphous,1.0,Grounded,gourgeist-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 945,Grafaiai,Poison,Normal,Common,8 - 15,Night,Any,"Jungle, Tropical Island",,,,,,,,"Natural, Treetop, Wild",Gen 9,,Field,0.2,Grounded,grafaiai-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 210,Granbull,Fairy,-----,Common,8 - 15,Any,Any,Overworld,Freezing,,,,,,,"Natural, Urban",Gen 2,,"Field, Fairy",0.6,Grounded,granbull-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 210,Granbull,Fairy,-----,Common,8 - 15,Any,Any,Overworld,Freezing,,,,,,,"Natural, Village",Gen 2,,"Field, Fairy",0.6,Grounded,granbull-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -648,7 +648,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 658,Greninja,Water,Dark,Ultra-Rare,MUST SEE,Any,Any,,,,,,,,,"Freshwater, Underwater",Gen 6,,Water_1,0.1,Submerged,greninja-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 88,Grimer Alolan,Poison,Dark,Common,MUST SEE,Any,Any,Beach,,,,,,,,Natural,Gen 1,Kanto Regional,Amorphous,10.0,Grounded,grimer-2,generation1,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 861,Grimmsnarl,Dark,Fairy,Common,8 - 15,Any,Any,Magical,,,,,,,,"Natural, Wild",Gen 8,,"Fairy, Human_Like",0.06,Grounded,grimmsnarl-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-861,Grimmsnarl,Dark,Fairy,Common,Any,Any,Any,"Nether: Is Forest, Nether: Is Warped",Nether: Is Desert,,,,,,,"Natural, Wild",Gen 8,,"Fairy, Human_Like",0.06,Grounded,grimmsnarl-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+861,Grimmsnarl,Dark,Fairy,Common,Any,Any,Any,"Nether: Forest, Nether: Warped",Nether: Desert,,,,,,,"Natural, Wild",Gen 8,,"Fairy, Human_Like",0.06,Grounded,grimmsnarl-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 810,Grookey,Grass,-----,Ultra-Rare,8 - 15,Any,Any,"Jungle, Tropical Island",,,,,,,,"Natural, Treetop",Gen 8,,"Field, Grass",9.0,Grounded,grookey-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 388,Grotle,Grass,-----,Ultra-Rare,8 - 15,Any,Any,Forest,Spooky,,,,,,,Natural,Gen 4,,"Monster, Grass",0.9,Grounded,grotle-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 383,Groudon,Ground,-----,Ultra-Rare,Any,Any,Clear,"Badlands, Savanna",,,,,,,,Natural,Gen 3,Legendary,Undiscovered,1.0,Grounded,groudon-1,generation3,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -676,7 +676,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 701,Hawlucha,Fighting,Flying,Rare,MUST SEE,Any,Any,Mountain,,,,,,,,Natural,Gen 6,,"Flying, Human_Like",5.0,Grounded,hawlucha-1,generation6,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 612,Haxorus,Dragon,-----,Rare,MUST SEE,Any,Any,"Mountain, Highlands",,,,,,,,,Gen 5,,"Monster, Dragon",1,Grounded,haxorus-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 631,Heatmor,Fire,-----,Uncommon,8 - 15,Any,Any,"Badlands, Hills",,,,,,,,"Natural, Wild",Gen 5,,Field,6.0,Grounded,heatmor-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-631,Heatmor,Fire,-----,Common,Any,Any,Any,Nether: Is Mountain,,,,,,,,"Natural, Wild",Gen 5,,Field,2.0,Grounded,heatmor-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+631,Heatmor,Fire,-----,Common,Any,Any,Any,Nether: Mountain,,,,,,,,"Natural, Wild",Gen 5,,Field,2.0,Grounded,heatmor-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 214,Heracross,Bug,Fighting,Rare,8 - 15,Any,Any,Forest,"Freezing, Spooky",,,,,,,"Natural, Treetop, Wild",Gen 2,,Bug,2.0,Grounded,heracross-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 214,Heracross,Bug,Fighting,Uncommon,8 - 15,Any,Any,"Jungle, Tropical Island",,,,,,,,"Natural, Treetop, Wild",Gen 2,,Bug,2.0,Grounded,heracross-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 214,Heracross,Bug,Fighting,Uncommon,Any,Any,Any,Crystal Canyon,,,Sempiternal Sanctums,,,,,,Gen 2,,Bug,10.0,Grounded,heracross-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -715,12 +715,12 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 314,Illumise,Bug,-----,Common,Any,Any,Any,Floral Meadow,,,Sempiternal Sanctums,,,,,,Gen 3,,"Bug, Human_Like",3.0,Grounded,illumise-3,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 314,Illumise,Bug,-----,Uncommon,Any,Any,Any,The Bumblezone,,,Sempiternal Sanctums,,,,,Water_Surface,Gen 3,,"Bug, Human_Like",3.0,Surface,illumise-4,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 859,Impidimp,Dark,Fairy,Common,8 - 15,Any,Any,Magical,,,,,,,,"Natural, Wild",Gen 8,,"Fairy, Human_Like",5.4,Grounded,impidimp-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-859,Impidimp,Dark,Fairy,Common,Any,Any,Any,"Nether: Is Forest, Nether: Is Warped",Nether: Is Desert,,,,,,,"Natural, Wild",Gen 8,,"Fairy, Human_Like",5.4,Grounded,impidimp-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+859,Impidimp,Dark,Fairy,Common,Any,Any,Any,"Nether: Forest, Nether: Warped",Nether: Desert,,,,,,,"Natural, Wild",Gen 8,,"Fairy, Human_Like",5.4,Grounded,impidimp-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 727,Incineroar,Fire,Dark,Ultra-Rare,8 - 15,Any,Clear,Jungle,,,,,,,,Natural,Gen 7,,Field,0.1,Grounded,incineroar-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 876,Indeedee,Psychic,Normal,Rare,MUST SEE,Any,Any,Magical,,,,,,,,Natural,Gen 8,,Fairy,1.0,Grounded,indeedee-1,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 876,Indeedee,Psychic,Normal,Uncommon,MUST SEE,Any,Any,End,,,,,,,,Natural,Gen 8,,Fairy,1.0,Grounded,indeedee-2,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 392,Infernape,Fire,Fighting,Ultra-Rare,8 - 15,Any,Clear,Mountain,,,,,,,,"Natural, Treetop",Gen 4,,"Field, Human_Like",0.1,Grounded,infernape-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-392,Infernape,Fire,Fighting,Ultra-Rare,Any,Any,Any,Nether: Is Forest,,,,,,,,"Natural, Treetop",Gen 4,,"Field, Human_Like",0.1,Grounded,infernape-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+392,Infernape,Fire,Fighting,Ultra-Rare,Any,Any,Any,Nether: Forest,,,,,,,,"Natural, Treetop",Gen 4,,"Field, Human_Like",0.1,Grounded,infernape-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 818,Inteleon,Water,-----,Ultra-Rare,8 - 15,Any,Any,,,,,,,,,"Natural, Freshwater",Gen 8,,"Water_1, Field",0.1,Grounded,inteleon-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 818,Inteleon,Water,-----,Ultra-Rare,MUST SEE,Any,Any,,,,,,,,,"Freshwater, Underwater",Gen 8,,"Water_1, Field",0.1,Submerged,inteleon-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 991,Ironbundle,Ice,Water,Ultra-Rare,Any,Any,Any,"Freezing, Glacial, Tundra",,,,,,,,Natural,Gen 9,Paradox,Undiscovered,3.0,Grounded,ironbundle-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -782,7 +782,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 601,Klinklang,Steel,-----,Common,Any,Any,Any,Overworld,,,,,"Cogwheel, Large Cogwheel, Gearbox, Vertical Gearbox",,,Redstone,Gen 5,,Mineral,0.1,Grounded,klinklang-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 109,Koffing,Poison,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Urban",Gen 1,,Amorphous,1.8,Grounded,koffing-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 109,Koffing,Poison,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Village",Gen 1,,Amorphous,1.8,Grounded,koffing-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-109,Koffing,Poison,-----,Common,Any,Any,Any,Nether: Is Toxic,,,,,,,,Natural,Gen 1,,Amorphous,9.0,Grounded,koffing-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+109,Koffing,Poison,-----,Common,Any,Any,Any,Nether: Toxic,,,,,,,,Natural,Gen 1,,Amorphous,9.0,Grounded,koffing-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 775,Komala,Normal,-----,Common,8 - 15,Any,Any,Savanna,,,,,,,,"Natural, Foliage, Treetop, Wild",Gen 7,,Field,6.0,Grounded,komala-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 784,Kommoo,Dragon,Fighting,Ultra-Rare,Any,Any,Any,Jungle,,,,,,,,"Natural, Wild",Gen 7,Pseudo Legendary,Dragon,0.1,Grounded,kommoo-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 784,Kommoo,Dragon,Fighting,Rare,Any,Any,Any,Tropical Island,,,,,,,,"Natural, Wild",Gen 7,Pseudo Legendary,Dragon,0.1,Grounded,kommoo-2,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -796,7 +796,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 646,Kyurem,Dragon,Ice,Ultra-Rare,Any,Any,Any,Glacial,,,,,,,,,Gen 5,Legendary,Undiscovered,1.0,Grounded,kyurem-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 305,Lairon,Steel,Rock,Common,Any,Any,Any,Mountain,Deep Dark,,,,Iron Ore,,,"Natural, Wild",Gen 3,,Monster,0.9,Grounded,lairon-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 305,Lairon,Steel,Rock,Uncommon,0 - 7,Any,Any,Overworld,Deep Dark,,,,Iron Ore,,,Natural,Gen 3,,Monster,0.9,Grounded,lairon-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-608,Lampent,Ghost,Fire,Common,Any,Any,Any,Nether: Is Soul Fire,,,,,,,,Natural,Gen 5,,Amorphous,0.18,Grounded,lampent-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+608,Lampent,Ghost,Fire,Common,Any,Any,Any,Nether: Soul Fire,,,,,,,,Natural,Gen 5,,Amorphous,0.18,Grounded,lampent-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 608,Lampent,Ghost,Fire,Common,CANNOT SEE,Night,Any,Overworld,,,,,,,,Mansion,Gen 5,,Amorphous,0.9,Grounded,lampent-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 645,Landorus,Ground,Flying,Ultra-Rare,Any,Any,Clear,Badlands,,,,,,,,Natural,Gen 5,Legendary,Undiscovered,1.0,Grounded,landorus-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 171,Lanturn,Water,Electric,Common,MUST SEE,Any,Any,Deep Ocean,,,,,,,,Underwater,Gen 2,,Water_2,0.6,Submerged,lanturn-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -804,7 +804,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 131,Lapras,Water,Ice,Rare,8 - 15,Any,Any,Ocean,Frozen Ocean,,,,,,,Water_Surface,Gen 1,,"Monster, Water_1",2.0,Surface,lapras-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 636,Larvesta,Bug,Fire,Uncommon,CANNOT SEE,Any,Any,Desert,,,,,,,,"Natural, Desert_Pyramid",Gen 5,,Bug,90.0,Grounded,larvesta-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 636,Larvesta,Bug,Fire,Uncommon,CANNOT SEE,Any,Any,Jungle,,,,,,,,"Natural, Jungle_Pyramid",Gen 5,,Bug,90.0,Grounded,larvesta-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-636,Larvesta,Bug,Fire,Uncommon,Any,Any,Any,"Nether: Is Crimson, Nether: Is Forest",,,,,,,,"Natural, Treetop",Gen 5,,Bug,9.0,Grounded,larvesta-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+636,Larvesta,Bug,Fire,Uncommon,Any,Any,Any,"Nether: Crimson, Nether: Forest",,,,,,,,"Natural, Treetop",Gen 5,,Bug,9.0,Grounded,larvesta-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 246,Larvitar,Rock,Ground,Ultra-Rare,8 - 15,Any,Any,Mountain,Freezing,,,,,,,"Natural, Wild",Gen 2,,Monster,9.0,Grounded,larvitar-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 246,Larvitar,Rock,Ground,Ultra-Rare,0 - 7,Any,Any,Mountain,,,,,,,,Natural,Gen 2,,Monster,9.0,Grounded,larvitar-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 470,Leafeon,Grass,-----,Ultra-Rare,8 - 15,Any,Any,"Forest, Jungle","Freezing, Spooky",,,,,,,Natural,Gen 4,,Field,1.0,Grounded,leafeon-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -814,7 +814,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 542,Leavanny,Bug,Grass,Ultra-Rare,MUST SEE,Day,Any,Forest,Spooky,,,,,,,Natural,Gen 5,,Bug,5.0,Grounded,leavanny-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 915,Lechonk,Normal,-----,Common,8 - 15,Any,Any,"Mushroom, Temperate",Mushroom Fields,,,,,,,Natural,Gen 9,,Field,9.0,Grounded,lechonk-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 915,Lechonk,Normal,-----,Common,8 - 15,Any,Any,Swamp,,,,,,,,Natural,Gen 9,,Field,1.8,Grounded,lechonk-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-915,Lechonk,Normal,-----,Common,Any,Any,Any,"Nether: Is Crimson, Nether: Is Fungus, Nether: Is Overgrowth",Nether: Is Warped,,,,,,,Natural,Gen 9,,Field,9.0,Grounded,lechonk-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+915,Lechonk,Normal,-----,Common,Any,Any,Any,"Nether: Crimson, Nether: Fungus, Nether: Overgrowth",Nether: Warped,,,,,,,Natural,Gen 9,,Field,9.0,Grounded,lechonk-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 166,Ledian,Bug,Flying,Uncommon,MUST SEE,Any,Any,Floral,,,,,,,,,Gen 2,,Bug,4.8,Grounded,ledian-1,generation2,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 165,Ledyba,Bug,Flying,Common,MUST SEE,Any,Any,Floral,,,,,,,,,Gen 2,,Bug,7.2,Grounded,ledyba-1,generation2,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 463,Lickilicky,Normal,-----,Uncommon,8 - 15,Any,Any,Grassland,,,,,,,,Natural,Gen 4,,Monster,0.2,Grounded,lickilicky-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -831,7 +831,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 264,Linoone Galarian,Dark,Normal,Common,8 - 15,Any,Any,Taiga,,,,,,,,"Natural, Wild",Gen 3,Hoenn Regional,Field,0.9,Grounded,linoone-galarian-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 667,Litleo,Fire,Normal,Common,MUST SEE,Any,Any,"Badlands, Savanna, Jungle",,,,,,,,Natural,Gen 6,,Field,8.0,Grounded,litleo-1,generation6,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 725,Litten,Fire,-----,Ultra-Rare,8 - 15,Any,Clear,Jungle,,,,,,,,Natural,Gen 7,,Field,9.0,Grounded,litten-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-607,Litwick,Ghost,Fire,Common,Any,Any,Any,Nether: Is Soul Fire,,,,,,,,Natural,Gen 5,,Amorphous,1.8,Grounded,litwick-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+607,Litwick,Ghost,Fire,Common,Any,Any,Any,Nether: Soul Fire,,,,,,,,Natural,Gen 5,,Amorphous,1.8,Grounded,litwick-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 607,Litwick,Ghost,Fire,Common,CANNOT SEE,Night,Any,Overworld,,,,,,,,Mansion,Gen 5,,Amorphous,9.0,Grounded,litwick-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 920,Lokix,Bug,Dark,Rare,MUST SEE,Any,Any,Plains,,,,,,,,,Gen 9,,Bug,10.0,Grounded,lokix-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 920,Lokix,Bug,Dark,Rare,MUST SEE,Any,Any,Forest,"Cold Ocean, Freezing, Peak, Taiga, Tundra",,,,,,,,Gen 9,,Bug,10.0,Grounded,lokix-2,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -866,8 +866,8 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 66,Machop,Fighting,-----,Common,8 - 15,Any,Any,Hills,,,,,,,,Natural,Gen 1,,Human_Like,5.4,Grounded,machop-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 240,Magby,Fire,-----,Common,8 - 15,Any,Clear,Hills,Volcanic,,,,"Lava, Magma Block",,,Natural,Gen 2,Baby,Undiscovered,9.0,Grounded,magby-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 240,Magby,Fire,-----,Common,8 - 15,Any,Clear,Volcanic,,,,,,,,Natural,Gen 2,Baby,Undiscovered,9.0,Grounded,magby-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-240,Magby,Fire,-----,Common,Any,Any,Any,"Nether: Is Basalt, Nether: Is Wasteland",,,,,,,,Natural,Gen 2,Baby,Undiscovered,9.0,Grounded,magby-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-219,Magcargo,Fire,Rock,Common,Any,Any,Any,Nether: Is Basalt,,,,,,,,Natural,Gen 2,,Amorphous,0.6,Grounded,magcargo-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+240,Magby,Fire,-----,Common,Any,Any,Any,"Nether: Basalt, Nether: Wasteland",,,,,,,,Natural,Gen 2,Baby,Undiscovered,9.0,Grounded,magby-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+219,Magcargo,Fire,Rock,Common,Any,Any,Any,Nether: Basalt,,,,,,,,Natural,Gen 2,,Amorphous,0.6,Grounded,magcargo-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 219,Magcargo,Fire,Rock,Common,Any,Any,Any,Nether,,,,,,,,Lava_Surface,Gen 2,,Amorphous,1.0,Surface,magcargo-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 219,Magcargo,Fire,Rock,Common,Any,Any,Any,Overworld,Volcanic,,,,,,,Lava_Surface,Gen 2,,Amorphous,0.2,Surface,magcargo-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 219,Magcargo,Fire,Rock,Common,Any,Any,Any,Volcanic,,,,,Lava,,,Natural,Gen 2,,Amorphous,1.0,Grounded,magcargo-4,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -879,10 +879,10 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 129,Magikarp,Water,-----,Uncommon,8 - 15,Any,Any,Ocean,,,,,,,,Water_Surface,Gen 1,,"Water_2, Dragon",1.8,Surface,magikarp-4,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 126,Magmar,Fire,-----,Common,8 - 15,Any,Clear,Hills,Volcanic,,,,"Lava, Magma Block",,,Natural,Gen 1,,Human_Like,0.9,Grounded,magmar-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 126,Magmar,Fire,-----,Common,8 - 15,Any,Clear,Volcanic,,,,,,,,Natural,Gen 1,,Human_Like,0.9,Grounded,magmar-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-126,Magmar,Fire,-----,Common,Any,Any,Any,"Nether: Is Basalt, Nether: Is Wasteland",,,,,,,,Natural,Gen 1,,Human_Like,0.9,Grounded,magmar-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+126,Magmar,Fire,-----,Common,Any,Any,Any,"Nether: Basalt, Nether: Wasteland",,,,,,,,Natural,Gen 1,,Human_Like,0.9,Grounded,magmar-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 467,Magmortar,Fire,-----,Common,8 - 15,Any,Clear,Hills,,,,,"Lava, Magma Block",,,Natural,Gen 4,,Human_Like,0.1,Grounded,magmortar-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 467,Magmortar,Fire,-----,Common,8 - 15,Any,Clear,Volcanic,,,,,,,,Natural,Gen 4,,Human_Like,0.1,Grounded,magmortar-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-467,Magmortar,Fire,-----,Common,Any,Any,Any,"Nether: Is Basalt, Nether: Is Wasteland",,,,,,,,Natural,Gen 4,,Human_Like,0.1,Grounded,magmortar-3,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+467,Magmortar,Fire,-----,Common,Any,Any,Any,"Nether: Basalt, Nether: Wasteland",,,,,,,,Natural,Gen 4,,Human_Like,0.1,Grounded,magmortar-3,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 81,Magnemite,Electric,Steel,Uncommon,Any,Any,Any,Overworld,Deep Dark,,,,,,,Redstone,Gen 1,,Mineral,9.0,Grounded,magnemite-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 81,Magnemite,Electric,Steel,Uncommon,8 - 15,Any,Any,Overworld,,,,,Lightning Rod,,,,Gen 1,,Mineral,90.0,Grounded,magnemite-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 82,Magneton,Electric,Steel,Uncommon,Any,Any,Any,Overworld,Deep Dark,,,,,,,Redstone,Gen 1,,Mineral,0.9,Grounded,magneton-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -921,7 +921,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 648,Meloetta,Normal,Psychic,Ultra-Rare,Any,Any,Any,"Floral, Plains",,,,,,,,,Gen 5,"Mythical, Legendary",Undiscovered,3.0,Grounded,meloetta-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 808,Meltan,Steel,-----,Ultra-Rare,CANNOT SEE,Any,Any,Deep Dark,,,,,,,,,Gen 7,"Mythical, Legendary",Undiscovered,3.0,Grounded,meltan-1,generation7,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 908,Meowscarada,Grass,Dark,Ultra-Rare,8 - 15,Any,Any,"Floral, Magical",,,,,,,,Natural,Gen 9,,"Field, Grass",0.1,Grounded,meowscarada-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-908,Meowscarada,Grass,Dark,Ultra-Rare,Any,Any,Any,Nether: Is Warped,Nether: Is Desert,,,,,,,Natural,Gen 9,,"Field, Grass",0.1,Grounded,meowscarada-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+908,Meowscarada,Grass,Dark,Ultra-Rare,Any,Any,Any,Nether: Warped,Nether: Desert,,,,,,,Natural,Gen 9,,"Field, Grass",0.1,Grounded,meowscarada-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 678,Meowstic,Psychic,-----,Rare,Any,Any,Any,End,,,,,,,,Natural,Gen 6,,Field,7.0,Grounded,meowstic-1,generation6,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 52,Meowth,Normal,-----,Common,8 - 15,Any,Clear,Overworld,"Arid, Freezing, Taiga",,Village,,,,,"Natural, Urban",Gen 1,"Kanto Regional, Kanto Regional",Field,9.0,Grounded,meowth-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 52,Meowth,Normal,-----,Common,8 - 15,Any,Clear,Overworld,"Arid, Freezing, Taiga",,,,,,,"Natural, Village",Gen 1,"Kanto Regional, Kanto Regional",Field,9.0,Grounded,meowth-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -975,21 +975,21 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 200,Misdreavus,Ghost,-----,Common,0 - 7,Any,Any,"Spooky, Swamp",,,,,,,,Natural,Gen 2,,Amorphous,1.8,Grounded,misdreavus-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 200,Misdreavus,Ghost,-----,Common,CANNOT SEE,Any,Any,"Spooky, Swamp",,,,,,,,Derelict,Gen 2,,Amorphous,5.4,Grounded,misdreavus-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 200,Misdreavus,Ghost,-----,Common,8 - 15,Night,Any,Swamp,,,,,,,,Natural,Gen 2,,Amorphous,5.4,Grounded,misdreavus-4,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-200,Misdreavus,Ghost,-----,Common,Any,Any,Any,Nether: Is Warped,,,,,,,,Natural,Gen 2,,Amorphous,5.4,Grounded,misdreavus-5,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+200,Misdreavus,Ghost,-----,Common,Any,Any,Any,Nether: Warped,,,,,,,,Natural,Gen 2,,Amorphous,5.4,Grounded,misdreavus-5,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 429,Mismagius,Ghost,-----,Common,1 - 7,Any,Any,Spooky,,,,,,,,Natural,Gen 4,,Amorphous,0.6,Grounded,mismagius-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 429,Mismagius,Ghost,-----,Common,0 - 7,Any,Any,"Spooky, Swamp",,,,,,,,Natural,Gen 4,,Amorphous,0.2,Grounded,mismagius-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 429,Mismagius,Ghost,-----,Common,CANNOT SEE,Any,Any,"Spooky, Swamp",,,,,,,,Derelict,Gen 4,,Amorphous,0.6,Grounded,mismagius-3,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 429,Mismagius,Ghost,-----,Common,8 - 15,Night,Any,Swamp,,,,,,,,Natural,Gen 4,,Amorphous,0.6,Grounded,mismagius-4,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-429,Mismagius,Ghost,-----,Common,Any,Any,Any,Nether: Is Warped,,,,,,,,Natural,Gen 4,,Amorphous,0.6,Grounded,mismagius-5,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+429,Mismagius,Ghost,-----,Common,Any,Any,Any,Nether: Warped,,,,,,,,Natural,Gen 4,,Amorphous,0.6,Grounded,mismagius-5,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 146,Moltres,Fire,Flying,Ultra-Rare,MUST SEE,Any,Clear,Badlands,,,,,,,,Natural,Gen 1,"Legendary, Kanto Regional",Undiscovered,1.0,Grounded,moltres,generation1,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 146,Moltres Galarian,Dark,Flying,Ultra-Rare,MUST SEE,Any,Any,Floral,,,,,,,,Natural,Gen 1,"Legendary, Kanto Regional",Undiscovered,1.0,Grounded,moltres-galarian,generation1,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 391,Monferno,Fire,Fighting,Ultra-Rare,8 - 15,Any,Clear,Mountain,,,,,,,,"Natural, Treetop",Gen 4,,"Field, Human_Like",0.9,Grounded,monferno-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-391,Monferno,Fire,Fighting,Ultra-Rare,Any,Any,Any,Nether: Is Forest,,,,,,,,"Natural, Treetop",Gen 4,,"Field, Human_Like",0.9,Grounded,monferno-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+391,Monferno,Fire,Fighting,Ultra-Rare,Any,Any,Any,Nether: Forest,,,,,,,,"Natural, Treetop",Gen 4,,"Field, Human_Like",0.9,Grounded,monferno-2,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 755,Morelull,Grass,Fairy,Common,Any,Any,Any,"Jungle, Magical, Mushroom",,,,,,,,Natural,Gen 7,,Grass,1.8,Grounded,morelull-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 755,Morelull,Grass,Fairy,Common,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 7,,Grass,1.8,Grounded,morelull-2,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-755,Morelull,Grass,Fairy,Common,Any,Any,Any,Nether: Is Fungus,,,,,,,,Natural,Gen 7,,Grass,9.0,Grounded,morelull-3,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+755,Morelull,Grass,Fairy,Common,Any,Any,Any,Nether: Fungus,,,,,,,,Natural,Gen 7,,Grass,9.0,Grounded,morelull-3,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 860,Morgrem,Dark,Fairy,Common,8 - 15,Any,Any,Magical,,,,,,,,"Natural, Wild",Gen 8,,"Fairy, Human_Like",0.54,Grounded,morgrem-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-860,Morgrem,Dark,Fairy,Common,Any,Any,Any,"Nether: Is Forest, Nether: Is Warped",Nether: Is Desert,,,,,,,"Natural, Wild",Gen 8,,"Fairy, Human_Like",0.54,Grounded,morgrem-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+860,Morgrem,Dark,Fairy,Common,Any,Any,Any,"Nether: Forest, Nether: Warped",Nether: Desert,,,,,,,"Natural, Wild",Gen 8,,"Fairy, Human_Like",0.54,Grounded,morgrem-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 877,Morpeko,Electric,Dark,Uncommon,MUST SEE,Any,Any,Spooky,,,,,,,,,Gen 8,,"Field, Fairy",4.1,Grounded,morpeko-1,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 122,Mrmime,Psychic,Fairy,Uncommon,8 - 15,Any,Any,Overworld,Freezing,,,,,,,"Natural, Urban",Gen 1,Kanto Regional,Human_Like,1.0,Grounded,mrmime-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 122,Mrmime,Psychic,Fairy,Uncommon,8 - 15,Any,Any,Overworld,Freezing,,,,,,,"Natural, Village",Gen 1,Kanto Regional,Human_Like,1.0,Grounded,mrmime-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1012,10 +1012,10 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 518,Musharna,Psychic,-----,Rare,Any,Any,Any,End,,,,,,,,,Gen 5,,Field,3.2,Grounded,musharna-2,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 932,Nacli,Rock,-----,Common,8 - 15,Any,Any,Badlands,,,,,,,,"Natural, Wild",Gen 9,,Mineral,5.4,Grounded,nacli-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 932,Nacli,Rock,-----,Common,Any,Any,Any,,,,,,,,,"Salt, Natural, Wild",Gen 9,,Mineral,9.0,Grounded,nacli-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-932,Nacli,Rock,-----,Common,Any,Any,Any,Nether: Is Quartz,,,,,,,,,Gen 9,,Mineral,9.0,Grounded,nacli-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+932,Nacli,Rock,-----,Common,Any,Any,Any,Nether: Quartz,,,,,,,,,Gen 9,,Mineral,9.0,Grounded,nacli-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 933,Naclstack,Rock,-----,Common,8 - 15,Any,Any,Badlands,,,,,,,,"Natural, Wild",Gen 9,,Mineral,0.54,Grounded,naclstack-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 933,Naclstack,Rock,-----,Common,Any,Any,Any,,,,,,,,,"Salt, Natural, Wild",Gen 9,,Mineral,0.9,Grounded,naclstack-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-933,Naclstack,Rock,-----,Common,Any,Any,Any,Nether: Is Quartz,,,,,,,,,Gen 9,,Mineral,0.9,Grounded,naclstack-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+933,Naclstack,Rock,-----,Common,Any,Any,Any,Nether: Quartz,,,,,,,,,Gen 9,,Mineral,0.9,Grounded,naclstack-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 804,Naganadel,Poison,Dragon,Ultra-Rare,MUST SEE,Any,Any,Swamp,,,,,,,,,Gen 7,Ultra Beast,Undiscovered,3.0,Grounded,naganadel-1,generation7,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 177,Natu,Psychic,Flying,Common,8 - 15,Day,Any,"Badlands, Plateau",,,,,,,,"Natural, Treetop",Gen 2,,Flying,5.4,Grounded,natu-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 177,Natu,Psychic,Flying,Common,8 - 15,Day,Any,Overworld,,,,,,,,Trail_Ruins,Gen 2,,Flying,90.0,Grounded,natu-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1032,9 +1032,9 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 793,Nihilego,Rock,Poison,Ultra-Rare,Any,Any,Any,End,,,,,,,,,Gen 7,Ultra Beast,Undiscovered,3.0,Grounded,nihilego-2,generation7,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 290,Nincada,Bug,Ground,Common,0 - 7,Any,Any,"Forest, Jungle",Deep Dark,,,,,,,Natural,Gen 3,,Bug,10.0,Grounded,nincada-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 38,Ninetales,Fire,-----,Uncommon,8 - 15,Any,Any,"Forest, Taiga",Freezing,,,,,,,Natural,Gen 1,Kanto Regional,Field,0.6,Grounded,ninetales-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-38,Ninetales,Fire,-----,Common,Any,Any,Any,Nether: Is Forest,Nether: Is Frozen,,,,,,,Natural,Gen 1,Kanto Regional,Field,0.2,Grounded,ninetales-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+38,Ninetales,Fire,-----,Common,Any,Any,Any,Nether: Forest,Nether: Frozen,,,,,,,Natural,Gen 1,Kanto Regional,Field,0.2,Grounded,ninetales-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 38,Ninetales Alolan,Ice,Fairy,Uncommon,8 - 15,Any,Any,"Snowy Forest, Snowy Taiga",,,,,,,,Natural,Gen 1,Kanto Regional,Field,0.6,Grounded,ninetales-alolan-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-38,Ninetales Alolan,Ice,Fairy,Common,Any,Any,Any,Nether: Is Frozen,,,,,,,,Natural,Gen 1,Kanto Regional,Field,0.2,Grounded,ninetales-alolan-4,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+38,Ninetales Alolan,Ice,Fairy,Common,Any,Any,Any,Nether: Frozen,,,,,,,,Natural,Gen 1,Kanto Regional,Field,0.2,Grounded,ninetales-alolan-4,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 291,Ninjask,Bug,Flying,Common,8 - 15,Day,Clear,"Forest, Jungle",Freezing,,,,,,,Natural,Gen 3,,Bug,2.0,Grounded,ninjask-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 164,Noctowl,Normal,Flying,Common,8 - 15,Night,Any,"Forest, Sky, Spooky",,,,,,,,"Natural, Treetop",Gen 2,,Flying,1.0,Grounded,noctowl-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 714,Noibat,Flying,Dragon,Uncommon,8 - 15,Night,Any,Spooky,,,,,,,1,Natural,Gen 6,,"Flying, Dragon",5,Grounded,noibat-1,generation6,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1050,7 +1050,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 299,Nosepass,Rock,-----,Uncommon,0 - 7,Any,Any,Overworld,Deep Dark,,,,,,,Natural,Gen 3,,Mineral,5.4,Grounded,nosepass-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 322,Numel,Fire,Ground,Common,8 - 15,Any,Any,Badlands,,,,,,,,Natural,Gen 3,,Field,5.4,Grounded,numel-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 322,Numel,Fire,Ground,Common,8 - 15,Any,Any,Volcanic,,,,,,,,Natural,Gen 3,,Field,9.0,Grounded,numel-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-322,Numel,Fire,Ground,Common,Any,Any,Any,"Nether: Is Overgrowth, Nether: Is Wasteland",,,,,,,,Natural,Gen 3,,Field,5.4,Grounded,numel-3,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+322,Numel,Fire,Ground,Common,Any,Any,Any,"Nether: Overgrowth, Nether: Wasteland",,,,,,,,Natural,Gen 3,,Field,5.4,Grounded,numel-3,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 274,Nuzleaf,Grass,Dark,Common,8 - 15,Any,Any,Forest,,,,,,,,"Natural, Treetop",Gen 3,,"Field, Grass",0.54,Grounded,nuzleaf-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 919,Nymble,Bug,-----,Common,MUST SEE,Any,Any,Plains,,,,,,,,,Gen 9,,Bug,10.0,Grounded,nymble-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 919,Nymble,Bug,-----,Common,MUST SEE,Any,Any,Forest,"Cold Ocean, Freezing, Peak, Taiga, Tundra",,,,,,,,Gen 9,,Bug,10.0,Grounded,nymble-2,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1061,13 +1061,13 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 1017,Ogerpon,Grass,-----,Ultra-Rare,Any,Any,Any,Lush,,,,,,,,,Gen 9,,Undiscovered,1.0,Grounded,ogerpon-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 916,Oinkologne,Normal,-----,Common,8 - 15,Any,Any,"Mushroom, Temperate",Mushroom Fields,,,,,,,Natural,Gen 9,,Field,1.0,Grounded,oinkologne-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 916,Oinkologne,Normal,-----,Common,8 - 15,Any,Any,Swamp,,,,,,,,Natural,Gen 9,,Field,0.2,Grounded,oinkologne-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-916,Oinkologne,Normal,-----,Common,Any,Any,Any,"Nether: Is Crimson, Nether: Is Fungus, Nether: Is Overgrowth",Nether: Is Warped,,,,,,,Natural,Gen 9,,Field,1.0,Grounded,oinkologne-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+916,Oinkologne,Normal,-----,Common,Any,Any,Any,"Nether: Crimson, Nether: Fungus, Nether: Overgrowth",Nether: Warped,,,,,,,Natural,Gen 9,,Field,1.0,Grounded,oinkologne-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 138,Omanyte,Rock,Water,Ultra-Rare,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 1,,"Water_1, Water_3",9.0,Grounded,omanyte-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 138,Omanyte,Rock,Water,Ultra-Rare,0 - 7,Any,Any,Lush,,,,,,,,Underwater,Gen 1,,"Water_1, Water_3",9.0,Submerged,omanyte-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 139,Omastar,Rock,Water,Ultra-Rare,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 1,,"Water_1, Water_3",1.0,Grounded,omastar-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 139,Omastar,Rock,Water,Ultra-Rare,0 - 7,Any,Any,Lush,,,,,,,,Underwater,Gen 1,,"Water_1, Water_3",1.0,Submerged,omastar-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 95,Onix,Rock,Ground,Uncommon,0 - 7,Any,Any,Overworld,Deep Dark,,,,,,,Natural,Gen 1,,Mineral,5.4,Grounded,onix-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-95,Onix,Rock,Ground,Uncommon,Any,Any,Any,Nether: Is Basalt,,,,,,,,Natural,Gen 1,,Mineral,1.8,Grounded,onix-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+95,Onix,Rock,Ground,Uncommon,Any,Any,Any,Nether: Basalt,,,,,,,,Natural,Gen 1,,Mineral,1.8,Grounded,onix-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 826,Orbeetle,Bug,Psychic,Rare,MUST SEE,Any,Any,Temperate,Spooky,,,,,,,Natural,Gen 8,,Bug,1.0,Grounded,orbeetle-1,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 968,Orthworm,Steel,-----,Rare,MUST SEE,Any,Any,Desert,,,,,,,,Natural,Gen 9,,Field,2.0,Grounded,orthworm-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 501,Oshawott,Water,-----,Ultra-Rare,8 - 15,Any,Any,Beach,Freezing,,,,,,,Natural,Gen 5,,Field,9.0,Grounded,oshawott-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1087,10 +1087,10 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 536,Palpitoad,Water,Ground,Uncommon,MUST SEE,Any,Any,River,,,,,,,,Natural,Gen 5,,Water_1,3.0,Grounded,palpitoad-2,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 46,Paras,Bug,Grass,Uncommon,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 1,,"Bug, Grass",9.0,Grounded,paras-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 46,Paras,Bug,Grass,Common,Any,Any,Any,Mushroom,,,,,,,,Natural,Gen 1,,"Bug, Grass",9.0,Grounded,paras-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-46,Paras,Bug,Grass,Common,Any,Any,Any,Nether: Is Fungus,Nether: Is Warped,,,,,,,Natural,Gen 1,,"Bug, Grass",9.0,Grounded,paras-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+46,Paras,Bug,Grass,Common,Any,Any,Any,Nether: Fungus,Nether: Warped,,,,,,,Natural,Gen 1,,"Bug, Grass",9.0,Grounded,paras-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 47,Parasect,Bug,Grass,Uncommon,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 1,,"Bug, Grass",1.0,Grounded,parasect-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 47,Parasect,Bug,Grass,Common,Any,Any,Any,Mushroom,,,,,,,,Natural,Gen 1,,"Bug, Grass",1.0,Grounded,parasect-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-47,Parasect,Bug,Grass,Common,Any,Any,Any,Nether: Is Fungus,Nether: Is Warped,,,,,,,Natural,Gen 1,,"Bug, Grass",1.0,Grounded,parasect-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+47,Parasect,Bug,Grass,Common,Any,Any,Any,Nether: Fungus,Nether: Warped,,,,,,,Natural,Gen 1,,"Bug, Grass",1.0,Grounded,parasect-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 504,Patrat,Normal,-----,Common,8 - 15,Any,Any,Grassland,,,,,,,,Natural,Gen 5,,Field,9.0,Grounded,patrat-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 921,Pawmi,Electric,-----,Uncommon,MUST SEE,Any,Any,Plains,,,,,,,,Natural,Gen 9,,Field,9.0,Grounded,pawmi-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 922,Pawmo,Electric,Fighting,Uncommon,MUST SEE,Any,Any,Plains,,,,,,,,Natural,Gen 9,,Field,2.0,Grounded,pawmo-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1115,7 +1115,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 231,Phanpy,Ground,-----,Common,8 - 15,Any,Any,Savanna,,,,,,,,"Natural, Wild",Gen 2,,Field,5.4,Grounded,phanpy-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 708,Phantump,Ghost,Grass,Common,8 - 15,Night,Any,"Forest, Taiga",,,,,,,,"Natural, Wild",Gen 6,,"Grass, Amorphous",1.8,Grounded,phantump-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 708,Phantump,Ghost,Grass,Common,8 - 15,Night,Any,Spooky,,,,,,,,"Natural, Wild",Gen 6,,"Grass, Amorphous",9.0,Grounded,phantump-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-708,Phantump,Ghost,Grass,Common,Any,Any,Any,"Nether: Is Forest, Nether: Is Warped",Nether: Is Desert,,,,,,,"Natural, Wild",Gen 6,,"Grass, Amorphous",5.4,Grounded,phantump-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+708,Phantump,Ghost,Grass,Common,Any,Any,Any,"Nether: Forest, Nether: Warped",Nether: Desert,,,,,,,"Natural, Wild",Gen 6,,"Grass, Amorphous",5.4,Grounded,phantump-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 489,Phione,Water,-----,Ultra-Rare,Any,Any,Any,Ocean,,,,,,,,,Gen 4,"Mythical, Legendary","Water_1, Fairy",3.0,Submerged,phione-1,generation4,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 172,Pichu,Electric,-----,Uncommon,8 - 15,Any,Any,Forest,Spooky,,,,,,,Natural,Gen 2,Baby,Undiscovered,5.4,Grounded,pichu-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 18,Pidgeot,Normal,Flying,Common,8 - 15,Day,Any,"Temperate, Sky",Spooky,,,,,,,"Natural, Treetop",Gen 1,,Flying,0.1,Grounded,pidgeot-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1125,7 +1125,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 519,Pidove,Normal,Flying,Common,8 - 15,Day,Any,Overworld,"Arid, Tundra",,,,,,,"Natural, Urban",Gen 5,,Flying,9.0,Grounded,pidove-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 519,Pidove,Normal,Flying,Common,8 - 15,Day,Any,Overworld,"Arid, Tundra",,,,,,,"Natural, Village",Gen 5,,Flying,9.0,Grounded,pidove-4,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 499,Pignite,Fire,Fighting,Ultra-Rare,8 - 15,Any,Any,Plains,,,,,,,,Natural,Gen 5,,Field,0.9,Grounded,pignite-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-499,Pignite,Fire,Fighting,Ultra-Rare,Any,Any,Any,"Nether: Is Crimson, Nether: Is Overgrowth",,,,,,,,Natural,Gen 5,,Field,0.9,Grounded,pignite-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+499,Pignite,Fire,Fighting,Ultra-Rare,Any,Any,Any,"Nether: Crimson, Nether: Overgrowth",,,,,,,,Natural,Gen 5,,Field,0.9,Grounded,pignite-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 25,Pikachu,Electric,-----,Uncommon,8 - 15,Any,Any,Forest,Spooky,,,,,,,Natural,Gen 1,Kanto Regional,"Field, Fairy",0.54,Grounded,pikachu-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 25,Pikachu Region_Bias=Alola,Electric,-----,Uncommon,8 - 15,Any,Any,"Beach, Tropical Island",Freezing,,,,,,,Natural,Gen 1,Kanto Regional,Undiscovered,1.8,Grounded,pikachu-alola-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 731,Pikipek,Normal,Flying,Uncommon,MUST SEE,Any,Any,"Forest, Jungle, Taiga",,,,,,,,,Gen 7,,Flying,4,Grounded,pikipek-1,generation7,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1156,7 +1156,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 855,Polteageist,Ghost,-----,Uncommon,Any,Any,Any,Spooky,,,,,,,,,Gen 8,,"Mineral, Amorphous",1.0,Grounded,polteageist-1,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 855,Polteageist Form=Antique,Ghost,-----,Uncommon,Any,Any,Any,Spooky,,,,,,,,,Gen 8,,Undiscovered,0.005,Grounded,polteageist-antique-1,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 77,Ponyta,Fire,-----,Uncommon,8 - 15,Any,Clear,Grassland,,,,,,,,Natural,Gen 1,Kanto Regional,Field,5.4,Grounded,ponyta-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-77,Ponyta,Fire,-----,Common,Any,Any,Any,"Nether: Is Overgrowth, Nether: Is Wasteland",,,,,,,,Natural,Gen 1,Kanto Regional,Field,5.4,Grounded,ponyta-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+77,Ponyta,Fire,-----,Common,Any,Any,Any,"Nether: Overgrowth, Nether: Wasteland",,,,,,,,Natural,Gen 1,Kanto Regional,Field,5.4,Grounded,ponyta-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 77,Ponyta Galarian,Psychic,-----,Uncommon,8 - 15,Any,Any,"Floral, Magical",,,,,,,,"Natural, Wild",Gen 1,Kanto Regional,Field,9.0,Grounded,ponyta-galarian-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 261,Poochyena,Dark,-----,Common,8 - 15,Night,Any,"Badlands, Savanna",,,,,,,,Natural,Gen 3,,Field,5.4,Grounded,poochyena-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 261,Poochyena,Dark,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Pillager_Outpost",Gen 3,,Field,90.0,Grounded,poochyena-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1176,7 +1176,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 54,Psyduck,Water,-----,Common,8 - 15,Any,Any,,,,,,,,,"Natural, Freshwater",Gen 1,,"Water_1, Field",5.4,Grounded,psyduck-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 54,Psyduck,Water,-----,Common,MUST SEE,Any,Any,,,,,,,,,"Freshwater, Underwater",Gen 1,,"Water_1, Field",5.4,Submerged,psyduck-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 710,Pumpkaboo,Ghost,Grass,Common,Any,Night,Any,Overworld,,,,,"Pumpkin, Carved Pumpkin",,,Natural,Gen 6,,Amorphous,5.4,Grounded,pumpkaboo-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-710,Pumpkaboo,Ghost,Grass,Uncommon,Any,Any,Any,Nether: Is Overgrowth,,,,,,,,Natural,Gen 6,,Amorphous,9.0,Grounded,pumpkaboo-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+710,Pumpkaboo,Ghost,Grass,Uncommon,Any,Any,Any,Nether: Overgrowth,,,,,,,,Natural,Gen 6,,Amorphous,9.0,Grounded,pumpkaboo-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 247,Pupitar,Rock,Ground,Ultra-Rare,8 - 15,Any,Any,Mountain,Freezing,,,,,,,"Natural, Wild",Gen 2,,Monster,0.9,Grounded,pupitar-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 247,Pupitar,Rock,Ground,Ultra-Rare,0 - 7,Any,Any,Mountain,,,,,,,,Natural,Gen 2,,Monster,0.9,Grounded,pupitar-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 509,Purrloin,Dark,-----,Common,MUST SEE,Any,Clear,"Desert, Savanna, Jungle",,,,,,,,Natural,Gen 5,,Field,8.0,Grounded,purrloin-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1196,7 +1196,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 913,Quaxwell,Water,-----,Ultra-Rare,8 - 15,Any,Any,,,,,,,,,"Natural, River",Gen 9,,"Flying, Water_1",0.9,Grounded,quaxwell-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 156,Quilava,Fire,-----,Ultra-Rare,8 - 15,Any,Any,Temperate,Spooky,,,,,,,Natural,Gen 2,,Field,0.9,Grounded,quilava-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 156,Quilava Region_Bias=Hisui,Fire,-----,Ultra-Rare,8 - 15,Any,Clear,Taiga,,,,,,,,Natural,Gen 2,,Field,0.9,Grounded,quilava-hisui-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-156,Quilava Region_Bias=Hisui,Fire,-----,Ultra-Rare,Any,Any,Any,"Nether: Is Crimson, Nether: Is Forest, Nether: Is Overgrowth",,,,,,,,Natural,Gen 2,,Field,0.9,Grounded,quilava-hisui-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+156,Quilava Region_Bias=Hisui,Fire,-----,Ultra-Rare,Any,Any,Any,"Nether: Crimson, Nether: Forest, Nether: Overgrowth",,,,,,,,Natural,Gen 2,,Field,0.9,Grounded,quilava-hisui-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 651,Quilladin,Grass,-----,Ultra-Rare,8 - 15,Any,Any,Forest,Spooky,,,,,,,Natural,Gen 6,,Field,0.9,Grounded,quilladin-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 211,Qwilfish,Water,Poison,Uncommon,MUST SEE,Any,Any,"Lukewarm Ocean, Warm Ocean",,,Ocean Monument,,,,,Underwater,Gen 2,Johto Regional,Water_2,10.0,Submerged,qwilfish-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 211,Qwilfish,Water,Poison,Common,MUST SEE,Any,Any,Ocean,"Cold Ocean, Frozen Ocean",,,,,,,"Underwater, Ocean_Monument",Gen 2,Johto Regional,Water_2,10.0,Submerged,qwilfish-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1213,7 +1213,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 280,Ralts,Psychic,Fairy,Common,CANNOT SEE,Any,Any,Overworld,,,,,,,,Mansion,Gen 3,,"Human_Like, Amorphous",1.8,Grounded,ralts-4,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 409,Rampardos,Rock,-----,Ultra-Rare,8 - 15,Any,Any,Lush,,,,,,,,Natural,Gen 4,,Monster,1.0,Grounded,rampardos-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 78,Rapidash,Fire,-----,Uncommon,8 - 15,Any,Clear,Grassland,,,,,,,,Natural,Gen 1,Kanto Regional,Field,0.6,Grounded,rapidash-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-78,Rapidash,Fire,-----,Common,Any,Any,Any,"Nether: Is Overgrowth, Nether: Is Wasteland",,,,,,,,Natural,Gen 1,Kanto Regional,Field,0.6,Grounded,rapidash-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+78,Rapidash,Fire,-----,Common,Any,Any,Any,"Nether: Overgrowth, Nether: Wasteland",,,,,,,,Natural,Gen 1,Kanto Regional,Field,0.6,Grounded,rapidash-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 78,Rapidash Galarian,Psychic,Fairy,Uncommon,8 - 15,Any,Any,"Floral, Magical",,,,,,,,"Natural, Wild",Gen 1,Kanto Regional,Field,1.0,Grounded,rapidash-galarian-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 20,Raticate,Normal,-----,Common,8 - 15,Night,Any,Grassland,Spooky,,,,,,,Natural,Gen 1,Kanto Regional,Field,1.0,Grounded,raticate-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 20,Raticate,Normal,-----,Common,0 - 7,Any,Any,Overworld,Deep Dark,,,,,,,Natural,Gen 1,Kanto Regional,Field,1.0,Grounded,raticate-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1269,12 +1269,12 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 302,Sableye,Dark,Ghost,Common,Any,Any,Any,"Crystal Canyon, Crystalline Chasm",,,Sempiternal Sanctums,,,,,,Gen 3,,Human_Like,2.0,Grounded,sableye-3,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 757,Salandit,Poison,Fire,Common,Any,Any,Any,Volcanic,,,,,,,,Natural,Gen 7,,"Monster, Dragon",9.9,Grounded,salandit-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 757,Salandit,Poison,Fire,Common,0 - 7,Any,Any,"Badlands, Mountain",Volcanic,,,,Lava,,,Natural,Gen 7,,"Monster, Dragon",9.9,Grounded,salandit-2,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-757,Salandit,Poison,Fire,Common,Any,Any,Any,Nether: Is Basalt,,,,,,,,Natural,Gen 7,,"Monster, Dragon",9.9,Grounded,salandit-3,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-757,Salandit,Poison,Fire,Common,Any,Any,Any,Nether: Is Desert,,,,,,,,Natural,Gen 7,,"Monster, Dragon",5.94,Grounded,salandit-4,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+757,Salandit,Poison,Fire,Common,Any,Any,Any,Nether: Basalt,,,,,,,,Natural,Gen 7,,"Monster, Dragon",9.9,Grounded,salandit-3,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+757,Salandit,Poison,Fire,Common,Any,Any,Any,Nether: Desert,,,,,,,,Natural,Gen 7,,"Monster, Dragon",5.94,Grounded,salandit-4,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 758,Salazzle,Poison,Fire,Common,Any,Any,Any,Volcanic,,,,,,,,Natural,Gen 7,,"Monster, Dragon",0.1,Grounded,salazzle-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 758,Salazzle,Poison,Fire,Common,0 - 7,Any,Any,"Badlands, Mountain",Volcanic,,,,Lava,,,Natural,Gen 7,,"Monster, Dragon",0.1,Grounded,salazzle-2,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-758,Salazzle,Poison,Fire,Common,Any,Any,Any,Nether: Is Basalt,,,,,,,,Natural,Gen 7,,"Monster, Dragon",0.1,Grounded,salazzle-3,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-758,Salazzle,Poison,Fire,Common,Any,Any,Any,Nether: Is Desert,,,,,,,,Natural,Gen 7,,"Monster, Dragon",0.06,Grounded,salazzle-4,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+758,Salazzle,Poison,Fire,Common,Any,Any,Any,Nether: Basalt,,,,,,,,Natural,Gen 7,,"Monster, Dragon",0.1,Grounded,salazzle-3,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+758,Salazzle,Poison,Fire,Common,Any,Any,Any,Nether: Desert,,,,,,,,Natural,Gen 7,,"Monster, Dragon",0.06,Grounded,salazzle-4,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 503,Samurott,Water,-----,Ultra-Rare,8 - 15,Any,Any,Beach,Freezing,,,,,,,Natural,Gen 5,Unova Regional,Field,0.1,Grounded,samurott-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 503,Samurott,Water,-----,Ultra-Rare,8 - 15,Any,Any,Beach,Freezing,,,,,,,Water_Surface,Gen 5,Unova Regional,Field,0.1,Surface,samurott-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 503,Samurott Hisuian,Water,Dark,Ultra-Rare,8 - 15,Any,Any,Coast,Beach,,,,,,,Natural,Gen 5,Unova Regional,Field,0.1,Grounded,samurott-hisuian-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1294,7 +1294,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 545,Scolipede,Bug,Poison,Common,8 - 15,Night,Any,Forest,,,,,,,,"Natural, Wild",Gen 5,,Bug,0.02,Grounded,scolipede-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 545,Scolipede,Bug,Poison,Common,8 - 15,Night,Any,Jungle,,,,,,,,"Natural, Wild",Gen 5,,Bug,0.06,Grounded,scolipede-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 545,Scolipede,Bug,Poison,Common,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 5,,Bug,0.02,Grounded,scolipede-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-545,Scolipede,Bug,Poison,Common,Any,Any,Any,"Nether: Is Forest, Nether: Is Fungus",,,,,,,,"Natural, Wild",Gen 5,,Bug,0.06,Grounded,scolipede-4,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+545,Scolipede,Bug,Poison,Common,Any,Any,Any,"Nether: Forest, Nether: Fungus",,,,,,,,"Natural, Wild",Gen 5,,Bug,0.06,Grounded,scolipede-4,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 813,Scorbunny,Fire,-----,Ultra-Rare,8 - 15,Any,Any,"Grassland, Tundra",,,,,,,,Natural,Gen 8,,"Field, Human_Like",9.0,Grounded,scorbunny-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 952,Scovillain,Grass,Fire,Common,MUST SEE,Any,Any,Arid,,,,,,,,,Gen 9,,Grass,0.6,Grounded,scovillain-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 985,Screamtail,Fairy,Psychic,Ultra-Rare,Any,Any,Any,Dripstone,,,,,,,,,Gen 9,Paradox,Undiscovered,3.0,Grounded,screamtail-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1321,7 +1321,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 275,Shiftry,Grass,Dark,Common,8 - 15,Any,Any,Forest,,,,,,,,"Natural, Treetop",Gen 3,,"Field, Grass",0.06,Grounded,shiftry-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 756,Shiinotic,Grass,Fairy,Common,Any,Any,Any,"Jungle, Magical, Mushroom",,,,,,,,Natural,Gen 7,,Grass,0.2,Grounded,shiinotic-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 756,Shiinotic,Grass,Fairy,Common,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 7,,Grass,0.2,Grounded,shiinotic-2,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-756,Shiinotic,Grass,Fairy,Common,Any,Any,Any,Nether: Is Fungus,,,,,,,,Natural,Gen 7,,Grass,1.0,Grounded,shiinotic-3,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+756,Shiinotic,Grass,Fairy,Common,Any,Any,Any,Nether: Fungus,,,,,,,,Natural,Gen 7,,Grass,1.0,Grounded,shiinotic-3,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 403,Shinx,Electric,-----,Uncommon,8 - 15,Any,Any,"Desert, Savanna",,,,,,,,"Natural, Wild",Gen 4,,Field,9.0,Grounded,shinx-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 944,Shroodle,Poison,Normal,Common,8 - 15,Night,Any,"Jungle, Tropical Island",,,,,,,,"Natural, Treetop, Wild",Gen 9,,Field,1.8,Grounded,shroodle-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 285,Shroomish,Grass,-----,Common,8 - 15,Any,Any,Forest,Freezing,,,,,,,Natural,Gen 3,,"Fairy, Grass",1.8,Grounded,shroomish-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1340,11 +1340,11 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 854,Sinistea Form=Antique,Ghost,-----,Uncommon,Any,Any,Any,Spooky,,,,,,,,,Gen 8,,Undiscovered,0.05,Grounded,sinistea-antique-1,generation8,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 865,Sirfetchd,Fighting,-----,Rare,8 - 15,Any,Any,Forest,,,,,,,,"Natural, Wild",Gen 8,,"Flying, Field",1.0,Grounded,sirfetchd-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 850,Sizzlipede,Fire,Bug,Common,8 - 15,Any,Any,"Badlands, Volcanic",,,,,,,,"Natural, Wild",Gen 8,,Bug,5.4,Grounded,sizzlipede-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-850,Sizzlipede,Fire,Bug,Common,Any,Any,Any,Nether: Is Basalt,,,,,,,,"Natural, Wild",Gen 8,,Bug,5.4,Grounded,sizzlipede-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-850,Sizzlipede,Fire,Bug,Common,Any,Any,Any,Nether: Is Wasteland,,,,,,,,"Natural, Wild",Gen 8,,Bug,9.0,Grounded,sizzlipede-3,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+850,Sizzlipede,Fire,Bug,Common,Any,Any,Any,Nether: Basalt,,,,,,,,"Natural, Wild",Gen 8,,Bug,5.4,Grounded,sizzlipede-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+850,Sizzlipede,Fire,Bug,Common,Any,Any,Any,Nether: Wasteland,,,,,,,,"Natural, Wild",Gen 8,,Bug,9.0,Grounded,sizzlipede-3,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 227,Skarmory,Steel,Flying,Rare,8 - 15,Day,Any,"Sandy, Sky",,,,,,,,"Natural, Wild",Gen 2,,Flying,10.0,Grounded,skarmory-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 911,Skeledirge,Fire,Ghost,Ultra-Rare,8 - 15,Any,Any,Badlands,,,,,,,,Natural,Gen 9,,Field,0.1,Grounded,skeledirge-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-911,Skeledirge,Fire,Ghost,Ultra-Rare,Any,Any,Any,Nether: Is Wasteland,,,,,,,,Natural,Gen 9,,Field,0.1,Grounded,skeledirge-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+911,Skeledirge,Fire,Ghost,Ultra-Rare,Any,Any,Any,Nether: Wasteland,,,,,,,,Natural,Gen 9,,Field,0.1,Grounded,skeledirge-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 672,Skiddo,Grass,-----,Common,MUST SEE,Any,Any,Hills,,,,,,,,,Gen 6,,Field,8.0,Grounded,skiddo-1,generation6,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 188,Skiploom,Grass,Flying,Common,MUST SEE,Day,Clear,Plains,,,,,,,,,Gen 2,,"Fairy, Grass",0.9,Grounded,skiploom-1,generation2,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 300,Skitty,Normal,-----,Common,MUST SEE,Any,Clear,Overworld,"Arid, Freezing",,,,,,,"Natural, Village",Gen 3,,"Field, Fairy",9.0,Grounded,skitty-1,generation3,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1364,7 +1364,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 199,Slowking,Water,Psychic,Common,8 - 15,Any,Any,Beach,,,,,,,,Natural,Gen 2,Johto Regional,"Monster, Water_1",0.06,Grounded,slowking-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 79,Slowpoke,Water,Psychic,Common,8 - 15,Any,Any,Beach,,,,,,,,Natural,Gen 1,Kanto Regional,"Monster, Water_1",5.4,Grounded,slowpoke-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 79,Slowpoke,Water,Psychic,Common,8 - 15,Any,Any,,,,,,,,,"Natural, River",Gen 1,Kanto Regional,"Monster, Water_1",6.0,Grounded,slowpoke-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-218,Slugma,Fire,-----,Common,Any,Any,Any,"Nether: Is Basalt, Nether: Is Wasteland",,,,,,,,Natural,Gen 2,,Amorphous,5.4,Grounded,slugma-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+218,Slugma,Fire,-----,Common,Any,Any,Any,"Nether: Basalt, Nether: Wasteland",,,,,,,,Natural,Gen 2,,Amorphous,5.4,Grounded,slugma-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 218,Slugma,Fire,-----,Common,Any,Any,Any,"Nether, Volcanic",,,,,,,,Lava_Surface,Gen 2,,Amorphous,9.0,Surface,slugma-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 218,Slugma,Fire,-----,Common,Any,Any,Any,Overworld,Volcanic,,,,,,,Lava_Surface,Gen 2,,Amorphous,1.8,Surface,slugma-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 218,Slugma,Fire,-----,Common,Any,Any,Any,Volcanic,,,,,Lava,,,Natural,Gen 2,,Amorphous,9.0,Grounded,slugma-4,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1414,7 +1414,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 442,Spiritomb,Ghost,Dark,Rare,CANNOT SEE,Any,Any,Jungle,,,,,,,,"Natural, Jungle_Pyramid",Gen 4,,Amorphous,100.0,Grounded,spiritomb-6,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 442,Spiritomb,Ghost,Dark,Rare,Any,Any,Any,Howling Constructs,,,Sempiternal Sanctums,,,,,,Gen 4,,Amorphous,10.0,Grounded,spiritomb-7,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 906,Sprigatito,Grass,-----,Ultra-Rare,8 - 15,Any,Any,"Floral, Magical",,,,,,,,Natural,Gen 9,,"Field, Grass",9.0,Grounded,sprigatito-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-906,Sprigatito,Grass,-----,Ultra-Rare,Any,Any,Any,Nether: Is Warped,Nether: Is Desert,,,,,,,Natural,Gen 9,,"Field, Grass",9.0,Grounded,sprigatito-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+906,Sprigatito,Grass,-----,Ultra-Rare,Any,Any,Any,Nether: Warped,Nether: Desert,,,,,,,Natural,Gen 9,,"Field, Grass",9.0,Grounded,sprigatito-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 931,Squawkabilly,Normal,Flying,Common,8 - 15,Day,Any,"Jungle, Savanna, Tropical Island",,,,,,,,"Natural, Treetop",Gen 9,,Flying,2.0,Grounded,squawkabilly-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 931,Squawkabilly,Normal,Flying,Common,8 - 15,Day,Clear,Overworld,"Freezing, Sandy",,,,,,,"Urban, Treetop",Gen 9,,Flying,6.0,Grounded,squawkabilly-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 931,Squawkabilly,Normal,Flying,Common,8 - 15,Day,Clear,Overworld,"Freezing, Sandy",,,,,,,"Village, Treetop",Gen 9,,Flying,6.0,Grounded,squawkabilly-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1430,7 +1430,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 120,Staryu,Water,-----,Uncommon,8 - 15,Night,Any,Coast,,,,,,,,Natural,Gen 1,,Water_3,9.0,Grounded,staryu-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 120,Staryu,Water,-----,Uncommon,MUST SEE,Any,Any,Ocean,,,,,,,,Underwater,Gen 1,,Water_3,5.4,Seafloor,staryu-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 208,Steelix,Steel,Ground,Uncommon,0 - 7,Any,Any,Overworld,Deep Dark,,,,,,,Natural,Gen 2,,Mineral,0.6,Grounded,steelix-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-208,Steelix,Steel,Ground,Uncommon,Any,Any,Any,Nether: Is Basalt,,,,,,,,Natural,Gen 2,,Mineral,0.2,Grounded,steelix-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+208,Steelix,Steel,Ground,Uncommon,Any,Any,Any,Nether: Basalt,,,,,,,,Natural,Gen 2,,Mineral,0.2,Grounded,steelix-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 762,Steenee,Grass,-----,Common,8 - 15,Any,Any,"Jungle, Tropical Island",,,,,,,,Natural,Gen 7,,Grass,0.18,Grounded,steenee-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 874,Stonjourner,Rock,-----,Uncommon,8 - 15,Any,Any,Plains,,,,,,,,"Natural, Wild",Gen 8,,Mineral,6.0,Grounded,stonjourner-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 508,Stoutland,Normal,-----,Common,8 - 15,Any,Any,Overworld,Desert,,,,,,,"Natural, Urban",Gen 5,,Field,0.06,Grounded,stoutland-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1457,7 +1457,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 938,Tadbulb,Electric,-----,Common,MUST SEE,Any,Any,Swamp,,,,,,,,,Gen 9,,Water_1,3.8,Grounded,tadbulb-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 276,Taillow,Normal,Flying,Common,8 - 15,Day,Any,"Sky, Temperate",Spooky,,,,,,,"Natural, Treetop",Gen 3,,Flying,9.0,Grounded,taillow-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 663,Talonflame,Fire,Flying,Common,8 - 15,Day,Any,"Forest, Sky, Taiga",,,,,,,,"Natural, Treetop",Gen 6,,Flying,0.06,Grounded,talonflame-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-663,Talonflame,Fire,Flying,Common,Any,Any,Any,"Nether: Is Forest, Nether: Is Fungus",Nether: Is Warped,,,,,,,"Natural, Treetop",Gen 6,,Flying,0.06,Grounded,talonflame-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+663,Talonflame,Fire,Flying,Common,Any,Any,Any,"Nether: Forest, Nether: Fungus",Nether: Warped,,,,,,,"Natural, Treetop",Gen 6,,Flying,0.06,Grounded,talonflame-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 924,Tandemaus,Normal,-----,Common,8 - 15,Any,Any,Temperate,,,,,,,,"Natural, Wild",Gen 9,,"Field, Fairy",1.8,Grounded,tandemaus-1,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 924,Tandemaus,Normal,-----,Common,8 - 15,Any,Any,Overworld,"Freezing, Sandy",,,,,,,"Natural, Urban",Gen 9,,"Field, Fairy",5.4,Grounded,tandemaus-2,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 924,Tandemaus,Normal,-----,Common,8 - 15,Any,Any,Overworld,"Freezing, Sandy",,,,,,,"Natural, Village",Gen 9,,"Field, Fairy",5.4,Grounded,tandemaus-3,generation9,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1478,7 +1478,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 73,Tentacruel,Water,Poison,Common,MUST SEE,Any,Any,Deep Ocean,,,,,,,,Underwater,Gen 1,,Water_3,1.0,Submerged,tentacruel-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 73,Tentacruel,Water,Poison,Common,MUST SEE,Any,Any,Ocean,Deep Ocean,,,,,,,Underwater,Gen 1,,Water_3,0.6,Submerged,tentacruel-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 498,Tepig,Fire,-----,Ultra-Rare,8 - 15,Any,Any,Plains,,,,,,,,Natural,Gen 5,,Field,9.0,Grounded,tepig-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-498,Tepig,Fire,-----,Ultra-Rare,Any,Any,Any,"Nether: Is Crimson, Nether: Is Overgrowth",,,,,,,,Natural,Gen 5,,Field,9.0,Grounded,tepig-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+498,Tepig,Fire,-----,Ultra-Rare,Any,Any,Any,"Nether: Crimson, Nether: Overgrowth",,,,,,,,Natural,Gen 5,,Field,9.0,Grounded,tepig-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 828,Thievul,Dark,-----,Common,8 - 15,Night,Any,"Forest, Taiga",,,,,,,,Natural,Gen 8,,Field,0.2,Grounded,thievul-1,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 828,Thievul,Dark,-----,Uncommon,8 - 15,Night,Any,Plains,,,,,,,,Natural,Gen 8,,Field,1.0,Grounded,thievul-2,generation8,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 642,Thundurus,Electric,Flying,Ultra-Rare,Any,Any,Thunder,Mountain,,,,,,,,Natural,Gen 5,Legendary,Undiscovered,1.0,Grounded,thundurus-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1496,7 +1496,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 255,Torchic,Fire,-----,Ultra-Rare,8 - 15,Any,Any,Plains,,,,,,,,Natural,Gen 3,,Field,9.0,Grounded,torchic-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 324,Torkoal,Fire,-----,Common,Any,Any,Any,"Mountain, Thermal",,,,,Coal Ore,,,Natural,Gen 3,,Field,10.0,Grounded,torkoal-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 324,Torkoal,Fire,-----,Uncommon,0 - 7,Any,Any,Overworld,"Deep Dark, Mountain, Thermal",,,,Coal Ore,,,Natural,Gen 3,,Field,10.0,Grounded,torkoal-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-324,Torkoal,Fire,-----,Common,Any,Any,Any,Nether: Is Basalt,,,,,,,,Natural,Gen 3,,Field,2.0,Grounded,torkoal-3,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+324,Torkoal,Fire,-----,Common,Any,Any,Any,Nether: Basalt,,,,,,,,Natural,Gen 3,,Field,2.0,Grounded,torkoal-3,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 641,Tornadus,Flying,-----,Ultra-Rare,Any,Any,Rain,Ocean,,,,,,,,Natural,Gen 5,Legendary,Undiscovered,1.0,Surface,tornadus-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 726,Torracat,Fire,-----,Ultra-Rare,8 - 15,Any,Clear,Jungle,,,,,,,,Natural,Gen 7,,Field,0.9,Grounded,torracat-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 389,Torterra,Grass,Ground,Ultra-Rare,8 - 15,Any,Any,Forest,Spooky,,,,,,,Natural,Gen 4,,"Monster, Grass",0.1,Grounded,torterra-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1517,18 +1517,18 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 252,Treecko,Grass,-----,Ultra-Rare,8 - 15,Any,Any,Jungle,,,,,,,,"Natural, Treetop",Gen 3,,"Monster, Dragon",9.0,Grounded,treecko-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 709,Trevenant,Ghost,Grass,Common,8 - 15,Night,Any,"Forest, Taiga",,,,,,,,"Natural, Wild",Gen 6,,"Grass, Amorphous",0.2,Grounded,trevenant-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 709,Trevenant,Ghost,Grass,Common,8 - 15,Night,Any,Spooky,,,,,,,,"Natural, Wild",Gen 6,,"Grass, Amorphous",1.0,Grounded,trevenant-2,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-709,Trevenant,Ghost,Grass,Common,Any,Any,Any,"Nether: Is Forest, Nether: Is Warped",Nether: Is Desert,,,,,,,"Natural, Wild",Gen 6,,"Grass, Amorphous",0.6,Grounded,trevenant-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+709,Trevenant,Ghost,Grass,Common,Any,Any,Any,"Nether: Forest, Nether: Warped",Nether: Desert,,,,,,,"Natural, Wild",Gen 6,,"Grass, Amorphous",0.6,Grounded,trevenant-3,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 357,Tropius,Grass,Flying,Uncommon,8 - 15,Any,Any,Jungle,,,,,,,,"Natural, Wild",Gen 3,,"Monster, Grass",2.0,Grounded,tropius-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 732,Trumbeak,Normal,Flying,Uncommon,MUST SEE,Any,Any,"Forest, Jungle, Taiga",,,,,,,,,Gen 7,,Flying,4,Grounded,trumbeak-1,generation7,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 763,Tsareena,Grass,-----,Common,8 - 15,Any,Any,"Jungle, Tropical Island",,,,,,,,Natural,Gen 7,,Grass,0.02,Grounded,tsareena-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-776,Turtonator,Fire,Dragon,Uncommon,Any,Any,Any,Nether: Is Basalt,,,,,,,,"Natural, Wild",Gen 7,,"Monster, Dragon",10.0,Grounded,turtonator-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+776,Turtonator,Fire,Dragon,Uncommon,Any,Any,Any,Nether: Basalt,,,,,,,,"Natural, Wild",Gen 7,,"Monster, Dragon",10.0,Grounded,turtonator-1,generation7,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 387,Turtwig,Grass,-----,Ultra-Rare,8 - 15,Any,Any,Forest,Spooky,,,,,,,Natural,Gen 4,,"Monster, Grass",9.0,Grounded,turtwig-1,generation4,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 535,Tympole,Water,-----,Uncommon,MUST SEE,Any,Any,River,,,,,,,,Underwater,Gen 5,,Water_1,9.9,Submerged,tympole-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 602,Tynamo,Electric,-----,Rare,CANNOT SEE,Any,Any,Cave,,,,,,,,Underwater,Gen 5,,Amorphous,9.0,Submerged,tynamo-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 602,Tynamo,Electric,-----,Uncommon,CANNOT SEE,Any,Any,Lush,,,,,,,,Underwater,Gen 5,,Amorphous,5.0,Submerged,tynamo-2,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 157,Typhlosion,Fire,-----,Ultra-Rare,8 - 15,Any,Any,Temperate,Spooky,,,,,,,Natural,Gen 2,Johto Regional,Field,0.1,Grounded,typhlosion-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 157,Typhlosion Hisuian,Fire,Ghost,Ultra-Rare,8 - 15,Any,Clear,Taiga,,,,,,,,Natural,Gen 2,Johto Regional,Field,0.1,Grounded,typhlosion-hisuian-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-157,Typhlosion Hisuian,Fire,Ghost,Ultra-Rare,Any,Any,Any,"Nether: Is Crimson, Nether: Is Forest, Nether: Is Overgrowth",,,,,,,,Natural,Gen 2,Johto Regional,Field,0.1,Grounded,typhlosion-hisuian-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+157,Typhlosion Hisuian,Fire,Ghost,Ultra-Rare,Any,Any,Any,"Nether: Crimson, Nether: Forest, Nether: Overgrowth",,,,,,,,Natural,Gen 2,Johto Regional,Field,0.1,Grounded,typhlosion-hisuian-3,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 248,Tyranitar,Rock,Dark,Ultra-Rare,8 - 15,Any,Any,Mountain,Freezing,,,,,,,"Natural, Wild",Gen 2,Pseudo Legendary,Monster,0.1,Grounded,tyranitar-1,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 248,Tyranitar,Rock,Dark,Ultra-Rare,0 - 7,Any,Any,Mountain,,,,,,,,Natural,Gen 2,Pseudo Legendary,Monster,0.1,Grounded,tyranitar-2,generation2,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 697,Tyrantrum,Rock,Dragon,Ultra-Rare,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 6,,"Monster, Dragon",1.0,Grounded,tyrantrum-1,generation6,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1559,7 +1559,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 543,Venipede,Bug,Poison,Common,8 - 15,Night,Any,Forest,,,,,,,,"Natural, Wild",Gen 5,,Bug,1.8,Grounded,venipede-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 543,Venipede,Bug,Poison,Common,8 - 15,Night,Any,Jungle,,,,,,,,"Natural, Wild",Gen 5,,Bug,5.4,Grounded,venipede-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 543,Venipede,Bug,Poison,Common,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 5,,Bug,1.8,Grounded,venipede-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-543,Venipede,Bug,Poison,Common,Any,Any,Any,"Nether: Is Forest, Nether: Is Fungus",,,,,,,,"Natural, Wild",Gen 5,,Bug,5.4,Grounded,venipede-4,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+543,Venipede,Bug,Poison,Common,Any,Any,Any,"Nether: Forest, Nether: Fungus",,,,,,,,"Natural, Wild",Gen 5,,Bug,5.4,Grounded,venipede-4,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 49,Venomoth,Bug,Poison,Common,8 - 15,Night,Clear,"Spooky, Swamp",,,,,,,,Natural,Gen 1,,Bug,0.6,Grounded,venomoth-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 48,Venonat,Bug,Poison,Common,8 - 15,Night,Any,"Spooky, Swamp",,,,,,,,Natural,Gen 1,,Bug,5.4,Grounded,venonat-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 3,Venusaur,Grass,Poison,Ultra-Rare,8 - 15,Any,Any,"Jungle, Tropical Island",,,,,,,,Natural,Gen 1,,"Monster, Grass",0.1,Grounded,venusaur-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1599,7 +1599,7 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 721,Volcanion,Fire,Water,Ultra-Rare,Any,Any,Any,Mountain,,,,,,,,Natural,Gen 6,"Mythical, Legendary",Undiscovered,3.0,Grounded,volcanion-1,generation6,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 637,Volcarona,Bug,Fire,Uncommon,CANNOT SEE,Any,Any,Desert,,,,,,,,"Natural, Desert_Pyramid",Gen 5,,Bug,10.0,Grounded,volcarona-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 637,Volcarona,Bug,Fire,Uncommon,CANNOT SEE,Any,Any,Jungle,,,,,,,,"Natural, Jungle_Pyramid",Gen 5,,Bug,10.0,Grounded,volcarona-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-637,Volcarona,Bug,Fire,Uncommon,Any,Any,Any,"Nether: Is Crimson, Nether: Is Forest",,,,,,,,"Natural, Treetop",Gen 5,,Bug,1.0,Grounded,volcarona-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+637,Volcarona,Bug,Fire,Uncommon,Any,Any,Any,"Nether: Crimson, Nether: Forest",,,,,,,,"Natural, Treetop",Gen 5,,Bug,1.0,Grounded,volcarona-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 100,Voltorb,Electric,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Urban",Gen 1,Kanto Regional,Mineral,1.8,Grounded,voltorb-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 100,Voltorb,Electric,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Village",Gen 1,Kanto Regional,Mineral,1.8,Grounded,voltorb-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 100,Voltorb,Electric,-----,Uncommon,8 - 15,Any,Any,Overworld,,,,,Lightning Rod,,,,Gen 1,Kanto Regional,Mineral,90.0,Grounded,voltorb-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1608,9 +1608,9 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 100,Voltorb Hisuian,Electric,Grass,Uncommon,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Apricorns",Gen 1,Kanto Regional,Mineral,90.0,Grounded,voltorb-hisuian-6,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 629,Vullaby,Dark,Flying,Uncommon,MUST SEE,Any,Any,Badlands,,,,,,,,Natural,Gen 5,,Flying,5.0,Grounded,vullaby-1,generation5,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
 37,Vulpix,Fire,-----,Uncommon,8 - 15,Any,Any,"Forest, Taiga",Freezing,,,,,,,Natural,Gen 1,Kanto Regional,Field,5.4,Grounded,vulpix-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-37,Vulpix,Fire,-----,Common,Any,Any,Any,Nether: Is Forest,Nether: Is Frozen,,,,,,,Natural,Gen 1,Kanto Regional,Field,1.8,Grounded,vulpix-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+37,Vulpix,Fire,-----,Common,Any,Any,Any,Nether: Forest,Nether: Frozen,,,,,,,Natural,Gen 1,Kanto Regional,Field,1.8,Grounded,vulpix-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 37,Vulpix Alolan,Ice,-----,Uncommon,8 - 15,Any,Any,"Snowy Forest, Snowy Taiga",,,,,,,,Natural,Gen 1,Kanto Regional,Field,5.4,Grounded,vulpix-alolan-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-37,Vulpix Alolan,Ice,-----,Common,Any,Any,Any,Nether: Is Frozen,,,,,,,,Natural,Gen 1,Kanto Regional,Field,1.8,Grounded,vulpix-alolan-4,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+37,Vulpix Alolan,Ice,-----,Common,Any,Any,Any,Nether: Frozen,,,,,,,,Natural,Gen 1,Kanto Regional,Field,1.8,Grounded,vulpix-alolan-4,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 320,Wailmer,Water,-----,Uncommon,MUST SEE,Any,Any,Deep Ocean,,,,,,,,Underwater,Gen 3,,"Field, Water_2",1.8,Submerged,wailmer-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 321,Wailord,Water,-----,Uncommon,MUST SEE,Any,Any,Deep Ocean,,,,,,,,Underwater,Gen 3,,"Field, Water_2",0.2,Submerged,wailord-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 1009,Walkingwake,Water,Dragon,Ultra-Rare,Any,Morning,Any,"Beach, Coast",,,,Sand,,,,,Gen 9,Paradox,Undiscovered,3.0,Grounded,walkingwake-1,generation9,BCG x AllTheMons 1.2.0.zip,Cobblemon-fabric-1.5.2+1.20.1.jar
@@ -1623,12 +1623,12 @@ Dex Number,Pokemon Name,Primary Type,Secondary Type,Rarity,Sky,Time,Weather,Biom
 70,Weepinbell,Grass,Poison,Common,8 - 15,Any,Any,Jungle,,,,,,,,Natural,Gen 1,,Grass,0.9,Grounded,weepinbell-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 110,Weezing,Poison,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Urban",Gen 1,Kanto Regional,Amorphous,0.2,Grounded,weezing-1,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 110,Weezing,Poison,-----,Common,8 - 15,Any,Any,Overworld,,,,,,,,"Natural, Village",Gen 1,Kanto Regional,Amorphous,0.2,Grounded,weezing-2,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-110,Weezing,Poison,-----,Common,Any,Any,Any,Nether: Is Toxic,,,,,,,,Natural,Gen 1,Kanto Regional,Amorphous,1.0,Grounded,weezing-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+110,Weezing,Poison,-----,Common,Any,Any,Any,Nether: Toxic,,,,,,,,Natural,Gen 1,Kanto Regional,Amorphous,1.0,Grounded,weezing-3,generation1,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 547,Whimsicott,Grass,Fairy,Common,8 - 15,Any,Clear,Plains,,,,,,,,Natural,Gen 5,,"Fairy, Grass",0.6,Grounded,whimsicott-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 544,Whirlipede,Bug,Poison,Common,8 - 15,Night,Any,Forest,,,,,,,,"Natural, Wild",Gen 5,,Bug,0.18,Grounded,whirlipede-1,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 544,Whirlipede,Bug,Poison,Common,8 - 15,Night,Any,Jungle,,,,,,,,"Natural, Wild",Gen 5,,Bug,0.54,Grounded,whirlipede-2,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 544,Whirlipede,Bug,Poison,Common,0 - 7,Any,Any,Lush,,,,,,,,Natural,Gen 5,,Bug,0.18,Grounded,whirlipede-3,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
-544,Whirlipede,Bug,Poison,Common,Any,Any,Any,"Nether: Is Forest, Nether: Is Fungus",,,,,,,,"Natural, Wild",Gen 5,,Bug,0.54,Grounded,whirlipede-4,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
+544,Whirlipede,Bug,Poison,Common,Any,Any,Any,"Nether: Forest, Nether: Fungus",,,,,,,,"Natural, Wild",Gen 5,,Bug,0.54,Grounded,whirlipede-4,generation5,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 340,Whiscash,Water,Ground,Common,MUST SEE,Any,Any,Swamp,,,,,,,,Underwater,Gen 3,,Water_2,1.0,Submerged,whiscash-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 293,Whismur,Normal,-----,Uncommon,0 - 7,Any,Any,Deep Dark,,,,,,,,Natural,Gen 3,,"Monster, Field",9.0,Grounded,whismur-1,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar
 293,Whismur,Normal,-----,Common,0 - 7,Any,Any,Overworld,Deep Dark,,,,,,,Natural,Gen 3,,"Monster, Field",1.8,Grounded,whismur-2,generation3,Cobblemon-fabric-1.5.2+1.20.1.jar,Cobblemon-fabric-1.5.2+1.20.1.jar

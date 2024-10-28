@@ -6,22 +6,29 @@ import json
 import os
 
 def format_location_names(locations):
-    """Format biome/structure names for better readability."""
+    """Format biome, structure, or other location names for better readability."""
     formatted_locations = []
     for location in locations:
-        # Split by the '/' if present to handle cases like 'nether/is_frozen'
-        parts = location.split('/')
-        if len(parts) == 2:
-            namespace, descriptor = parts
-            formatted_name = f"{namespace.split(':')[1].replace('_', ' ').title()}: {descriptor.replace('_', ' ').title()}"
+        # Handle namespaced locations with optional descriptors
+        if ':' in location:
+            parts = location.split(':')
+            if '/' in parts[1]:
+                namespace, descriptor = parts[1].split('/')
+                # Format namespace and descriptor
+                formatted_namespace = namespace.replace('_', ' ').title()
+                formatted_descriptor = descriptor.replace('is_', '').replace('_', ' ').title()
+                formatted_location = f"{formatted_namespace}: {formatted_descriptor}"
+            else:
+                # Simple namespace case, such as 'is_overworld'
+                name = parts[1]
+                if name.startswith("is_"):
+                    name = name[3:]  # Remove the 'is_' prefix
+                formatted_location = name.replace('_', ' ').strip().title()
         else:
-            # Handle regular cases without the '/' character
-            name = location.split(':')[-1]
-            if name.startswith("is_"):
-                name = name[3:]  # Remove the 'is_' prefix
-            formatted_name = name.replace('_', ' ').strip().title()
+            # No namespace, just format the name normally
+            formatted_location = location.replace('_', ' ').title()
         
-        formatted_locations.append(formatted_name)
+        formatted_locations.append(formatted_location)
     
     return formatted_locations
 
