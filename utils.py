@@ -6,16 +6,25 @@ import json
 import os
 
 def format_location_names(locations):
-    """Format biome/structure names."""
+    """Format biome/structure names for better readability."""
     formatted_locations = []
     for location in locations:
-        name = location.split(':')[-1]
-        # Only remove the prefix 'is_' if it is at the beginning of the name
-        if name.startswith("is_"):
-            name = name[3:]  # Remove the 'is_' prefix
-        formatted_name = name.replace('_', ' ').strip().title()
+        # Split by the '/' if present to handle cases like 'nether/is_frozen'
+        parts = location.split('/')
+        if len(parts) == 2:
+            namespace, descriptor = parts
+            formatted_name = f"{namespace.split(':')[1].replace('_', ' ').title()}: {descriptor.replace('_', ' ').title()}"
+        else:
+            # Handle regular cases without the '/' character
+            name = location.split(':')[-1]
+            if name.startswith("is_"):
+                name = name[3:]  # Remove the 'is_' prefix
+            formatted_name = name.replace('_', ' ').strip().title()
+        
         formatted_locations.append(formatted_name)
+    
     return formatted_locations
+
 
 def get_weather_condition(condition):
     """Determine the weather condition."""

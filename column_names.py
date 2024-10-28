@@ -24,8 +24,10 @@ column_names = [
     "Weight",                  # Weight factor for spawn chance
     "Context",                 # Spawn context (e.g., Surface, Underground)
     "Spawn ID",                # ID of the spawn entry      
-    "Spawn Archive",           # Which archive the spawn data was from   
-    "Species Archive"          # Which archive the species data was from
+    #"Spawn Archive",           # Spawn data directory 
+    "Species Archive",         # Species data directory
+    "Original Spawn Archive",  # Spawn archive filename
+    "Original Species Archive" # Species archive filename
 ]
 
 skipped_entries_column_names = [
