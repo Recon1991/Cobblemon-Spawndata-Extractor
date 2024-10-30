@@ -105,17 +105,26 @@ def extract_archives(archives_dir, extracted_dir, overwrite=True):
     extracted_files_mapping = {}
 
     # Iterate over the archives in the directory and extract specific directories
-    for archive_name in os.listdir(archives_dir):
-        if archive_name.endswith(('.zip', '.jar')):
-            archive_path = os.path.join(archives_dir, archive_name)
-            with zipfile.ZipFile(archive_path, 'r') as zip_file:
-                for file_info in zip_file.infolist():
-                    if file_info.filename.startswith(('data/cobblemon/spawn_pool_world', 'data/cobblemon/species')):
-                        extracted_path = zip_file.extract(file_info, extracted_dir)
-                        extracted_files_mapping[os.path.abspath(extracted_path)] = archive_name
-                print(f"Extracted relevant directories from '{archive_name}' to '{extracted_dir}'")
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = []
+        for archive_name in os.listdir(archives_dir):
+            if archive_name.endswith(('.zip', '.jar')):
+                archive_path = os.path.join(archives_dir, archive_name)
+                futures.append(executor.submit(extract_specific_directories, archive_path, extracted_dir, extracted_files_mapping))
+
+        for future in as_completed(futures):
+            future.result()
 
     return extracted_files_mapping
+
+def extract_specific_directories(archive_path, extracted_dir, extracted_files_mapping):
+    """Extract specific directories from a zip/jar file."""
+    with zipfile.ZipFile(archive_path, 'r') as zip_file:
+        for file_info in zip_file.infolist():
+            if file_info.filename.startswith(('data/cobblemon/spawn_pool_world', 'data/cobblemon/species')):
+                extracted_path = zip_file.extract(file_info, extracted_dir)
+                extracted_files_mapping[os.path.abspath(extracted_path)] = os.path.basename(archive_path)
+        print(f"Extracted relevant directories from '{os.path.basename(archive_path)}' to '{extracted_dir}'")
 
 def extract_dex_number_from_filename(filename):
     """Extract and format the Dex number from the filename."""
@@ -258,7 +267,7 @@ def build_merged_entry(dex_number, species_data, entry, spawn_archive, species_a
     original_species_archive = os.path.basename(original_species_archive) if original_species_archive else "Unknown"
 
     return {
-        "Dex Number": dex_number,
+        "Dex Number": str(dex_number).zfill(4),
         "Pokemon Name": pokemon_name.title(),
         "Primary Type": primary_type,
         "Secondary Type": secondary_type,
