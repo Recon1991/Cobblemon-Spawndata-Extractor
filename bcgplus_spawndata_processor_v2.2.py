@@ -16,7 +16,8 @@ from logging.handlers import QueueHandler, QueueListener
 from queue import Queue
 
 from column_names import column_names, skipped_entries_column_names
-from utils import format_location_names, get_weather_condition, get_sky_condition
+from utils import format_location_names, get_weather_condition, get_sky_condition, get_moon_phase_name
+
 
 # Load configuration from config.json
 try:
@@ -120,7 +121,7 @@ def extract_dex_number_from_filename(filename):
     """Extract and format the Dex number from the filename."""
     base_name = os.path.basename(filename)
     dex_number = base_name.split('_')[0]
-    return dex_number.lstrip('0')
+    return dex_number.lstrip('0').zfill(4)
 
 def build_spawn_dex_dict(extracted_dir, extracted_files_mapping):
     """Build spawn Dex dictionary from extracted files."""
@@ -151,7 +152,7 @@ async def build_species_dex_dict(extracted_dir, extracted_files_mapping):
                     async with aiofiles.open(file_path, 'r', encoding='utf-8') as f:
                         data = await f.read()
                         data = json.loads(data)
-                        dex_number = str(data.get("nationalPokedexNumber"))
+                        dex_number = str(data.get("nationalPokedexNumber")).zfill(4)
                         archive_name = extracted_files_mapping.get(os.path.abspath(file_path), "Unknown")
                         species_dex_dict[dex_number] = (root, file_name, archive_name, data)
                 except json.JSONDecodeError as e:
@@ -225,7 +226,6 @@ def extract_species_info(species_data):
 
 def build_merged_entry(dex_number, species_data, entry, spawn_archive, species_archive, original_spawn_archive, original_species_archive, generation):
     """Build a merged entry dictionary for a given Pokémon."""
-    dex_number = str(dex_number).zfill(4)
     pokemon_name = entry.get("pokemon", "").strip()
     if not pokemon_name:
         return None
@@ -243,6 +243,13 @@ def build_merged_entry(dex_number, species_data, entry, spawn_archive, species_a
     labels = ', '.join(meaningful_labels) if meaningful_labels else ""
     time_range = entry.get("condition", {}).get("timeRange", "Any").title()
     sky_condition = get_sky_condition(entry)
+
+    # Translate moon phase numbers to names
+    moon_phase_number = entry.get("condition", {}).get("moonPhase")
+    moon_phase = get_moon_phase_name(moon_phase_number) if moon_phase_number is not None else ""
+
+    anti_moon_phase_number = entry.get("anticondition", {}).get("moonPhase")
+    anti_moon_phase = get_moon_phase_name(anti_moon_phase_number) if anti_moon_phase_number is not None else ""
 
     # Condense the archive paths for better readability
     spawn_archive = os.path.basename(spawn_archive) if spawn_archive else "Unknown"
@@ -267,8 +274,8 @@ def build_merged_entry(dex_number, species_data, entry, spawn_archive, species_a
         "Anti-Biomes": ', '.join(format_location_names(entry.get("anticondition", {}).get("biomes", []))).strip(),
         "Structures": ', '.join(format_location_names(entry.get("condition", {}).get("structures", []))).strip(),
         "Anti-Structures": ', '.join(format_location_names(entry.get("anticondition", {}).get("structures", []))).strip(),
-        "Moon Phase": entry.get("condition", {}).get("moonPhase", ""),
-        "Anti-Moon Phase": entry.get("anticondition", {}).get("moonPhase", ""),
+        "Moon Phase": moon_phase,
+        "Anti-Moon Phase": anti_moon_phase,
         "Base Blocks": ', '.join(format_location_names(entry.get("condition", {}).get("neededBaseBlocks", []))),
         "Nearby Blocks": ', '.join(format_location_names(entry.get("condition", {}).get("neededNearbyBlocks", []))),
         "Weight": entry.get("weight", ""),

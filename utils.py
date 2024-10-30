@@ -32,6 +32,19 @@ def format_location_names(locations):
     
     return formatted_locations
 
+def get_moon_phase_name(phase_number):
+    """Translate a moon phase number to a descriptive name."""
+    moon_phases = {
+        0: "Full Moon",
+        1: "Waning Gibbous",
+        2: "Last Quarter",
+        3: "Waning Crescent",
+        4: "New Moon",
+        5: "Waxing Crescent",
+        6: "First Quarter",
+        7: "Waxing Gibbous"
+    }
+    return moon_phases.get(phase_number, f"Unknown Phase ({phase_number})")
 
 def get_weather_condition(condition):
     """Determine the weather condition."""
