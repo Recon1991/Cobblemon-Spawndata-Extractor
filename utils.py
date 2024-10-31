@@ -32,9 +32,9 @@ def format_location_names(locations):
     
     return formatted_locations
 
-def get_moon_phase_name(phase_number):
-    """Translate a moon phase number to a descriptive name."""
-    moon_phases = {
+def get_moon_phase_name(moon_phases):
+    """Convert moon phase numbers (0-7) to readable moon phase names."""
+    moon_phase_map = {
         0: "Full Moon",
         1: "Waning Gibbous",
         2: "Last Quarter",
@@ -44,7 +44,18 @@ def get_moon_phase_name(phase_number):
         6: "First Quarter",
         7: "Waxing Gibbous"
     }
-    return moon_phases.get(phase_number, f"Unknown Phase ({phase_number})")
+    
+    # if moon_phases is None or Empty, return an empty string
+    if not moon_phases:
+        return ""
+        
+    # if moon_phases is a list, map each number to the corresponding phase name
+    if isinstance(moon_phase, list):
+        phase_names =   [moon_phase_map.get(phase, "Unknown Phase") for phase in moon_phases]
+        return ', '.join(phase_names)
+        
+    # if moon_phases is a single value, map it directly
+    return moon_phase_map.get(moon_phases, "Unknown Phase")
 
 def get_weather_condition(condition):
     """Determine the weather condition."""
