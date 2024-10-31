@@ -35,6 +35,7 @@ def format_location_names(locations):
 def get_moon_phase_name(moon_phases):
     """Convert moon phase numbers (0-7) to readable moon phase names."""
     moon_phase_map = {
+        0: "Full Moon",
         1: "Full Moon",
         2: "Waning Gibbous",
         3: "Last Quarter",
