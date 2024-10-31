@@ -1,198 +1,199 @@
 Dex Number,Pokemon Name,Primary Type,Secondary Type,Egg Groups,Generation,Labels,Species Archive
-0460,Abomasnow,grass,ice,"monster, grass",Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0617,Accelgor,bug,,bug,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0842,Appletun,grass,dragon,"grass, dragon",Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0930,Arboliva,grass,normal,grass,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0493,Arceus,normal,,undiscovered,Gen 4,"Mythical, Legendary",./data/extracted\data/cobblemon/species\generation4
-1018,Archaludon,steel,dragon,"mineral, dragon",Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0883,Arctovish,water,ice,undiscovered,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0881,Arctozolt,electric,ice,undiscovered,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0683,Aromatisse,fairy,,fairy,Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0531,Audino,normal,,fairy,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0371,Bagon,dragon,,dragon,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0689,Barbaracle,rock,water,water_3,Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0267,Beautifly,bug,flying,bug,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0688,Binacle,rock,water,water_3,Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0522,Blitzle,electric,,field,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0962,Bombirdier,flying,dark,flying,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0947,Brambleghast,grass,ghost,grass,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0946,Bramblin,grass,ghost,grass,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0628,Braviary,normal,flying,flying,Gen 5,Unova Regional,./data/extracted\data/cobblemon/species\generation5
-0986,Brute Bonnet,grass,dark,undiscovered,Gen 9,Paradox,./data/extracted\data/cobblemon/species\generation9
-0779,Bruxish,water,psychic,water_2,Gen 7,,./data/extracted\data/cobblemon/species\generation7
-0412,Burmy,bug,,bug,Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0838,Carkol,rock,fire,mineral,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0268,Cascoon,bug,,bug,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0351,Castform,normal,,"fairy, amorphous",Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0797,Celesteela,steel,flying,undiscovered,Gen 7,Ultra Beast,./data/extracted\data/cobblemon/species\generation7
-0421,Cherrim,grass,,"fairy, grass",Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0420,Cherubi,grass,,"fairy, grass",Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0833,Chewtle,water,,"monster, water_1",Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0573,Cinccino,normal,,field,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0692,Clauncher,water,,"water_1, water_3",Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0693,Clawitzer,water,,"water_1, water_3",Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0852,Clobbopus,fighting,,"water_1, human_like",Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0839,Coalossal,rock,fire,mineral,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0638,Cobalion,steel,fighting,undiscovered,Gen 5,Legendary,./data/extracted\data/cobblemon/species\generation5
-0341,Corphish,water,,"water_1, water_3",Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0342,Crawdaunt,water,dark,"water_1, water_3",Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0702,Dedenne,electric,fairy,"field, fairy",Gen 6,,./data/extracted\data/cobblemon/species\generation6
-3861,Deoxys-Attack,psychic,,undiscovered,Gen 3,"Mythical, Legendary",./data/extracted\data/cobblemon/species\generation3
-3862,Deoxys-Defense,psychic,,undiscovered,Gen 3,"Mythical, Legendary",./data/extracted\data/cobblemon/species\generation3
-3863,Deoxys-Speed,psychic,,undiscovered,Gen 3,"Mythical, Legendary",./data/extracted\data/cobblemon/species\generation3
-1011,Dipplin,grass,dragon,"grass, dragon",Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0929,Dolliv,grass,normal,grass,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0977,Dondozo,water,,water_2,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0882,Dracovish,water,dragon,undiscovered,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0880,Dracozolt,electric,dragon,undiscovered,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0780,Drampa,normal,dragon,"monster, dragon",Gen 7,,./data/extracted\data/cobblemon/species\generation7
-0452,Drapion,poison,dark,"bug, water_3",Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0834,Drednaw,water,rock,"monster, water_1",Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0621,Druddigon,dragon,,"monster, dragon",Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0982,Dudunsparce,normal,,field,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0206,Dunsparce,normal,,field,Gen 2,,./data/extracted\data/cobblemon/species\generation2
-0269,Dustox,bug,poison,bug,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0309,Electrike,electric,,field,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0905,Enamorus,fairy,flying,undiscovered,Gen 8,Legendary,./data/extracted\data/cobblemon/species\generation8
-0244,Entei,fire,,undiscovered,Gen 2,Legendary,./data/extracted\data/cobblemon/species\generation2
-0589,Escavalier,bug,steel,bug,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0981,Farigiraf,normal,psychic,field,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-1016,Fezandipiti,poison,fairy,undiscovered,Gen 9,Legendary,./data/extracted\data/cobblemon/species\generation9
-0456,Finneon,water,,water_2,Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0973,Flamigo,flying,fighting,flying,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0841,Flapple,grass,dragon,"grass, dragon",Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0676,Furfrou,normal,,field,Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0569,Garbodor,poison,,mineral,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-1000,Gholdengo,steel,ghost,undiscovered,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0203,Girafarig,normal,psychic,field,Gen 2,,./data/extracted\data/cobblemon/species\generation2
-1020,Gouging Fire,fire,dragon,undiscovered,Gen 9,Paradox,./data/extracted\data/cobblemon/species\generation9
-0853,Grapploct,fighting,,"water_1, human_like",Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0984,Great Tusk,ground,fighting,undiscovered,Gen 9,Paradox,./data/extracted\data/cobblemon/species\generation9
-0820,Greedent,normal,,field,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0736,Grubbin,bug,,bug,Gen 7,,./data/extracted\data/cobblemon/species\generation7
-0326,Grumpig,psychic,,field,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0316,Gulpin,poison,,amorphous,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0856,Hatenna,psychic,,fairy,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0858,Hatterene,psychic,fairy,fairy,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0857,Hattrem,psychic,,fairy,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0485,Heatran,fire,steel,undiscovered,Gen 4,Legendary,./data/extracted\data/cobblemon/species\generation4
-0695,Heliolisk,electric,normal,"monster, dragon",Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0694,Helioptile,electric,normal,"monster, dragon",Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0250,Ho-Oh,fire,flying,undiscovered,Gen 2,Legendary,./data/extracted\data/cobblemon/species\generation2
-1019,Hydrapple,grass,dragon,"grass, dragon",Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0686,Inkay,dark,psychic,"water_1, water_2",Gen 6,,./data/extracted\data/cobblemon/species\generation6
-1022,Iron Boulder,rock,psychic,undiscovered,Gen 9,Paradox,./data/extracted\data/cobblemon/species\generation9
-1023,Iron Crown,steel,psychic,undiscovered,Gen 9,Paradox,./data/extracted\data/cobblemon/species\generation9
-0992,Iron Hands,fighting,electric,undiscovered,Gen 9,Paradox,./data/extracted\data/cobblemon/species\generation9
-0993,Iron Jugulis,dark,flying,undiscovered,Gen 9,Paradox,./data/extracted\data/cobblemon/species\generation9
-0990,Iron Treads,ground,steel,undiscovered,Gen 9,Paradox,./data/extracted\data/cobblemon/species\generation9
-0588,Karrablast,bug,,bug,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0352,Kecleon,normal,,field,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0647,Keldeo,water,fighting,undiscovered,Gen 5,"Mythical, Legendary",./data/extracted\data/cobblemon/species\generation5
-0941,Kilowattrel,electric,flying,"water_1, flying",Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0950,Klawf,rock,,water_3,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-1007,Koraidon,fighting,dragon,undiscovered,Gen 9,Legendary,./data/extracted\data/cobblemon/species\generation9
-0380,Latias,dragon,psychic,undiscovered,Gen 3,Legendary,./data/extracted\data/cobblemon/species\generation3
-0381,Latios,dragon,psychic,undiscovered,Gen 3,Legendary,./data/extracted\data/cobblemon/species\generation3
-0249,Lugia,psychic,flying,undiscovered,Gen 2,Legendary,./data/extracted\data/cobblemon/species\generation2
-0457,Lumineon,water,,water_2,Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0687,Malamar,dark,psychic,"water_1, water_2",Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0310,Manectric,electric,,field,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0226,Mantine,water,flying,water_1,Gen 2,,./data/extracted\data/cobblemon/species\generation2
-0458,Mantyke,water,flying,undiscovered,Gen 4,Baby,./data/extracted\data/cobblemon/species\generation4
-0308,Medicham,fighting,psychic,human_like,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0307,Meditite,fighting,psychic,human_like,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0809,Melmetal,steel,,undiscovered,Gen 7,"Mythical, Legendary",./data/extracted\data/cobblemon/species\generation7
-0619,Mienfoo,fighting,,"field, human_like",Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0620,Mienshao,fighting,,"field, human_like",Gen 5,,./data/extracted\data/cobblemon/species\generation5
-1008,Miraidon,electric,dragon,undiscovered,Gen 9,Legendary,./data/extracted\data/cobblemon/species\generation9
-0414,Mothim,bug,flying,bug,Gen 4,,./data/extracted\data/cobblemon/species\generation4
-1015,Munkidori,poison,psychic,undiscovered,Gen 9,Legendary,./data/extracted\data/cobblemon/species\generation9
-0224,Octillery,water,,"water_1, water_2",Gen 2,,./data/extracted\data/cobblemon/species\generation2
-1014,Okidogi,poison,fighting,undiscovered,Gen 9,Legendary,./data/extracted\data/cobblemon/species\generation9
-0765,Oranguru,normal,psychic,field,Gen 7,,./data/extracted\data/cobblemon/species\generation7
-0741,Oricorio,fire,flying,flying,Gen 7,,./data/extracted\data/cobblemon/species\generation7
-0964,Palafin,water,,"field, water_2",Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0674,Pancham,fighting,,"field, human_like",Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0675,Pangoro,fighting,dark,"field, human_like",Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0515,Panpour,water,,field,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0511,Pansage,grass,,field,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0513,Pansear,fire,,field,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0766,Passimian,fighting,,field,Gen 7,,./data/extracted\data/cobblemon/species\generation7
-0795,Pheromosa,bug,fighting,undiscovered,Gen 7,Ultra Beast,./data/extracted\data/cobblemon/species\generation7
-0871,Pincurchin,electric,,"water_1, amorphous",Gen 8,,./data/extracted\data/cobblemon/species\generation8
-1012,Poltchageist,grass,ghost,"mineral, amorphous",Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0243,Raikou,electric,,undiscovered,Gen 2,Legendary,./data/extracted\data/cobblemon/species\generation2
-0895,Regidrago,dragon,,undiscovered,Gen 8,Legendary,./data/extracted\data/cobblemon/species\generation8
-0894,Regieleki,electric,,undiscovered,Gen 8,Legendary,./data/extracted\data/cobblemon/species\generation8
-0223,Remoraid,water,,"water_1, water_2",Gen 2,,./data/extracted\data/cobblemon/species\generation2
-0837,Rolycoly,rock,,mineral,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0479,Rotom,electric,ghost,amorphous,Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0627,Rufflet,normal,flying,flying,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0373,Salamence,dragon,flying,dragon,Gen 3,Pseudo Legendary,./data/extracted\data/cobblemon/species\generation3
-0844,Sandaconda,ground,,"field, dragon",Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0989,Sandy Shocks,electric,ground,undiscovered,Gen 9,Paradox,./data/extracted\data/cobblemon/species\generation9
-0539,Sawk,fighting,,human_like,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0560,Scrafty,dark,fighting,"field, dragon",Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0559,Scraggy,dark,fighting,"field, dragon",Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0364,Sealeo,ice,water,"water_1, field",Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0336,Seviper,poison,,"field, dragon",Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0372,Shelgon,dragon,,dragon,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0616,Shelmet,bug,,bug,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0266,Silcoon,bug,,bug,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0843,Silicobra,ground,,"field, dragon",Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0773,Silvally,normal,,undiscovered,Gen 7,Legendary,./data/extracted\data/cobblemon/species\generation7
-0516,Simipour,water,,field,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0512,Simisage,grass,,field,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0514,Simisear,fire,,field,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-1013,Sinistcha,grass,ghost,"mineral, amorphous",Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0451,Skorupi,poison,bug,"bug, water_3",Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0819,Skwovet,normal,,field,Gen 8,,./data/extracted\data/cobblemon/species\generation8
-0289,Slaking,normal,,field,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0287,Slakoth,normal,,field,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0685,Slurpuff,fairy,,fairy,Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0235,Smeargle,normal,,field,Gen 2,,./data/extracted\data/cobblemon/species\generation2
-0928,Smoliv,grass,normal,grass,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0459,Snover,grass,ice,"monster, grass",Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0363,Spheal,ice,water,"water_1, field",Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0918,Spidops,bug,,bug,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0325,Spoink,psychic,,field,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0682,Spritzee,fairy,,fairy,Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0805,Stakataka,rock,steel,undiscovered,Gen 7,Ultra Beast,./data/extracted\data/cobblemon/species\generation7
-0618,Stunfisk,ground,electric,"water_1, amorphous",Gen 5,Unova Regional,./data/extracted\data/cobblemon/species\generation5
-0245,Suicune,water,,undiscovered,Gen 2,Legendary,./data/extracted\data/cobblemon/species\generation2
-0192,Sunflora,grass,,grass,Gen 2,,./data/extracted\data/cobblemon/species\generation2
-0191,Sunkern,grass,,grass,Gen 2,,./data/extracted\data/cobblemon/species\generation2
-0317,Swalot,poison,,amorphous,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0684,Swirlix,fairy,,fairy,Gen 6,,./data/extracted\data/cobblemon/species\generation6
-0917,Tarountula,bug,,bug,Gen 9,,./data/extracted\data/cobblemon/species\generation9
-1024,Terapagos,normal,,undiscovered,Gen 9,Legendary,./data/extracted\data/cobblemon/species\generation9
-0639,Terrakion,rock,fighting,undiscovered,Gen 5,Legendary,./data/extracted\data/cobblemon/species\generation5
-0538,Throh,fighting,,human_like,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-1003,Ting-Lu,dark,ground,undiscovered,Gen 9,Legendary,./data/extracted\data/cobblemon/species\generation9
-0468,Togekiss,fairy,flying,"flying, fairy",Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0175,Togepi,fairy,,undiscovered,Gen 2,Baby,./data/extracted\data/cobblemon/species\generation2
-0176,Togetic,fairy,flying,"flying, fairy",Gen 2,,./data/extracted\data/cobblemon/species\generation2
-0568,Trubbish,poison,,mineral,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0772,Type: Null,normal,,undiscovered,Gen 7,Legendary,./data/extracted\data/cobblemon/species\generation7
-1800,Ultra Necrozma,psychic,dragon,undiscovered,Gen 7,Legendary,./data/extracted\data/cobblemon/species\generation7
-0892,urshifurs,fighting,water,undiscovered,Gen 8,Custom,./data/extracted\data/cobblemon/species\generation8
-0583,Vanillish,ice,,mineral,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0582,Vanillite,ice,,mineral,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0584,Vanilluxe,ice,,mineral,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0288,Vigoroth,normal,,field,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0640,Virizion,grass,fighting,undiscovered,Gen 5,Legendary,./data/extracted\data/cobblemon/species\generation5
-0365,Walrein,ice,water,"water_1, field",Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0940,Wattrel,electric,flying,"water_1, flying",Gen 9,,./data/extracted\data/cobblemon/species\generation9
-0746,Wishiwashi,water,,water_2,Gen 7,,./data/extracted\data/cobblemon/species\generation7
-1001,Wo-Chien,dark,grass,undiscovered,Gen 9,Legendary,./data/extracted\data/cobblemon/species\generation9
-0202,Wobbuffet,psychic,,amorphous,Gen 2,,./data/extracted\data/cobblemon/species\generation2
-0413,Wormadam,bug,grass,bug,Gen 4,,./data/extracted\data/cobblemon/species\generation4
-0265,Wurmple,bug,,bug,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0360,Wynaut,psychic,,undiscovered,Gen 3,Baby,./data/extracted\data/cobblemon/species\generation3
-0888,Zacian,fairy,,undiscovered,Gen 8,Legendary,./data/extracted\data/cobblemon/species\generation8
-0889,Zamazenta,fighting,,undiscovered,Gen 8,Legendary,./data/extracted\data/cobblemon/species\generation8
-0335,Zangoose,normal,,field,Gen 3,,./data/extracted\data/cobblemon/species\generation3
-0893,Zarude,dark,grass,undiscovered,Gen 8,"Mythical, Legendary",./data/extracted\data/cobblemon/species\generation8
-0523,Zebstrika,electric,,field,Gen 5,,./data/extracted\data/cobblemon/species\generation5
-0718,Zygarde,dragon,ground,undiscovered,Gen 6,Legendary,./data/extracted\data/cobblemon/species\generation6
+0460,Abomasnow,grass,ice,"monster, grass",Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0617,Accelgor,bug,,bug,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0842,Appletun,grass,dragon,"grass, dragon",Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0930,Arboliva,grass,normal,grass,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0493,Arceus,normal,,undiscovered,Gen 4,"Mythical, Legendary",Cobblemon-fabric-1.5.2+1.20.1.jar
+1018,Archaludon,steel,dragon,"mineral, dragon",Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0883,Arctovish,water,ice,undiscovered,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0881,Arctozolt,electric,ice,undiscovered,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0683,Aromatisse,fairy,,fairy,Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0531,Audino,normal,,fairy,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0371,Bagon,dragon,,dragon,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0689,Barbaracle,rock,water,water_3,Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0267,Beautifly,bug,flying,bug,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0688,Binacle,rock,water,water_3,Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0522,Blitzle,electric,,field,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0962,Bombirdier,flying,dark,flying,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0947,Brambleghast,grass,ghost,grass,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0946,Bramblin,grass,ghost,grass,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0628,Braviary,normal,flying,flying,Gen 5,Unova Regional,Cobblemon-fabric-1.5.2+1.20.1.jar
+0986,Brute Bonnet,grass,dark,undiscovered,Gen 9,Paradox,Cobblemon-fabric-1.5.2+1.20.1.jar
+0779,Bruxish,water,psychic,water_2,Gen 7,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0412,Burmy,bug,,bug,Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0838,Carkol,rock,fire,mineral,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0268,Cascoon,bug,,bug,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0351,Castform,normal,,"fairy, amorphous",Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0797,Celesteela,steel,flying,undiscovered,Gen 7,Ultra Beast,Cobblemon-fabric-1.5.2+1.20.1.jar
+0421,Cherrim,grass,,"fairy, grass",Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0420,Cherubi,grass,,"fairy, grass",Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0833,Chewtle,water,,"monster, water_1",Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0573,Cinccino,normal,,field,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0692,Clauncher,water,,"water_1, water_3",Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0693,Clawitzer,water,,"water_1, water_3",Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0852,Clobbopus,fighting,,"water_1, human_like",Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0839,Coalossal,rock,fire,mineral,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0638,Cobalion,steel,fighting,undiscovered,Gen 5,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0341,Corphish,water,,"water_1, water_3",Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0342,Crawdaunt,water,dark,"water_1, water_3",Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0702,Dedenne,electric,fairy,"field, fairy",Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+3861,Deoxys-Attack,psychic,,undiscovered,Gen 3,"Mythical, Legendary",BCG x AllTheMons 1.2.0.zip
+3862,Deoxys-Defense,psychic,,undiscovered,Gen 3,"Mythical, Legendary",BCG x AllTheMons 1.2.0.zip
+3863,Deoxys-Speed,psychic,,undiscovered,Gen 3,"Mythical, Legendary",BCG x AllTheMons 1.2.0.zip
+1011,Dipplin,grass,dragon,"grass, dragon",Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0929,Dolliv,grass,normal,grass,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0977,Dondozo,water,,water_2,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0882,Dracovish,water,dragon,undiscovered,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0880,Dracozolt,electric,dragon,undiscovered,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0780,Drampa,normal,dragon,"monster, dragon",Gen 7,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0452,Drapion,poison,dark,"bug, water_3",Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0834,Drednaw,water,rock,"monster, water_1",Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0621,Druddigon,dragon,,"monster, dragon",Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0982,Dudunsparce,normal,,field,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0206,Dunsparce,normal,,field,Gen 2,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0269,Dustox,bug,poison,bug,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0309,Electrike,electric,,field,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0905,Enamorus,fairy,flying,undiscovered,Gen 8,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0244,Entei,fire,,undiscovered,Gen 2,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0589,Escavalier,bug,steel,bug,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0981,Farigiraf,normal,psychic,field,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1016,Fezandipiti,poison,fairy,undiscovered,Gen 9,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0456,Finneon,water,,water_2,Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0973,Flamigo,flying,fighting,flying,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0841,Flapple,grass,dragon,"grass, dragon",Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0676,Furfrou,normal,,field,Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0569,Garbodor,poison,,mineral,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1000,Gholdengo,steel,ghost,undiscovered,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0203,Girafarig,normal,psychic,field,Gen 2,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1020,Gouging Fire,fire,dragon,undiscovered,Gen 9,Paradox,Cobblemon-fabric-1.5.2+1.20.1.jar
+0853,Grapploct,fighting,,"water_1, human_like",Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0984,Great Tusk,ground,fighting,undiscovered,Gen 9,Paradox,Cobblemon-fabric-1.5.2+1.20.1.jar
+0820,Greedent,normal,,field,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0736,Grubbin,bug,,bug,Gen 7,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0326,Grumpig,psychic,,field,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0316,Gulpin,poison,,amorphous,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0856,Hatenna,psychic,,fairy,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0858,Hatterene,psychic,fairy,fairy,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0857,Hattrem,psychic,,fairy,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0485,Heatran,fire,steel,undiscovered,Gen 4,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0695,Heliolisk,electric,normal,"monster, dragon",Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0694,Helioptile,electric,normal,"monster, dragon",Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0250,Ho-Oh,fire,flying,undiscovered,Gen 2,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+1019,Hydrapple,grass,dragon,"grass, dragon",Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0686,Inkay,dark,psychic,"water_1, water_2",Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1022,Iron Boulder,rock,psychic,undiscovered,Gen 9,Paradox,Cobblemon-fabric-1.5.2+1.20.1.jar
+1023,Iron Crown,steel,psychic,undiscovered,Gen 9,Paradox,Cobblemon-fabric-1.5.2+1.20.1.jar
+0992,Iron Hands,fighting,electric,undiscovered,Gen 9,Paradox,Cobblemon-fabric-1.5.2+1.20.1.jar
+0993,Iron Jugulis,dark,flying,undiscovered,Gen 9,Paradox,Cobblemon-fabric-1.5.2+1.20.1.jar
+0990,Iron Treads,ground,steel,undiscovered,Gen 9,Paradox,Cobblemon-fabric-1.5.2+1.20.1.jar
+0588,Karrablast,bug,,bug,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0352,Kecleon,normal,,field,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0647,Keldeo,water,fighting,undiscovered,Gen 5,"Mythical, Legendary",Cobblemon-fabric-1.5.2+1.20.1.jar
+0941,Kilowattrel,electric,flying,"water_1, flying",Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0950,Klawf,rock,,water_3,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1007,Koraidon,fighting,dragon,undiscovered,Gen 9,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0380,Latias,dragon,psychic,undiscovered,Gen 3,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0381,Latios,dragon,psychic,undiscovered,Gen 3,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0249,Lugia,psychic,flying,undiscovered,Gen 2,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0457,Lumineon,water,,water_2,Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0687,Malamar,dark,psychic,"water_1, water_2",Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0310,Manectric,electric,,field,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0226,Mantine,water,flying,water_1,Gen 2,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0458,Mantyke,water,flying,undiscovered,Gen 4,Baby,Cobblemon-fabric-1.5.2+1.20.1.jar
+0308,Medicham,fighting,psychic,human_like,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0307,Meditite,fighting,psychic,human_like,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0809,Melmetal,steel,,undiscovered,Gen 7,"Mythical, Legendary",Cobblemon-fabric-1.5.2+1.20.1.jar
+0619,Mienfoo,fighting,,"field, human_like",Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0620,Mienshao,fighting,,"field, human_like",Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1008,Miraidon,electric,dragon,undiscovered,Gen 9,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0414,Mothim,bug,flying,bug,Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1015,Munkidori,poison,psychic,undiscovered,Gen 9,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0224,Octillery,water,,"water_1, water_2",Gen 2,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1014,Okidogi,poison,fighting,undiscovered,Gen 9,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0765,Oranguru,normal,psychic,field,Gen 7,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0741,Oricorio,fire,flying,flying,Gen 7,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0964,Palafin,water,,"field, water_2",Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0674,Pancham,fighting,,"field, human_like",Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0675,Pangoro,fighting,dark,"field, human_like",Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0515,Panpour,water,,field,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0511,Pansage,grass,,field,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0513,Pansear,fire,,field,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0766,Passimian,fighting,,field,Gen 7,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0795,Pheromosa,bug,fighting,undiscovered,Gen 7,Ultra Beast,Cobblemon-fabric-1.5.2+1.20.1.jar
+0871,Pincurchin,electric,,"water_1, amorphous",Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1012,Poltchageist,grass,ghost,"mineral, amorphous",Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0243,Raikou,electric,,undiscovered,Gen 2,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0895,Regidrago,dragon,,undiscovered,Gen 8,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0894,Regieleki,electric,,undiscovered,Gen 8,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0223,Remoraid,water,,"water_1, water_2",Gen 2,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0837,Rolycoly,rock,,mineral,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0479,Rotom,electric,ghost,amorphous,Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0627,Rufflet,normal,flying,flying,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0373,Salamence,dragon,flying,dragon,Gen 3,Pseudo Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0844,Sandaconda,ground,,"field, dragon",Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0989,Sandy Shocks,electric,ground,undiscovered,Gen 9,Paradox,Cobblemon-fabric-1.5.2+1.20.1.jar
+0539,Sawk,fighting,,human_like,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0560,Scrafty,dark,fighting,"field, dragon",Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0559,Scraggy,dark,fighting,"field, dragon",Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0364,Sealeo,ice,water,"water_1, field",Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0336,Seviper,poison,,"field, dragon",Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0372,Shelgon,dragon,,dragon,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0616,Shelmet,bug,,bug,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0266,Silcoon,bug,,bug,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0843,Silicobra,ground,,"field, dragon",Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0773,Silvally,normal,,undiscovered,Gen 7,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0516,Simipour,water,,field,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0512,Simisage,grass,,field,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0514,Simisear,fire,,field,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1013,Sinistcha,grass,ghost,"mineral, amorphous",Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0451,Skorupi,poison,bug,"bug, water_3",Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0819,Skwovet,normal,,field,Gen 8,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0289,Slaking,normal,,field,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0287,Slakoth,normal,,field,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0685,Slurpuff,fairy,,fairy,Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0235,Smeargle,normal,,field,Gen 2,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0928,Smoliv,grass,normal,grass,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0459,Snover,grass,ice,"monster, grass",Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0363,Spheal,ice,water,"water_1, field",Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0918,Spidops,bug,,bug,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0325,Spoink,psychic,,field,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0682,Spritzee,fairy,,fairy,Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0805,Stakataka,rock,steel,undiscovered,Gen 7,Ultra Beast,Cobblemon-fabric-1.5.2+1.20.1.jar
+0618,Stunfisk,ground,electric,"water_1, amorphous",Gen 5,Unova Regional,Cobblemon-fabric-1.5.2+1.20.1.jar
+0245,Suicune,water,,undiscovered,Gen 2,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0192,Sunflora,grass,,grass,Gen 2,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0191,Sunkern,grass,,grass,Gen 2,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0317,Swalot,poison,,amorphous,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0684,Swirlix,fairy,,fairy,Gen 6,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0917,Tarountula,bug,,bug,Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1024,Terapagos,normal,,undiscovered,Gen 9,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0639,Terrakion,rock,fighting,undiscovered,Gen 5,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0538,Throh,fighting,,human_like,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1003,Ting-Lu,dark,ground,undiscovered,Gen 9,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0468,Togekiss,fairy,flying,"flying, fairy",Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0175,Togepi,fairy,,undiscovered,Gen 2,Baby,Cobblemon-fabric-1.5.2+1.20.1.jar
+0176,Togetic,fairy,flying,"flying, fairy",Gen 2,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0568,Trubbish,poison,,mineral,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0772,Type: Null,normal,,undiscovered,Gen 7,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+1800,Ultra Necrozma,psychic,dragon,undiscovered,Gen 7,Legendary,BCG x AllTheMons 1.2.0.zip
+None,Unknown,,,,,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0892,Urshifu,fighting,dark,undiscovered,Gen 8,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0583,Vanillish,ice,,mineral,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0582,Vanillite,ice,,mineral,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0584,Vanilluxe,ice,,mineral,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0288,Vigoroth,normal,,field,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0640,Virizion,grass,fighting,undiscovered,Gen 5,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0365,Walrein,ice,water,"water_1, field",Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0940,Wattrel,electric,flying,"water_1, flying",Gen 9,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0746,Wishiwashi,water,,water_2,Gen 7,,Cobblemon-fabric-1.5.2+1.20.1.jar
+1001,Wo-Chien,dark,grass,undiscovered,Gen 9,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0202,Wobbuffet,psychic,,amorphous,Gen 2,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0413,Wormadam,bug,grass,bug,Gen 4,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0265,Wurmple,bug,,bug,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0360,Wynaut,psychic,,undiscovered,Gen 3,Baby,Cobblemon-fabric-1.5.2+1.20.1.jar
+0888,Zacian,fairy,,undiscovered,Gen 8,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0889,Zamazenta,fighting,,undiscovered,Gen 8,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
+0335,Zangoose,normal,,field,Gen 3,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0893,Zarude,dark,grass,undiscovered,Gen 8,"Mythical, Legendary",Cobblemon-fabric-1.5.2+1.20.1.jar
+0523,Zebstrika,electric,,field,Gen 5,,Cobblemon-fabric-1.5.2+1.20.1.jar
+0718,Zygarde,dragon,ground,undiscovered,Gen 6,Legendary,Cobblemon-fabric-1.5.2+1.20.1.jar
