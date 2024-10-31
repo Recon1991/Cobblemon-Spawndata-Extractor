@@ -35,14 +35,14 @@ def format_location_names(locations):
 def get_moon_phase_name(moon_phases):
     """Convert moon phase numbers (0-7) to readable moon phase names."""
     moon_phase_map = {
-        0: "Full Moon",
-        1: "Waning Gibbous",
-        2: "Last Quarter",
-        3: "Waning Crescent",
-        4: "New Moon",
-        5: "Waxing Crescent",
-        6: "First Quarter",
-        7: "Waxing Gibbous"
+        1: "Full Moon",
+        2: "Waning Gibbous",
+        3: "Last Quarter",
+        4: "Waning Crescent",
+        5: "New Moon",
+        6: "Waxing Crescent",
+        7: "First Quarter",
+        8: "Waxing Gibbous"
     }
     
     # if moon_phases is None or Empty, return an empty string
@@ -60,9 +60,9 @@ def get_moon_phase_name(moon_phases):
     # if moon_phases is a comma-separated string, split and convert to integers
     if isinstance(moon_phases, str) and ',' in moon_phases:
         try:
-            phase_numbers = [int(phase.strip()) for phase in moon_phases.split(',')]
+            phase_numbers = [int(phase.strip()) for phase in moon_phases.split(',') if phase.strip().isdigit()]
             phase_names = [moon_phase_map.get(phase, "Unknown Str Phase") for phase in phase_numbers]
-            return ', '.join(phase_names)
+            return ', '.join(phase_names) if phase_names else "Unknown Phase"
         except ValueError:
             return "Unknown String Error Phase"
         
