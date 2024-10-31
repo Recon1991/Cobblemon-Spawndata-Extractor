@@ -246,6 +246,8 @@ def build_merged_entry(dex_number, species_data, entry, spawn_file, species_file
     labels = ', '.join(meaningful_labels) if meaningful_labels else ""
     time_range = entry.get("condition", {}).get("timeRange", "Any").title()
     sky_condition = get_sky_condition(entry)
+    moon_phase = entry.get("condition", {}).get("moonPhase", [])
+    anti_moon_phase = entry.get("anticondition", {}).get("moonPhase", [])
 
     # Condense the archive paths for better readability
     spawn_archive = os.path.basename(spawn_file) if spawn_file else "Unknown"
@@ -270,8 +272,8 @@ def build_merged_entry(dex_number, species_data, entry, spawn_file, species_file
         "Anti-Biomes": ', '.join(format_location_names(entry.get("anticondition", {}).get("biomes", []))).strip(),
         "Structures": ', '.join(format_location_names(entry.get("condition", {}).get("structures", []))).strip(),
         "Anti-Structures": ', '.join(format_location_names(entry.get("anticondition", {}).get("structures", []))).strip(),
-        "Moon Phase": get_moon_phase_name(entry.get("condition", {}).get("moonPhase", [])),
-        "Anti-Moon Phase": get_moon_phase_name(entry.get("anticondition", {}).get("moonPhase", [])),
+        "Moon Phase": get_moon_phase_name(moon_phase),
+        "Anti-Moon Phase": get_moon_phase_name(anti_moon_phase),
         "Base Blocks": ', '.join(format_location_names(entry.get("condition", {}).get("neededBaseBlocks", []))),
         "Nearby Blocks": ', '.join(format_location_names(entry.get("condition", {}).get("neededNearbyBlocks", []))),
         "Weight": entry.get("weight", ""),

@@ -50,12 +50,27 @@ def get_moon_phase_name(moon_phases):
         return ""
         
     # if moon_phases is a list, map each number to the corresponding phase name
-    if isinstance(moon_phase, list):
-        phase_names =   [moon_phase_map.get(phase, "Unknown Phase") for phase in moon_phases]
-        return ', '.join(phase_names)
+    if isinstance(moon_phases, list):
+        try:
+            phase_names =   [moon_phase_map.get(int(phase), "Unknown List Phase") for phase in moon_phases]
+            return ', '.join(phase_names)
+        except ValueError:
+            return "Unknown List Error Phase"
+        
+    # if moon_phases is a comma-separated string, split and convert to integers
+    if isinstance(moon_phases, str) and ',' in moon_phases:
+        try:
+            phase_numbers = [int(phase.strip()) for phase in moon_phases.split(',')]
+            phase_names = [moon_phase_map.get(phase, "Unknown Str Phase") for phase in phase_numbers]
+            return ', '.join(phase_names)
+        except ValueError:
+            return "Unknown String Error Phase"
         
     # if moon_phases is a single value, map it directly
-    return moon_phase_map.get(moon_phases, "Unknown Phase")
+    try:
+        return moon_phase_map.get(int(moon_phases), "Unknown Single Phase")
+    except ValueError:
+        return "Unknown Single Error Phase"
 
 def get_weather_condition(condition):
     """Determine the weather condition."""
