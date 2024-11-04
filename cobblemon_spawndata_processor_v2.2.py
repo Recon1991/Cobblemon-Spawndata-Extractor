@@ -1,3 +1,7 @@
+# Editor: Recon1991 and Contributors
+# Project: Cobblemon Spawn Data Extractor
+# Description: This script extracts data from cobblemon JSON files for analysis.
+
 import asyncio
 import aiofiles
 import cProfile
@@ -14,17 +18,20 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from functools import lru_cache
 from logging.handlers import QueueHandler, QueueListener
 from queue import Queue
+from colorama import Fore, Style, init
 
 from column_names import column_names, skipped_entries_column_names
 from utils import format_location_names, get_weather_condition, get_sky_condition, get_moon_phase_name
 
+# Initialize colorama
+init(autoreset=True)
 
 # Load configuration from config.json
 try:
     with open('config.json', 'r') as f:
         config = json.load(f)
 except (FileNotFoundError, json.JSONDecodeError) as e:
-    print(f"Error loading config: {e}")
+    print(f"{Fore.RED}Error loading config: {e}{Style.RESET_ALL}")
     logging.error(f"Error loading config: {e}")
     exit(1) # Exit program if the config can't be loaded
 
@@ -43,6 +50,7 @@ ARCHIVES_DIR = config["ARCHIVES_DIR"]
 CSV_FILENAME = output_filename
 SKIPPED_ENTRIES_FILENAME = skipped_entries_filename
 MAX_WORKERS = config["MAX_WORKERS"]
+FUN_MODE = config.get("FUN_MODE", False)  # Load Fun mode setting from config
 
 # Configure async logging
 log_queue = Queue()
@@ -115,7 +123,7 @@ def extract_specific_files_in_memory(archive_path, extracted_files_mapping):
             if file_info.filename.startswith(('data/cobblemon/spawn_pool_world', 'data/cobblemon/species')):
                 data = zip_file.read(file_info)
                 extracted_files_mapping[file_info.filename] = (data, os.path.basename(archive_path), os.path.dirname(file_info.filename).split('/')[-1])
-        print(f"Extracted relevant files from '{os.path.basename(archive_path)}' into memory.")
+        print(f"{Fore.GREEN}Extracted relevant files from '{os.path.basename(archive_path)}' into memory.{Style.RESET_ALL}")
 
 def extract_dex_number_from_filename(filename):
     """Extract and format the Dex number from the filename."""
@@ -126,20 +134,20 @@ def extract_dex_number_from_filename(filename):
 def build_spawn_dex_dict(extracted_files_mapping):
     """Build spawn Dex dictionary from in-memory extracted files."""
     spawn_dex_dict = {}
-    logging.info("Building spawn Dex dictionary...")
+    logging.info(f"{Fore.BLUE}Building spawn Dex dictionary...{Style.RESET_ALL}")
 
     for file_name, (data, archive_name, directory_name) in extracted_files_mapping.items():
         if 'spawn_pool_world' in file_name and file_name.endswith('.json'):
             dex_number = extract_dex_number_from_filename(file_name)
             spawn_dex_dict[dex_number] = (file_name, data, archive_name, directory_name)
 
-    logging.info(f"Built spawn Dex dict with {len(spawn_dex_dict)} entries.")
+    logging.info(f"{Fore.BLUE}Built spawn Dex dict with {len(spawn_dex_dict)} entries.{Style.RESET_ALL}")
     return spawn_dex_dict
 
 async def build_species_dex_dict(extracted_files_mapping):
     """Build species Dex dictionary from in-memory extracted files."""
     species_dex_dict = {}
-    logging.info("Building species Dex dictionary...")
+    logging.info(f"{Fore.BLUE}Building species Dex dictionary...{Style.RESET_ALL}")
 
     for file_name, (data, archive_name, directory_name) in extracted_files_mapping.items():
         if 'species' in file_name and file_name.endswith('.json'):
@@ -148,9 +156,9 @@ async def build_species_dex_dict(extracted_files_mapping):
                 dex_number = str(data.get("nationalPokedexNumber")).zfill(4)
                 species_dex_dict[dex_number] = (file_name, data, directory_name, archive_name)
             except json.JSONDecodeError as e:
-                logging.error(f"Error reading {file_name}: {e}")
+                logging.error(f"{Fore.RED}Error reading {file_name}: {e}{Style.RESET_ALL}")
 
-    logging.info(f"Built species Dex dict with {len(species_dex_dict)} entries.")
+    logging.info(f"{Fore.BLUE}Built species Dex dict with {len(species_dex_dict)} entries.{Style.RESET_ALL}")
     return species_dex_dict
 
 def match_dex_numbers(spawn_dex, species_dex):
@@ -205,7 +213,7 @@ async def process_entry(dex_number, matched_dex_dict):
             "Labels": labels,
             "Species Archive": original_species_archive 
         }
-        logging.info(f"Skipping Dex {dex_number} ({pokemon_name}) - No spawn data.")
+        logging.info(f"{Fore.YELLOW}Skipping Dex {dex_number} ({pokemon_name}) - No spawn data.{Style.RESET_ALL}")
         return None, skipped_entry
 
     try:
@@ -224,7 +232,7 @@ async def process_entry(dex_number, matched_dex_dict):
         return merged_entries, None
 
     except Exception as e:
-        logging.error(f"Error processing Dex {dex_number}: {e}")
+        logging.error(f"{Fore.RED}Error processing Dex {dex_number}: {e}{Style.RESET_ALL}")
         return None, None
 
 def build_merged_entry(dex_number, species_data, entry, spawn_file, species_file, original_spawn_archive, original_species_archive, generation, species_directory):
@@ -393,7 +401,13 @@ async def main():
         if batch:
             skipped_writer.writerows(batch)
 
-    print(f"Processing complete, written to {CSV_FILENAME}")
+    await asyncio.sleep(0.3)  # Ensure all logging messages complete
+    print(Fore.CYAN + Style.DIM + "     ==─==──==────== Processing Completed ==─────==──==─==" + Style.RESET_ALL)
+    print(Fore.MAGENTA + "          Data Extraction Complete! Output CSV file: " + Style.RESET_ALL)
+    print(Fore.GREEN + f"         {CSV_FILENAME}     " + Style.RESET_ALL)
+    print(Fore.CYAN + Style.DIM + "     ==─==──==────== Processing Completed ==─────==──==─==" + Style.RESET_ALL)
+    print(" ")
+    print(Fore.BLUE + "  Thanks for using the Cobblemon Spawn Data Extractor! Have a great day! " + Style.RESET_ALL)
     stop_listener()
 
 if __name__ == "__main__":
