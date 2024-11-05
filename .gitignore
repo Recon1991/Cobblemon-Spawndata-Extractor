@@ -1,5 +1,23 @@
-# gitignore
+# Python-specific
+*.pyc
+__pycache__/
+
+# Environment files
+.env
+.venv/
+venv/
+
+# Configuration and logs
+*.log
+
+# Data and output files
 /data/
-/__pycache__/
-.~lock.*
 *.csv
+
+# Docker
+*.dockerignore
+Dockerfile
+
+# OS-generated files
+.DS_Store
+Thumbs.db
