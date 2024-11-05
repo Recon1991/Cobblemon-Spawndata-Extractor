@@ -1,0 +1,12 @@
+{
+    "ARCHIVES_DIR": "../BCG_Cobblemon/zip_archives",
+	"primary_sorting_key": "Pokemon Name",
+	"secondary_sorting_key": "Spawn ID",
+	"output_filename": "SpawnData_BCGPlus_Modpack_ver2.10.1_v3.1",
+	"skipped_entries_filename": "skipped_entries",
+	"MAX_WORKERS": 8,
+	"LOG_FILENAME": "process_log.txt",
+	"LOG_LEVEL": "INFO",
+	"LOG_FORMAT": "%(asctime)s - %(levelname)s - %(message)s",
+	"FUN_MODE": true
+}
