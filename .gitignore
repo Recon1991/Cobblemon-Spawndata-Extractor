@@ -1,6 +1,7 @@
 # Python-specific
 *.pyc
 __pycache__/
+generate_hash_cse.py
 
 # Environment files
 .env
@@ -21,3 +22,7 @@ Dockerfile
 # OS-generated files
 .DS_Store
 Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
