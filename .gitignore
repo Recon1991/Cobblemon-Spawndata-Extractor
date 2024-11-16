@@ -10,6 +10,8 @@ venv/
 
 # Configuration and logs
 *.log
+process_log.txt
+filelist.txt
 
 # Data and output files
 /data/
