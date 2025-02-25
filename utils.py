@@ -4,6 +4,7 @@ import asyncio
 import aiofiles
 import json
 import os
+import logging
 
 def format_location_names(locations):
     """Format biome, structure, or other location names for better readability."""
@@ -89,7 +90,11 @@ def get_sky_condition(spawn):
         return "MUST SEE"
     elif can_see_sky is False:
         return "CANNOT SEE"
-    
+
+    return "Any"
+
+def get_light_condition(spawn):
+    """Determine the light value from condition."""
     min_sky_light = spawn.get('condition', {}).get('minSkyLight', 'N/A')
     max_sky_light = spawn.get('condition', {}).get('maxSkyLight', 'N/A')
 

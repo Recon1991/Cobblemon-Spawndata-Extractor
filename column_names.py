@@ -11,6 +11,7 @@ column_names = [
     "Secondary Type",          # Secondary type (optional)
     "Rarity",                  # Rarity bucket
     "Sky",                     # Sky visibility conditions (like 'Must See Sky')
+    "Light",                   # Light value conditions (0-7 = non-torch light, 8-15 = torch light)
     "Time",                    # Time of day for spawn
     "Weather",                 # Weather conditions needed
     "Biomes",                  # Biomes where the Pokémon spawns

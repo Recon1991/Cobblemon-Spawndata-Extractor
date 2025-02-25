@@ -24,7 +24,7 @@ from queue import Queue
 from colorama import Fore, Style, init
 
 from column_names import column_names, skipped_entries_column_names
-from utils import format_location_names, get_weather_condition, get_sky_condition, get_moon_phase_name
+from utils import format_location_names, get_weather_condition, get_sky_condition, get_light_condition, get_moon_phase_name
 
 # Initialize colorama
 init(autoreset=True)
@@ -257,6 +257,7 @@ def build_merged_entry(dex_number, species_data, entry, spawn_file, species_file
     labels = ', '.join(meaningful_labels) if meaningful_labels else ""
     time_range = entry.get("condition", {}).get("timeRange", "Any").title()
     sky_condition = get_sky_condition(entry)
+    light_condition = get_light_condition(entry)
     moon_phase = entry.get("condition", {}).get("moonPhase", [])
     anti_moon_phase = entry.get("anticondition", {}).get("moonPhase", [])
 
@@ -278,6 +279,7 @@ def build_merged_entry(dex_number, species_data, entry, spawn_file, species_file
         "Time": time_range,
         "Weather": get_weather_condition(entry.get("condition", {})),
         "Sky": sky_condition,
+        "Light": light_condition,
         "Presets": ', '.join(entry.get("presets", [])).title() or "",
         "Biomes": ', '.join(format_location_names(entry.get("condition", {}).get("biomes", []))).strip(),
         "Anti-Biomes": ', '.join(format_location_names(entry.get("anticondition", {}).get("biomes", []))).strip(),
